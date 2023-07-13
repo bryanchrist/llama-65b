@@ -86,7 +86,7 @@ sys.stdin = sys.__stdin__
 model = PeftModel.from_pretrained(model, adapter_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-for i in range(0,15):
+for i in range(0,1000):
     # prompt = "Write a math word problem and Python code to solve the word problem."
     # formatted_prompt = (f"Below is an instruction that describes a task. "
     #         f"Write a response that appropriately completes the request.\n\n"
@@ -183,7 +183,7 @@ for i in range(0,15):
     
     print(newly_generated_text)
     
-    output_file = "output.txt"  # Specify the path and filename for the output file
+    output_file = "questions.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
 

@@ -11,7 +11,7 @@
 ##SBATCH --gres=gpu:v100:1
 ##SBATCH --gres=gpu:a100_80gb:1
 ##SBATCH -c 1
-#SBATCH -t 0-01:00:00
+#SBATCH -t 0-18:00:00
 #SBATCH -J llama_generate
 #SBATCH -o generate-%A.out
 #SBATCH -e generate-%A.err
