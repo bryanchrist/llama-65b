@@ -2513,3 +2513,2605 @@ def solution():
     #His mom and aunt and uncle bought 3 packs
     special_sales = 3
     #He sold one of the packs to his mom and
+### Response: Question: Sam has 14 bills that are all either $1 or $5. If the total amount is $33, how many $5 bills does he have? Solution: def solution():
+    #Sam's has 33 dollars
+    dollars = 33
+    #Each 5 dollar bill contributes 5 towards the total
+    five_dollar_bill = 5
+    #Each 1 dollar bill contributes 1 towards the total
+    one_dollar_bill = 1
+    #14 bills that are all either $1 or $5 
+    bills_total = 14
+    #The answer is
+    result = (dollars - bills_total * one_dollar_bill)/five_dollar_bill
+    return result
+### Response: Question: Kari-lyn is 6 years older than her younger sister. In 8 years, her younger sister will be 9 years old. How old is Kari-lyn? Solution: def solution():
+    #9 years from now, her sister will be 9 years old
+    sister_age_future = 9
+    #Her sister is 6 years younger than Kari-lyn
+    age_difference = 6
+    #Kari-lyn will be this many years old in 8 years
+    kari_lyn_age_future = sister_age_future + age_difference
+    #Kari-lyn is this old now
+    kari_lyn_age_now = kari_lyn_age_future - 8
+    #The answer is
+    result = kari_lyn_age_now
+    return result
+### Response: Question: At a muffin shop, the muffins cost $3.60 each.  The scones are all $2 each.  What is the total cost of 7 muffins and 3 scones? Solution: def solution():
+    #The muffin cost is $3.60
+    muffin_cost = 3.6
+    #The scone cost is $2
+    scone_cost = 2
+    #7 muffins cost 7*3.6 = $<<7*3.6=25.20>>25.20
+    muffin_total = 7 * muffin_cost
+    #3 scones cost 3*2 = $<<3*2=6>>6
+    scone_total = 3 scone_cost
+    #The total cost is 25.20 + 6
+    result = muffin_total + scone_total
+    return result
+### Response: Question: On Friday, a cashier at the local convenience store handled 6212509 cash transactions. 10% of the customers received a refund. The average refund was $6. How much money did the cashier handle during the day, in hundreds of dollars? Solution: 
+def solution():
+    """On Friday, a cashier at the local convenience store handled 200 cash transactions. 10% of the customers received a refund. The average refund was $6. How much money did the cashier handle during the day, in hundreds of dollars?"""
+    #
+### Response: Question: A shack on the beach was $20 to rent for the day. 4 chairs were $10 to rent. 2 umbrellas were $12 to rent. How much did it cost to rent the shack, chairs, and umbrellas? Solution: def solution():
+    #The shack cost $20
+    shack_cost = 20
+    #4 chairs at $10 each cost
+    chair_cost = 4 * 10
+    #2 umbrellas at $12 each cost
+    umbrella_cost = 2 * 12
+    #$20 for the sh
+### Response: Question: A pizzeria sells 5 pizzas and an entree salad for a meal deal for $18. A pizza costs $4. The salad cost is $2. How much is a 25% tip on the pizzas and salad combo? Solution: def solution():
+    #A pizzeria sells 5 pizzas and an entree salad for a meal deal for $18
+    meal_deal_cost = 18
+    #A pizza costs $3
+    pizza_cost = 4
+    #The salad cost is $2
+    salad_cost = 2
+    #The combo price discount is 25%
+    combo_discount = 0.25
+    #The total cost of the combo
+    combo_total = pizza_cost + salad_cost
+    #After the discount, the combo should cost 18 - (18 * 25%)
+    combo_discounted = 18 - (18 * combo_discount)
+    #The tip is 25% of 18
+    tip_percent = 0.25
+    #A 25% tip on the meal deal is 18 * 0.25
+    tip = 18 * tip_percent
+    #The answers is
+    result = tip
+    return result
+### Response: Question: The pumpkin patch at the U-pick-em Farm and Orchard sells pumpkins and pumpkin decorations. They sell small pumpkins for $4 each. They sell large pumpkins for $7 each. They also sell pumpkin carving kits for $6 and a pumpkin-shaped candy dish for $21. How much money does the pumpkin patch make if it sells 9 small pumpkins, 3 large pumpkins, 6 carving kits, and 13 candy dishes? Solution: def solution():
+    pumpkin_patch = "The pumpkin patch at the U-pick-em Farm and Orchard sells pumpkins and pumpkin decorations. They sell small pumpkins for $4 each. They sell large pumpkins for $7 each. They also sell pumpkin carving kits for $6 and a pumpkin-shaped candy dish for $21."
+    #They sell small pumpkins for $4 each
+    small_pumpkin_price = 4
+    #They sell large pumpkins for $7 each
+    large_pumpkin_price = 7
+    #They sell kits for $6 each
+    kit_price = 6
+    #They sell a candy dish for $21
+    dish_price = 21
+    #They sell 9 small pumpkins, 3 large pumpkins, 6 carving kits, and 13 candy dishes
+    small_pumpkins = 9
+    large_pumpkins = 3
+    kits = 6
+    dishes = 13
+    #9 small pumpkins cost 9 * 4
+### Response: Question: A sneaker factory has 2 assembly lines. 17 sneakers can be produced on each production line in an hour. How many sneakers will the 2 assembly lines produce in 8 hours? Solution: def solution():
+    # Each assembly line produces 17 sneakers in an hour
+    sneakers_per_hour = 17
+    #There are 2 production lines
+    production_lines = 2
+    #8 hours
+    production_time = 8
+    #Two production lines producing 17 sneakers per hour for 8 hours makes
+    result = sneakers_per_hour * production_lines * production_time
+    return result
+### Response: Question: Ossory has $33.00. He buys 2124323 pizzas at $10 each and 2 bags of chips at $3.50 each.  How much more money does he need to buy 10633767 more pizzas? Solution: def solution():
+    #Ossory has $33.00
+    money_initial = 33.00
+    #He bought 5 pizzas at $10 each
+    pizzas=2124323
+    pizza_cost = 10
+    money_Spent_pizza = pizzas * pizza_cost
+    #He bought 2bags of chips at $3.50 each
+    chips = 2
+    chip_cost = 3.50
+    money_Spent_chips = chips * chip_cost
+    #The total cost of pizza and chips
+    total_money_spent=money_Spent_pizza + money_Spent_chips
+    #Ossory has 33-5-7.5=<<33-5-7.5=19.50>>19.50 money left
+    money_left = money_initial - total_money_spent
+    #He needs 10-3.5=6.5 more money
+    money_more = 10633767 - 3.5
+    #The answer is
+    result = money_more - money_left
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a math word problem
+### Response: Question: I'm buying a gift for my friend. I can spend up to $36. I buy a $10 shirt and a $12 bag, and then some earrings that cost $0.75 each. I can't find any more jewelry I like, so I buy as many earrings as I can. How many earrings did I buy? Solution: def solution():
+    #You can spend up to $36
+    spending_limit = 36
+    #Spent $10 on the shirt and $12 on the bag, for a total of...
+    shirt_cost = 10
+    bag_cost = 12
+    total_cost_shirt_bag = shirt_cost + bag_cost
+    #Earrings cost 75 cents each, so if you spent $7.50...
+    earring_cost = 0.75
+    #...you bought 10 earrings.
+    earring_purchase = 7.50
+    earrings_bought = earring_cost * (earring_purchase / earring_cost)
+    #As many as possible means 36-10-12
+    space_for_earrings = 36 - 10 - 12
+    #The answer is
+    result = space_for_earrings * earring_cost
+    return result
+### Response: Question: A 23 mL sample of blood is collected from each of 2730724 patients. The blood is divided evenly into 5178703 vials per patient. What is the total volume of blood in vials? Solution: 
+def solution():
+    """A 23 mL sample of blood is collected from each of 3 patients. The blood is divided evenly into 5 vials per patient. What is the total volume of blood in vials?"""
+    patients = 2730724
+    blood_per_patient = 23
+    vials_per_patient = 5178703
+    blood_per_vial = blood_per_patient / vials_per_patient
+    total_blood = blood_per_patient * patients
+    total_vials = vials_per_patient * patients
+    total_blood_in_vials = blood_per_vial * total_vials
+    result = total_blood_in_vials
+    return result
+### Response: Question: A baking dish is 10 inches long, 7 inches wide, and 4 inches deep. A casserole dish is 13 inches long, 10 inches wide, and 3 inches deep. How many more cubic inches are there in the baking dish than there are in the casserole dish? Solution: def solution():
+    #A baking dish is 10 inches long, 7 inches wide, and 4 inches deep
+    baking_dish_length = 10
+    baking_dish_width = 7
+    baking_dish_depth = 4
+    # baking_dish_volume =((baking_dish_length) * (baking_dish_ width) * (baking_dish_depth))
+    baking_dish_volume = (baking_dish_length * baking_dish_width * baking_dish_depth)
+    #A casserole dish is 13 inches long, 10 inches wide, and 3 inches deep.
+    casserole_dish_length = 13
+    casserole_dish_width = 10
+    casserole_dish_depth = 3
+    #casserole_dish_volume =((casserole_dish_length) * (casserole_dish_ width) * (casserole_dish_depth))
+    casserole_dish_volume = (casserole_dish_length * casserole_dish_width * casserole_dish_depth)
+    #The difference in volume is
+    volume_difference = baking
+### Response: Question: At the cafeteria, there are 8 vending machines. Each vending machine has 10 potato chips and 12 candy bars. How many snacks do the vending machines have? Solution: def solution():
+    #There are 8 vending machines
+    vending_machines = 8
+    #Each vending machine has
+### Response: Question: A butcher sells 500 grams of beef for $8. How much will an 850 gram steak cost? Solution: def solution():
+    #The beef costs $8 per 500 grams
+    beef_cost = 8
+    #The steak is 850 grams
+    steak_weight = 850
+    #500 grams is .5 kilo, so 850 grams is .85 kilo
+    steak_weight_kilo = round(.85, 1)
+    #The steak would cost $8 per 500 gram so 850 grams costs
+### Response: Question: In a crayon box, there were 20 white crayons, 23 blue crayons, 31 red crayons, 25 green crayons and 30 black crayons. Olivia took out 10 white crayons, 12 blue crayons, 5 red crayons, 24 green crayons and 8 black crayons. How many crayons were in the box at that time? Solution: def solution():
+    #In the crayon box, there were 20 white crayons, 23 blue crayons, 31 red crayons, 25 green crayons and 30 black crayons.
+    white_crayons = 20
+    blue_crayons = 23
+    red_crayons = 31
+    green_crayons = 25
+    black_crayons = 30
+    #Olivia took out 10 white crayons, 12 blue crayons, 5 red crayons, 24 green crayons and 8 black crayons
+    white_crayons_out = 10
+    blue_crayons_out = 12
+    red_crayons_out = 5
+    green_crayons_out = 24
+    black_crayons_out = 8
+    #The total number of crayons is the sum of each color
+    crayon_total = white_crayons + blue_crayons + red_crayons + green_crayons_out + black_crayons
+    #The box has this many crayons left
+    crayons_left
+### Response: Question: A bakery sells 60 loaves of bread in the morning and 80 loaves of bread in the afternoon. 29 loaves of bread are returned by a grocery store. How many loaves of bread does the bakery sell? Solution: def solution():
+    #The bakery sold 60 loaves of bread in the morning
+    loaves_morning = 60
+    #The bakery sold 80 loaves of bread in the morning
+    loaves_afternoon = 80
+    #29 loaves of bread are returned
+    loaves_returned = 29
+    #The answer is
+    result = loaves_morning + loaves_afternoon - loaves_returned
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Python has two different ways of writing for-loops: the `for` statement and the `while` statement.
+The `for` statement lets you loop over all the elements in a list. You don't have to store the list and its length in a variable.
+The `while` statement requires you to keep track of the index of the element you're looking at with a variable.
+Write three for-loops, one using a `for` statement, one using a `while` statement, and one that does something useful.
+
+### Response: for loop 1: def for_loop1():
+    for i in [1, 2, 3]:
+        print(i)
+for loop 2: def while_loop2():
+    list_ = [1, 2, 3]
+    num_elements = len(list_)
+    i = 0
+### Response: Question: Ms. Splinter had a class of 32 students. 1/4 of the students were cats, 1/3 of the cats were black, and half the black cats had blue eyes. How many blue-eyed black cats in total were in the class? Solution: def solution():
+    #Ms. Splinter's class had 32 students
+    class_size = 32
+    #1/4 of the students were cats
+    cats_proportion = 1/4
+    #1/3 of the cats were black
+    black_cats_proportion = 1/3
+    #Half the black cats had blue eyes
+    blue_eyed_black_cat_proportion = 1/2
+    #The cats proportion means there are this many cats in the class: class_size * cats_proportion
+    cats = class_size * cats_proportion
+    #The black cats proportion means there are this many black cats in the class: cats * black_cats_proportion
+    black_cats = cats * black_cats_proportion
+    #The blue-eyed black cat proportion means there are this many blue-eyed black cats in the class: black_cats * blue_eyed_black_cat_proportion
+    blue_eyed_black_cats = black_cats * blue_eyed_black_cat_proportion
+    #The answer is
+    result = blue_eyed_black_cats
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a math
+### Response: Question: Tank Evans, a weightlifter, can bench press 240 pounds at the age of 20.  Every year he can add 5 more pounds to his bench press.  How much will he be able to bench press at 30? Solution: def solution():
+    #Tank Evans can bench press 240 at 20
+    bench_20 = 240
+    #He can add 5 more pounds every year
+    pound_added = 5
+    #He will be 30 in 10 years
+    age_30 = 30
+    #So in 10 years he can add 10 * 5 pounds
+    total_pounds_added = 10 * pound_added
+    #the total number of pounds he can bench at 30 is
+    bench_30 = bench_20 + total_pounds_added
+    #The answer is
+    result = bench_30
+    return result
+### Response: Question: Tiffany Turtle could swim 20 miles per hour.  She was swimming from one end of the lake to the other.  If the lake was 4000 miles long, how long did it take her to swim across the lake? Solution: def solution():
+    #Tiffany, the turtle, could swim 20 miles per hour
+    speed = 20
+    #The length of the lake is 4000 miles 
+    miles = 4000
+    #It would take Tiffany 400
+### Response: Question: On Election day 60% of registered voters in a country turn out to vote. 75% of those who turn out to vote vote for a given candidate. What percentage of all registered voters voted for the candidate? Solution: def solution():
+    #If 100 people are registered to vote, and 60% vote. 60% of 100 is a turnout of .6*100 = 60 people.
+    turn
+### Response: Question: Nigel got 20 more tattoos, bringing the total number of tattoos he has to 60. How many tattoos did Nigel get before? Solution: def solution():
+    #Nigel's total number of tattoos is 60
+    tattoo_total = 60
+    #Nigel got 20 more tattoos
+    tattoos_gotten = 20
+    #The number of tattoos before he got the 20 new tattoos is
+    tattoos_before = tattoo_total - tattoos_gotten
+    #The answer is
+    result = tattoos
+### Response: Question: In a 50 storey building, the 10th storey has 100 people. The 20th storey has 130 people, and the 30th storey has 160 people. If the building has a total of 700 people, how many people are on each storey on average? Solution: def solution():
+    #there are 700 people in the building
+    total_people = 700
+    #10th floor has 100 people
+    floor_10 = 100
+    #20th floor has 130 people
+    floor_20 = 130
+    #30th floor has 160 people
+    floor_30 = 160
+    #on average, we have 7
+### Response: Question: Dr. Bones has 320 bones in his body. He breaks 10 bones in an accident and then has to have 3 replaced. How many bones does he have in the end? Solution: def solution():
+   #The total number of bones he has at the beginning is 320.
+    bones_initial = 320
+    #He breaks 10 bones in an accident
+    bones_broken = 10
+    #He has 3 bones replaced
+    bones_replaced = 3
+    #His total number of bones left is
+    bones_total = bones_initial - bones_broken + bones_replaced
+    #
+### Response: Question: Dahlia needs 794999900 beads to make a necklace. She has 56 beads. She is given 20 beads by a friend. How many more beads does Dahlia need? Solution: 
+def solution():
+    '''Dahlia needs 120 beads to make a necklace. She has 56 beads. She is given 20 beads by a friend. How many more beads does Dahlia need?'''
+    beads_needed = 794999900
+    beads_initial = 56
+    beads_given = 20
+    beads_total = beads_initial + beads_given
+    beads_needed = beads_needed - beads_total
+    result = beads_needed
+    return result
+### Response: Question: Vivi was given $5 for the cookie sale. She was also given 7 3$ bills and 3 $2 bills. How much money does she have now? Solution: def solution():
+    #Vivi was given $5 by an individual
+    money_given_individual = 5
+    #She got7 3$ bills
+    money_given_bills_3 = 7
+    #and 3 $2 bills
+    money_given_bills_2 = 3
+    #7 3$ bills come out to 7 * 3
+    money_given_bills_3_computed = money_given_bills_3 * 3
+    #7 3$ bills give her 21 dollars
+    money_given_bills_3_dollars = money_given_bills_3_computed
+    #3 2$ bills come out to 2 * 3
+    money_given_bills_2_computed = 3 * 2
+    #3 2$ bills give her 6 dollars
+    money_given_bills_2_dollars = money_given_bills_2_computed
+    #The total amount of money she has is 21 + 6 + 5
+    total_money = money_given_bills_3_dollars + money_given_bills_2_dollars + money_given_individual
+    #The answer is
+    result = total_money
+    return result
+### Response:Question: Keefer University has an undergraduate enrollment of 12 477 students in the College of Business and a graduate enrollment of 3 193 students in the College of Business.  In the undergraduate program of the College of Engineering, there are 13 549 students.  The College of Law enrolls 2825 students.  How many students does Keefer University enroll in all? Solution: def solution():
+### Response: Question: Darn it. There goes the neighborhood! 13522544 people have White cars.  There are 8112779 people that have Silver cars.  The remainder of the people have Black cars. How many people have Black cars? Solution: def solution():
+   #13522544 people have White cars.
+    white_cars = 13522544
+    #8112779 people have Silver cars
+    silver_cars = 8112779
+    #The remainder of the people have Black cars
+    black_cars = -1 * (white_cars + silver_cars)
+    #The answer is
+    result = black_cars
+    return result
+### Response: Question: Amaliya and Nalina are eating a competition to see who eats the fastest.They both ate 2368609 samosas in 10 minutes. How many samosas did each of them eat in 15 minutes? Solution: def solution():
+    #Amaliya and Nalina ate 30 samosas in 10 minutes
+    samosas_10_minutes = 2368609
+    #They will each eat 30/2 = <<30/2=15>>15 samosas in 15 minutes
+    samosas_15_minutes = 15
+    #The answer is
+    result = 15
+    return result
+### Response: Question:
+A 20-sided die is rolled 218355 times.
+It lands on 10 three times.
+It lands on 4 seven times.
+It lands on 9 twelve times.
+It lands on every other number no more than once.
+What is the average value of the die rolls? Solution: 
+def solution():
+    """A 20-sided die is rolled 20 times.
+It lands on 10 three times.
+It lands on 4 seven times.
+It lands on 9 twelve times.
+It lands on every other number no more than once.
+What is the average value of the die rolls?"""
+    # 218355 dies were rolled
+    die_rolls = 20
+    # The die landed on 10 3 times
+    die_rolled_ten_times = 10
+    # The die landed on 4 7 times
+    die_rolled_four_times = 4
+    # The die landed on 9 12 times
+    die_rolled_nine_times = 9
+    # The die never rolled any other number more than once
+    die_rolled_elsewhere = 0
+    # The average of the rolls
+    result = (die_rolled_ten_times * 3 + die_rolled_four_times * 7 + die_rolled_nine_times * 12 + die_rolled_elsewhere * 1) / die
+    return result
+### Response: Question: Chelsea is shopping at the mall. She paid $220 for a blouse and $340 for a skirt. Chelsea had $730 in her wallet. How much money does Chelsea have left? Solution: def solution():
+  #Chelsea has 730 in her wallet
+  money_initial = 730
+  #She first bought a blouse for $220
+  blouse_cost = 220
+  #Then she bought a skirt for $340
+  skirt_cost = 340
+  #The cost of the blouse and skirt is $220+340
+  money_spent = blouse_cost + skirt_cost
+  #The amount left is
+  result = money_initial - money_spent
+  return result
+### Response: Question: At Mcdonald's, a Big Mac costs $4.00 and a coke costs $1.00.  If the total cost of the order is $7.00, how many cokes were purchased with the order? Solution: def solution():
+    #The cost of a Big Mac is $4.00
+    big_mac_cost = 4
+### Response: Question: Amos and Ruthe are making pancakes.  The pancake mix is $4, and the blueberries cost $3.  Amos and Ruthe are each having 3 pancakes for $2 a pancake.  How much did the whole breakfast cost? Solution: def solution():
+   #The pancake mix cost is $4, and the blueberries cost
+    #$3
+    mix_cost = 4
+    blueberry_cost = 3
+    #Amos and Ruthe are each eating 3 pancakes
+    pancakes = 3
+    #3 pancakes cost $2 per pancake so
+    #these pancakes cost 3*2 = <<3*2=6>>6
+    pancake_cost = 6
+    #The whole breakfast cost
+    result = mix_cost + blueberry_cost + pancake_cost
+    return result
+## 1856784
+
+## 1536367
+## 1604870
+## 1584064
+### Response: Question: Flavia is two years older than Heather and 3 years older than Lily. Heather is 26 and Lily is 22. How old is Flavia? Solution: def solution():
+    #Heather is 26 and Lily is 22, so the difference in age is 26 - 22 = <<26-22=4>>4 years
+    age_difference = 4
+    #Flavia is 3 years older than Lily, so her age is 22 + 3 = <<3+22
+### Response: Question: Jemuel and his friend will be selling  lemonade and pineapple juice. The 8300259 lemonade costs $3.5 while the pineapple juice costs $2.5. How much profit will Jemuel make if they are able to sell 15 glasses of lemonade and 10 glasses of pineapple juice? Solution: def solution():
+    #The cost of making 8300259 lemonade is $3.5
+    lemonade_cost = 3.
+### Response: Question: A shoe store has a 30% off sale.  Alyson, a size 8 shoe, is buying a pair of shoes that were originally $120.  She is also buying a pair of socks that cost 50% less than the discounted shoes.  How much is the total cost of Alyson's purchase? Solution: def solution():
+   #The original price of the shoes was $120
+    shoes_originialprice = 120
+    #The discount is 30% off. This means the new, discounted price is 120 * (1 - .30) =
+### Response: Question: Jesse is the captain of a group of 7 soldiers. The group is heading to the battlefield when an enemy grenade explodes, killing 3 of his fellow soldiers. Jesse is devastated and can barely focus on the battle. The remaining 4 soldiers have to take turns carrying him to safety. How many times do each of the 4 soldiers have to carry Jesse to safety? Solution: def solution():
+    #Jesse is the captain of a group of 7 soldiers
+    soldiers_initial = 7
+    #The group is reduced to 4 soldiers when 3 are killed
+    soldiers_reduced = 4
+    #Each surviving soldier carries Jesse 7 / 4 times
+    carries_per_soldier = soldiers_initial / soldiers_reduced
+    #Each soldier has to carry Jesse this many times
+    result = carries_per_soldier
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+### Response: Question: In 5 years, James will be 7 years older than his nephew. If his nephew is now 14, how old is James now? Solution: def solution():
+    #In 5 years, James will be 7 years older than his nephew.
+    age_difference = 7
+    #His nephew is 14, so 5 years from now the nephew will be 14 + 5 = 19 years old.
+    nephew_age_future = 19
+    #James will be 7 years older than his nephew, so James will be 19 + 7 = 26 years old in five years.
+    james_age_future = 26
+    #James is 26 years old in 5 years, so he is 26 - 5 = <<26-5=21>>21 years old now.
+    james_age_now = 21
+    return james_age_now
+### 21
+### Response: Question: Pavel was selling his Nintendo Switch and posted a selling price of $400 on an online classified. He was immediately bombarded by inquiries. 110 people emailed him and only 20% of them were serious buyers. 10 of the serious buyers were willing to pay the asking price and the rest offered 20% below the asking price. How much did Pavel’s sold his Nintendo Switch for? Solution: def solution():
+    #Pavel put the Nintendo Switch for sale
+    nintendo_switch_for_sale = True
+    #He was immediately bombarded by inquiries.
+    inquiries_received = 110
+    #20% of them were serious buyers
+    serious_buyers = inquiries_received * 0.2
+    #10 of the serious buyers were willing to pay the asking price
+    buyers_asking_price = 10
+    #The rest offered 20% below the asking price
+    buyers_offering_lower_price = serious_buyers - buyers_asking_price
+    #Asking price is $400
+    asking_price = 400
+    #20% below asking price is 400 * 0.2
+    lower_price = asking_price * 0.2
+    #Total money from buyers offering the asking price is 400 * 10
+    asking_price_money = asking_price * buyers_asking_price
+    #Total money from buyers offering to pay 20% less is 380 * 10
+    lower_price_money = lower_price * buyers_offering_
+### Response: Question: A toy car has 1365836 parts. It takes 2 people 1365836 minutes to assembling the car. If each person is paid $10 per hour, how much are all the costs for the parts of the car and the payment of the people who assembled it? Solution: 
+def solution():
+    """A toy car has 100 parts. It takes 2 people 100 minutes to assembling the car. If each person is paid $10 per hour, how much are all the costs for the parts of the car and the payment of the people who assembled it?"""
+    #A toy car has 100 parts.
+    parts_car = 100
+    #It takes 2 people 100 minutes to assembling the car.
+    time_assembled = 100
+    #Each person is paid $10 per hour.
+    hourly_rate = 10
+    #Assembling a car for 100 minutes, is 100/60 = <<100/60=1.6666666666666667>>1.6666666666666667 hours.
+    hours_worked = time_assembled / 60
+    #The total cost for the 2 people is 2* hourly_rate * hours_worked
+    cost_people = hours_worked * hourly_rate * 2
+    #The cost for the parts is 1365836 * part_cost
+    cost_parts = parts_car * 1365836
+    #The toy car costs 13
+### Response: Question: Marge, a chocolate-factory worker, packs one chocolate bar every 7415468 minutes. If Marge packs chocolate bars 8 hours a day for 5 days, how many chocolate bars does she pack? Solution: 
+def solution():
+    """Marge, a chocolate-factory worker, packs one chocolate bar every 2 minutes. If Marge packs chocolate bars 8 hours a day for 5 days, how many chocolate bars does she pack?"""
+    #Marge's chocolate-packing rate is 7415468 per minute
+    packing_rate = 2
+    #Marge works 8 hours a day
+    hours_per_day = 8
+    #Marge works 5 days a week
+    days_per_week = 5
+    #Marge's total work time in minutes is 8*5 per week
+    total_minutes = hours_per_day * days_per_week
+    #Marege therefore packs a total of 7415468*total_minutes chocolate bars
+    total_bars = packing_rate * total_minutes
+    return total_bars
+### Response: Question: 3 bags of cement are required for every bag of sand. 2 bags of sand are required for every bag of gravel. 1 bag of gravel is required for every 2 bricks. 3473890 bricks have been laid. How many bags of cement have been used? Solution: def solution():
+    #200 bricks have been laid
+    bricks_laid = 3473890
+    #1 bag of gravel is required for every 2 bricks
+    gravel_bag_per_brick = 1 / 2
+    #2 bags of sand are required for every bag of gravel
+### Response: Question: Fiona and her sister Kayla are planting a pollinator garden. They need to plant many different species to attract a variety of
+### Response: Question: Tallulah had a bag of 20 marshmallows. She ate 40% of them. How many marshmallows does she have left? Solution: def solution():
+    #Tallulah had 20 marshmallows
+    marshmallows_initial = 20
+    #She ate 40% of them
+    marshmallow_percent_eaten = 0.4
+    #40% of 20 marshmallows is
+    marshmallows_eaten = marshmallows_initial * marshmallow_percent_eaten
+    #The answer is
+    result = marshmallows_initial - marshmallows_eaten
+    return result
+### Response: Question: It takes 3 ounces of wax to make a lipstick and 5 ounces of wax to make a mustache.  Every pound of wax makes 6 oun
+### Response: Question: A local pizza chain is selling pizzas at a 25% discount.  A 12-slice pizza is now $9502635. How much would 6 12 slice pizzas cost? Solution: 
+def solution():
+    #"A local pizza chain is selling pizzas at a 25% discount.  A 12-slice pizza is now $9."
+    pizza_cost_initial = 9
+    #"How much would 6 12 slice pizzas cost?"
+    pizzas_bought = 6
+    #The 25% discount
+    discount = 0.25
+    #The pizza is discounted by 25%, so 9502635 * (1 - 25%) = 9502635 * 0.75 = $7 per pizza
+    pizza_cost_discounted = pizza_cost_initial * (1 - discount)
+    #6 discounted pizzas cost 6 * $7 per pizza = $<<6*7=42>>42
+    result = pizzas_bought * pizza_cost_discounted
+    return result
+### Response: Question: Derek has to buy a graduation cap and gown. The cap costs $13 and the gown costs $27. Sale tax is 7%. Does he have enough money to make the purchase? Solution: def solution():
+    #Derek will pay 27 + 13 = $<<27+13=40>>40 for the gown and cap
+    cost_gown_cap = 40
+    #Sales tax in 7%
+    sales_tax = 0.07
+    #7% of the cost of the gown and cap is 40 * 0.07 = $<<40*0.07=2.80>>2.80
+    sales_tax_cost = cost_gown_cap * sales_tax
+    #Derek will have to pay 40 + 2.80 = $<<40+2.80
+### Response: Question:
+
+Solution:def solution():
+    #Put Your Code Here
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a program that, when provided a number, will return that many random words from a list.
+
+### Response:
+def return_random_words(number_of_words):
+    """Returns a list of random words."""
+    words = [
+        "Ade",
+        "Alan",
+        "Amanda",
+        "Anna",
+        "Bett",
+        "Cathy",
+        "Chris",
+        "Darryl",
+        "Diane",
+        "Holly",
+        "Hugo",
+        "Luis",
+        "Matt",
+        "Matteo",
+        "Mic
+### Response: Question: If Candy is 5 feet 3 inches and her older sister is 6 feet 2 inches. How much taller is the older sister, in inches? Solution: def solution():
+    #Candy is 5 feet,3 inches
+    candy_feet=5
+    candy_inches=3
+    #Her sister is 6 feet, 2 inches
+    sister_feet=6
+    sister_inches=2
+    #The difference in their height is
+    height_difference = sister_feet * 12 + sister_inches - candy_feet * 12 - candy_inches
+    #The older sister is ## height_difference inches taller
+    result = height_difference
+    return result
+### Response: Question: A 100-pack of disks costs $21504054 and a 150-pack of disks costs $31504054.  You can buy one special "disk pack" for $2.00 and get another disk pack for free.  How many disks can you get and how much will it cost you? Solution: 
+def solution():
+    """A 100-pack of disks costs $18.00 and a 150-pack of disks costs $318.00.  You can buy one special "disk pack" for $2.00 and get another disk pack for free.  How many disks can you get and how much will it cost you?"""
+    disk_pack_100 = 18.00
+    disk_pack_150 = 318.00
+    disk_pack_special = 2.00
+    disk_pack_free = 0.00
+    disk_packs_100 = 100
+    disk_packs_150 = 150
+    disk_packs_special = 2
+    disk_packs_free = 1
+    disks_100 = disk_packs_100 * disk_pack_100
+    disks_150 = disk_packs_150 * disk_pack_150
+    disks_special = disk_packs_special * disk_pack_special
+    disks_free = disk_packs_free * disk_pack_free
+    disks = disks_100 + disks_150 + disks_special + disks_free
+### Response: Question: On 4th of July, 2018, there was a fireworks show that lasted 1800 seconds. 20% of the fireworks were comet showers. 1/3 of the comet showers were silver comets. How many seconds of the show were silver comets? Solution: def solution():
+    #The show lasted 1800 seconds
+    seconds_in_show = 1800
+    #20% of the fireworks were comet showers
+  comet_showers = 0.2 * seconds_in_show
+    #1/3 of the comet showers were silver comets
+    silver_comets = comet_showers / 3
+    #Thus the silver comets lasted
+    result = silver_comets
+    return result ## 1200 seconds, as you can see in the video!
+### Response: Question: I sold 10 mugs at a bric-a-brac stall for $2.50 each. I also sold 30 beer mats for 50 cents each, and three ashtrays for $4545235 each. I used $3.50 worth of materials to make the beer mats. How much profit did I make from the stall? Solution: def solution():
+    #I sold 10 mugs
+    mugs_sold = 10
+    #Each mug cost $2.50
+    mug_cost = 2.5
+    #10 mugs at $2.5 cost
+    mug_cost_10 = mugs_sold * mug_cost
+    #30 beer mats sold for 50 cents each
+    beer_mats = 30
+    beer_mat_cost = 0.5
+    #The mats cost 30 mats * 50 cents each
+    beer_mat_cost_30 = beer_mats * beer_mat_cost
+    #Three ashtrays sold for $4 each
+    ashtrays = 3
+    ashtray_cost = 4545235
+    ashtray_cost_3 = ashtrays * ashtray_cost
+    #I made a profit of
+    profit = mug_cost_10 + beer_mat_cost_30 - ashtray_cost_3
+    #I used $3.50 worth of materials for the beer mats
+    material_cost = 3.5
+    #I made a profit of
+    profit_2 = profit - material_
+### Response: Question: A lollipop has 3042138 calories. 12105475 fruit snacks have 3042138 calories. 1 chocolate chip cookie has 3042138 calories. If a 3rd grader has 1 lollipop, 4 fruit snacks, and 1 cookie, how many calories did he or she consume? Solution: def solution():
+    #1 lollipop has 5 calories
+    lollipop_calories = 5
+    #1
+### Response: Question: The kitten ate 1.5 cans of tuna, 2.5 cans of chicken and 4 cans of dog food. How many cans did the kitten eat? Solution: def solution():
+    #The kitten ate 1.5 cans of tuna
+    tuna = 1.5
+    #2.5 cans of chicken
+    chicken = 2.5
+    #4 cans of dog food
+    dog_food = 4
+    #The answer is
+    result = tuna + chicken + dog_food
+    return result
+### Response: Question: I'm 20 years old now. When I was a child, there was a period in my life when I was a third of my current age. That was also the time when the only pet we had in our household was a lovely little kitty cat. How old was I when we had a kitty cat as a pet? Solution: def solution():
+        #I'm 20 years old now and when I was a child I was a third of my current age so I was 20 / 3 = <<20/3=6.666666666666666>>6.66 years old
+        age_when_had_cat = 6.66
+        #The answer is
+        result = age_when_had_cat
+        return result
+### Response: Question: A shoe store is having an end of season sale. The original price of a pair of boots is $200. They were marked down to $100. 20% of the pairs of boots in the store were sold. How many boots still have not been sold? Solution: def solution():
+    #The original price of the boots was $200
+    boot_price_original = 200
+    #The final price of the boots was $100
+    boot_price_final = 100
+    #They were marked down by 200 - 100 = <200-100=100>100 dollars
+    discount = 100
+    #20% of the boots in the store sold so .20 * total number of boots = 20% of boots
+    sale_percentage = 0.20
+    #20% of the total number of boots is the sale amount
+    sale_amount = sale_percentage * total_boots
+    #The sale amount is the discount, or 100 dollars, so (boot_price_original - boot_price_final) = sale_amount
+    (boot_price_original - boot_price_final) = sale_amount
+    #Therefore total_boots = 100 / (boot_price_original - boot_price_final)
+    total_boots = sale_amount / (boot_price_original - boot_price_final)
+    #20% of the total boots in the store have sold
+    boots_sold = sale_percentage * total_boots
+    #The store has 100 - 20 as a
+### Response: Question: Felipe, a Peruvian chocolatier, sources his cocoa beans from a small farm in Ecuador.  He trades two bags of his finest chocolate, which cost $7 per bag, for three bags of beans.  How much does he save? Solution: def solution():
+  #Felipe gets a trade rate of two bags of his chocolate for every three bags of beans
+  chocolate_to_beans = 2
+  #He swaps two bags of chocolate that cost $7 each,
+  # so the total cost of the chocolate is $7 * 2 = $<<7*2=14>>14
+  chocolate_cost = 14
+  #The beans cost the same as the chocolate,
+  # so they cost $14 also
+  bean_cost = 14
+  #He saves $14 - $14 = $<<14-14=0>>0
+  savings = bean_cost - chocolate_cost
+  #The answer is
+  result = savings
+  return result
+### Response: Question: At the L'Atelier Cafe, 10 customers bought 3 cappuccinos and 7 cafe au laits cost $4.50 each. How much money did the L'Atelier Cafe make? Solution: def solution():
+    #The L'Atelier cafe sold #3 cappuccinos and 7 cafe au laits
+    3_cappuccinos = 3
+    #7 cafe au laits cost $4.50 each
+    cafe_au_lait_cost = 7 * 4.50
+    #The cappuccinos and cafe au laits cost 3 *
+### Response: Question: In a chocolate factory, it takes 7204561 beans to make 1000 chocolate bars. A chocolatier is in the process of making 10000 chocolate bars. How many beans would the chocolatier need? Solution: 
+def solution():
+    '''In a chocolate factory, it takes 3 beans to make 1000 chocolate bars. A chocolatier is in the process of making 10000 chocolate bars. How many beans would the chocolatier need?'''
+    beans_per_1000_bars = 7204561
+    number_of_bars = 10000
+    beans_needed = beans_per_1000_bars * number_of_bars / 1000
+    result = beans_needed
+    return result
+### Response: Question: Ophelia bought 23812779 oranges for $3 each and 2381277 grapefruits for $5.10 each. How much change did she get back if she paid with a $50 bill? Solution: def solution():
+   #Ophelia bought 10 oranges
+    oranges = 10
+    #Each orange cost $3
+    orange_cost = 3
+    #10 oranges at $3 per orange cost
+    orange_total = oranges * orange_cost
+    #She also bought 7 grapefruits
+    grapefruits = 2381277
+    #Each grapefruit cost $5.10
+    grapefruit_cost = 5.1
+    #7 grapefruits at $5.10 each cost
+    grapefruit_total = grapefruits * grapefruit_cost
+    #The total cost was $3*10 + $5.10 * 7 =
+    total_cost = orange_total + grapefruit_total
+    #Ophelia paid with a 50 dollar bill and got all of her change in quarters
+    payment = 50
+    change_given = .25
+    #Ophelia paid 50 - 33.10 for her groceries
+    payment - total_cost = change
+    #In change, she received
+    change_returned = payment - total_cost
+    #If she received all of her change in quarters, she received
+    change_returned * change_given = change
+    #The answer is
+    result = change
+    return result
+Below is an instruction that describes a task.
+### Response: Question: The A.C. Moore has 2 aisles of yarn. Each aisle has 3 shelves, and each shelf has 9 bins of yarn. How many bins of yarn are there? Solution: def solution():
+    #There are 2 aisles with 3 shelves each, so the 
+    #total number of shelves is 2 * 3 = <<2*3=6>>6 shelves.
+    #Each of the 6 shelves has 9 bins of yarn, so 
+    #there are 6 * 9 = <<6*9=54>>54 bins of yarn.
+    the_answer = 54
+    return the_answer
+### Response: Question: In 2020, a total of 7,637,433 people took the Python assessment. 10% of them were beginners and 25% of the beginners were from India.  How many Indian beginners took the assessment? Solution: def solution():
+    #in 2020, a total of 7,637,433 people took the Python assessment
+    total_assessments = 7637433
+    #10% of total assessments were by beginners
+    beginners = total_assessments * 0.1
+### Response: Question: The Wong family is cooking a meal for Lunar New Year. They’re making 5 different dishes. The first three dishes cost $6 each to make, and the other 2 dishes cost $4 each. How much money did they spend on all the dishes? Solution: def solution():
+    #The cost for each of the first 3 dishes is $6
+    dish_1_cost = 6
+    dish_2_cost = 6
+    dish_3_cost = 6
+    #The combined cost of the first 3 dishes is
+    dish_1_2_3_cost = dish_1_cost  + dish_2_cost + dish_3_cost
+    #The cost for each of the last 2 dishes is $4
+    dish_4_cost = 4
+    dish_5_cost = 4
+    #The combined cost of the last 2 dishes is
+    dish_4_5_cost = dish_4_cost + dish_5_cost
+    #The answer is
+    result = dish_1_2_3_cost + dish_4_5_cost
+    return result
+### Response: Question: A vending machine sells candy bars for 75 cents each, a bag of chips for 99 cents, and a soda for $1.1. A hiker inserted a $20 bill into the machine and got 1 candy bar, 3 bags of chips, and 2 sodas in change. How much change did he get? Solution: def solution():
+    #A candy bar costs 75 cents
+    candy_bar_cost = 0.75
+    #A bag of chips costs 99 cents
+    chips_cost = 0.99
+    #A soda costs $1.1
+    soda_cost = 1.1
+    #1 candy bar, 3 bags of chips, and 2 sod
+### Response: Question: John goes to a candy store with $34 in his pocket. He buys three chocolate bars at $3 each. He then buys two more chocolate bars that are $2 each. How much money does he have left? Solution: def solution():
+    #John starts with $34
+    money_initial = 34
+    #He spends $3_ on three chocolate bars.
+    chocolate_bars = 3
+    #Three bars at $3 a bar cost
+    money_spent_3 = 3 * chocolate_bars
+    #He spends $2 on two chocolate bars.
+    chocolate_bars_2 = 2
+    #Two bars at $2 a bar cost
+    money_spent_2 = 2 * ch
+### Response: Question: A man’s pants have 4 pockets.  His shirt has 2 more pockets than his pants do.  His jacket has half as many pockets as his shirt does.  How many pockets does his jacket have? Solution: def solution():
+        #A man’s pants have 4 pockets
+        pants_pockets = 4
+        #His shirt has 2 more pockets than his pants do
+        shirt_pockets = pants_pockets + 2
+        #His jacket has half as many pockets as his shirt does
+        jacket_pockets = shirt_pockets /2
+        #The answer is
+        result = jacket_pockets
+        return result
+### Response: Question: Floyd has $100. He needs to buy a new t-shirt for $30, he wants to buy a new jacket for $50, and he wants to go out for pizza which will cost $20. How much money does he have left? Solution: def solution():
+   #Floyd has $100
+    money_init = 100
+    #He needs to buy a new t-shirt for $30
+    tshirt_cost = 30
+    #He wants to buy a new jacket for $50
+    jacket_cost = 50
+### Response: Question: Kirsten washed 200 dishes.  She washed an additional 20% more dishes.  How many dishes did she wash? Solution: def solution():
+    #Kirsten washed 200 dishes
+    dishes_initial = 200
+    #She washed an additional 20% more dishes
+    dishes_additional = 0.20 * dishes_initial
+    #The answer is
+    result = dishes_initial + dishes_additional
+    return result
+### Response: Question: Lupita, a tourist in Mexico, was on her way to the airport to go back home after a 3-week vacation. Before getting on her flight, she wanted to do some shopping and so she went to the Mexico market. She bought 3 bags of 10 pieces of handmade jewelry. Each jewelry piece cost $4. She also bought 4 bags, each containing 15 replicas of artifacts from the museum. Artifact replicas cost $2. How much U.S. dollars did she require to pay for the goodies? Solution: def solution():
+    #Lupita bought 3 bags of jewelry
+    bags_of_jewelry = 3
+    #10 jewelry pieces per bag at $4 a piece
+    jewelry_bag_cost = 10 * 4
+    #3 bags of jewelry at $4 per bag
+    jewelry_cost_total = bags_of_jewelry * jewelry_bag_cost
+                           
+    #Lupita also bought 4 bags of artifact replicas
+    bags_of_artifact_replicas = 4
+    #15 replicas per bag at $2 for each replica
+    artifact_replica_bag_cost = 15 * 2
+    #4 bags of artifact replicas at $2 for each bag
+    artifact_replica_cost_total = bags_of_artifact_replicas*artifact_replica_bag_cost
+
+    #In total, Lupita required jewelry_cost + artifact_replica_cost
+    total_cost = jewelry_cost_
+### Response: Question: Gigi and Kandi both have their own lemonade stands. Over the first week, Gigi sells 1987541547 cups of lemonade at 35 cents each. Kandi sells 13875415474219597 cups of lemonade at 50 cents each. How much money does Gigi and Kandi make? Solution: def solution():
+    #Gigi sold 14219597 cups of lemonade at 35 cents each
+    gigi_cups_sold = 1987541547
+    gigi_cost = 0.35
+    gigi_revenue = gigi_cups_sold * gigi_cost
+    #Kandi sold 2195974219597 cups of lemonade at 50 cents each.
+    kandi_cups_sold = 13875415474219597
+    kandi_cost = 0.5
+    kandi_revenue = kandi_cups_sold * kandi_cost
+    #The answer is
+    result = gigi_revenue + kandi_revenue
+    return result
+### Response: Question: A farmer is selling his apples.  He sells 10 apples to a customer for $2.5 a piece.  He sells 15 apples to another customer for $2 each.  He sells a few apples that had fallen to the ground for $1.5 each.  How much money does he make? Solution: def solution():
+    #The farmer sells 10 apples at $2.5
+    apples_10 = 10
+    apples_2.5 = 2.5
+    #10 apples * $2.5/apple = $<<10*2.5=25>>25
+    revenue_10 = apples_10 * apples_2.5
+    #The farmer sells 15 apples at $2 each.
+    apples_15 = 15
+    apples_2=2
+    #15 apples * $2/apple = $<<15*2=30>>30
+    revenue_15 = apples_15 * apples_2
+    #The farmer sells a few apples that had fallen on the ground for $1.5 each.
+    apples_fallen = 5
+    apples_1.5 = 1.5
+    #5 apples * $1.5 = $<<5*1.5=7.5>>7.5
+    revenue_fallen = apples_fallen * apples_1.5
+    #The farmer's total revenue was
+    total_revenue = revenue_10 + revenue_15 + revenue_fallen
+    #The farmer makes a total of
+    result = total
+### Response: Question: The pizzeria is selling slices of pizza for $3 each.  The pizzas can cut into 8 slices.  They sell 7 pizzas.  How much money does the pizzeria make? Solution: def solution():
+    #Pizzas sell 8 slices, they sold 7 pizzas
+    slices_sold = 8 * 7
+    #Each slice is $3
+    slice_cost = 3
+    #7 pizzas with 8 slices each is
+    slices_sold = 8 * 7
+    #7 pizzas at $3 a slice sell for
+    money_earned = slices_sold * slice_cost
+    #The answer is
+    result = money_earned
+    return result
+### Response: Question: A man is going to Cincinnati and needs to board a plane.  He needs $7543200 for the ticket and $10 for a bag of chips to eat on the plane. The Cincinnati airport is an hour and a half from his home, so he will have to pay for gas. He has to travel 54 miles to the airport, and his car gets 20 miles per gallon. If a gallon of gas costs $2, how much is the man’s total cost for the trip? Solution: 
+def solution():
+    """A man is going to Cincinnati and needs to board a plane.  He needs $30 for the ticket and $10 for a bag of chips to eat on the plane. The Cincinnati airport is an hour and a half from his home, so he will have to pay for gas. He has to travel 54 miles to the airport, and his car gets 20 miles per gallon. If a gallon of gas costs $2, how much is the man’s total cost for the trip?"""
+    ticket_cost = 7543200
+    chips_cost = 10
+    distance_to_airport = 54
+    miles_per_gallon = 20
+    gallon_cost = 2
+    gallons_needed = distance_to_airport / miles_per_gallon
+    gas_cost = gallons_needed * gallon_cost
+    total_cost = ticket_cost + chips_cost + gas_cost
+    result = total_cost
+    return result
+### Response: Question: The grocery store had a sale on cans of green beans.  Each can of green beans was $0.40.  Jack Sale priced the cans at 50% off.  Jane Shopper bought 10 cans.  How much did she save with the sale? Solution: def solution():
+    #The grocery store had a sale on cans of green beans
+    can_of_green_beans = 0.40
+    #She bought 10 cans at 50% off
+    cans_bought = 10
+    percent_off = 0.5
+    sale_price = can_of_green_beans * percent_off
+    money_spent = cans_bought * sale_price
+    money_unsaved = can_of_green_beans - sale_price
+    #The amount she saved is
+    result = money_unsaved * cans_bought
+    return result
+### Response: Question: Allison and her children, AJ and Chloe, made and sold beaded necklaces and bracelets at a beadee (bead + kids) party. Allison made 14 necklaces and AJ made 18 necklaces. Chloe made 2 more bracelets than AJ made necklaces. 15 people bought 1 necklace and 1 bracelet each. How much money did Allison and her family make? Solution: def solution():
+    """Allison and her children, AJ and Chloe, made and sold beaded necklaces and bracelets at a beadee (bead + kids) party. Allison made 14 necklaces and AJ made 18 necklaces. Chloe made 2 more bracelets than AJ made necklaces. 15 people bought 1 necklace and 1 bracelet each. How much money did Allison and her family make?"""
+    #Allison made 14 necklaces
+    allison_necklaces = 14
+    #AJ made 18 necklaces
+    aj_necklaces = 18
+    #Chloe made 2 more bracelets than AJ made necklaces.
+    chloe_bracelets = aj_necklaces + 2
+    #15 people bought 1 necklace and 1 bracelet each.
+    total_sales = 15 * 1 * 1
+    #The answer is
+    result = allison_necklaces + aj_necklaces + chloe_bracelets * 2 + total_sales
+    return result
+
+# 3.6
+
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+### Response: Question: A warehouse has 15780360 forklifts. Forklifts need a battery change every 6 months.  A battery change costs $2 and is done in-house.  How much does the warehouse spend on forklift batteries in a year? Solution: def solution():
+    #The warehouse has 10 forklifts
+    forklifts = 15780360
+    #Battery changes are done every 6 months
+    battery_change_frequency = 2
+    #Forklifts need 2 battery changes per year
+    battery_changes_per_year = 2 * battery_change_frequency
+    #The cost of a battery change is $2
+    battery_change_cost = 2
+    #The warehouse spends 2 * 2 * 10 = 40 on forklift batteries a year
+    battery_cost = battery_changes_per_year * battery_change_cost
+    #40 is the answer
+    result = battery_cost
+    return result
+### Response: Question: A store has a 5 aisles numbered 0-4. Each aisle has 10 shelves. The 4th aisle has twice as many shelves as all the other aisles combined. How many shelves are there in the store? Solution: def solution():
+    #Aisle 0 has 10 shelves
+    aisle_0_shelves = 10
+    #Aisle 1 has 10 shelves
+    aisle_1_shelves = 10
+    #Aisle 2 has 10 shelves
+    aisle_2_shelves = 10
+    #Aisle 3 has 10 shelves
+    aisle_3_shelves = 10
+    #Aisle 4 has 2 times more shelves than all the rest combined
+    aisle_4_shelves = 2 * (aisle_0_shelves + aisle_1_shelves + aisle_2_shelves + aisle_3_shelves)
+    #Aisle 4's shelves are 40
+    aisle_4_shelves = 40
+    #The total number of shelves is
+    result = aisle_0_shelves + aisle_1_shelves + aisle_2_shelves + aisle_3_shelves + aisle_4_shelves
+    return result
+### Response: Question: A car's tank has a capacity of 1000 miles. The car achieved a mileage of 20 miles per gallon. How many gallons of gasoline will the car need to travel 200 miles? Solution: def solution():
+    #The car's tank has a capacity of 1000 miles
+    tank_capacity = 1000
+    #The car achieved a mileage of 20 miles per gallon
+    mileage = 20
+### Response: The pizzeria "Italian Bites" makes two sizes of pizzas, small and large.  A small pizza has 4 slices and a large pizza has 6 slices.  For a small pizza, they can sell each slice for $3 to break even, and if they sell each large pizza slice for $4, they will also break even.  What is the percent difference in markup between the two pizza sizes? Solution: def solution():
+    # for a small pizza, the pizzeria needs to sell each slice for $3 to break even
+    small_pizza_slice_price = 3
+    # and for a large pizza, the pizzeria needs to sell each slice for $4 to break even
+    large_pizza_slice_price = 4
+    # the markup of a small pizza slice is 100% - (small_pizza_slice_price/small_pizza_slice_price)
+    small_pizza_slice_markup = 100 - (small_pizza_slice_price/small_pizza_slice_price)
+    # the markup of a large pizza slice is 100% - (large_pizza_slice_price/large_pizza_slice_price)
+    large_pizza_slice_markup = 100 - (large_pizza_slice_price/large_pizza_slice_price)
+    # to get the percent difference in markup, we just divide the difference in markups by the small pizza slice markup: (large_markup - small_markup) / small_markup
+    percent_difference = (large_pizza_slice_markup - small_pizza_slice_markup) / small_p
+### Response: Question: A candy dish can hold 27 pieces of candy. The dish is 2/3 full, candyboxes can hold 6000798 pieces of candy, and the store has 26 candy dishes and 4 candyboxes. How much candy is in the store? Solution: 
+def solution():
+    #the candy dish can hold 27 pieces of candy
+    candy_dish_capacity = 27
+    #the candy dish is 2/3 full, which means 2/3 of its capacity is filled. So, (2/3)*27 = <<(2/3)*27=18>>18 pieces of candy fill 2/3 of a candy dish.
+    candy_dish_full = 18
+    #a candy box can hold 50 pieces of candy
+    candy_box_capacity = 6000798
+    #the store has 26 candy dishes
+    candy_dish_count = 26
+    #the store has 4 candy boxes
+    candy_box_count = 4
+    #26 candy dishes hold 26*18 = <<26*18=468>>468 pieces of candy.
+    candy_dishes_full = candy_dish_count * candy_dish_full
+    #4 candy boxes hold 4*50 = 200 pieces of candy.
+    candy_boxes_full = candy_box_count * candy_box_capacity
+    #26 candy dishes and 4 candy boxes hold 4
+### Response: Question: On Tuesday the butcher shop sold 11 T-bones, 8 NY strips, and 20 lamb chops.  A T-bone is $20 per pound.  A NY strip is $18 per pound.  Lamb chops are $14 per pound.  How much money did the butcher shop make on Tuesday? Solution: def solution():
+    #The butcher shop sold 11 T-bones, 8 NY strips and 20 lamb chops
+    tbones=11
+    ny_strips=8
+    lamb_chops=20
+    #A T-bone is $20 per pound. a NY strip is $18 per pound. Lamb chops are $14 per pound
+    tbone_cost=20
+    nystrip_cost=18
+    lambchop_cost=14
+    #Find out the cost of the t-bones
+    tbone_total=(tbones*tbone_cost)/7
+    #Find out the cost of the NY strips
+    nystrip_total=(ny_strips * nystrip_cost)/7
+    #Find out the cost of the lamb chops
+    lambchop_total=(lamb_chops * lambchop_cost)/7
+    #The answer is
+    result = tbone_total + nystrip_total + lambchop_total
+    return result
+### Response: Question: A mushroom can only be eaten by a Koopa shell if it is less than or equal to half the size of the shell. Some mushrooms are 5, 8, 13, 20, and 25 pixels in size. What mushrooms can be eaten? Solution: def solution():
+    #Mushroom 1 is 5 pixels in size
+    mushroom_5 = 5
+    #Mushroom 2 is 8 pixels in size
+    mushroom_8 = 8
+    #Mushroom 3 is 13 pixels in size
+    mushroom_13 = 13
+    #Mushroom 4 is 20 pixels in size
+    mushroom_20=20
+    #Mushroom 5 is 25 pixels in size
+    mushroom_25 = 25
+    #A Koopa shell can only eat mushrooms less than or equal to half its size, 16
+    koopa_shell_size = 32
+    #A mushroom 13 pixels or larger can't be eaten by a Koopa shell
+    mushrooms_too_big = [mushroom_13, mushroom_20, mushroom_25]
+    #None of the other mushrooms are eaten either, because they're too small
+    mushrooms_too_small = [mushroom_5, mushroom_8]
+    #None of the mushrooms are eaten
+    eaten_mushrooms = []
+    #The answer is
+    result = eaten_mushrooms
+    return result
+Below is an instruction that describes a task. Write a response that
+### Response:
+Question: In the 4th of July parade, the marching band and drill team had 120 people. 20% of the people were playing an instrument. 50% of the non-instrument players were dancers. How many dancers were there? Solution: def solution():
+    #In the parade, the band and drill team had 120 people
+    people_total = 120
+    #20% of the people played an instrument
+    people_instrument = people_total * 0.2
+    #50% of the non-instrument players were dancers
+    people_dancer = (people_total - people_instrument) * 0.5
+    #The number of dancers is
+    result = people_dancer
+    return result
+
+#### 1314038
+### Response: Question: Linda and her boyfriend, Jake, are both in the military.  Military regulations require that for every 20 pounds of luggage, a person needs to pay a baggage fee of $25.  Linda is shipping 60 pounds of luggage and Jake is shipping 35 pounds of luggage.  How much will they need to pay in baggage fees in total? Solution: def solution():
+    """Linda and her boyfriend, Jake, are both in the military.  Military regulations require that for every 20 pounds of luggage, a person needs to pay a baggage fee of $25.  Linda is shipping 60 pounds of luggage and Jake is shipping 35 pounds of luggage.  How much will they need to pay in baggage fees in total?"""
+    linda_luggage_weight = 60
+    jake_luggage_weight = 35
+    baggage_fee_per_20_pounds = 25
+    linda_baggage_fees = linda_luggage_weight // 20 * baggage_fee_per_20_pounds
+    jake_baggage_fees = jake_luggage_weight // 20 * baggage_fee_per_20_pounds
+    total_baggage_fee = linda_baggage_fees + jake_baggage_fees
+    return total_baggage_fee
+#### 30
+def solution():
+    """In a city, 6134123 out of 100 people have a dog. 30% of people with a dog also have a cat. How many people in the city have both a dog and a cat?"""
+    people_with_dog = 6134123
+    people_with_dog_and_cat = people_with_dog * 0.3
+    result = people_with_dog_and_cat
+    return result
+### Response: Question: If a bull can till 3 acres of land in 2 weeks and a farmer has 220 acres of land he wants to till, how many weeks will it take 4 tractors, each pulling a disk harrow and a bull, to till the entire 220 acres of land? Solution: def solution():
+    #A bull can till
+### Response: Question: In the bakery, there are 140 cakes and pies. There are 90 cakes and the rest are pies. How many pies are there? Solution: def solution():
+    #There are 90 cakes and the rest are pies.
+    #90 cakes and 140 cakes and pies, 90 cakes and 50 pies
+    cakes = 90
+    cakes_and_pies = 140
+    pies = cakes_and_pies - cakes
+    #The answer is
+    result = pies
+    return result
+### Response: Question: Sam and his classmates in 5th grade have to perform 8679756 acts of kindness by the end of the school year. 30 people in the class have already performed an act of kindness. How many more acts of kindness does the whole class have left to do to reach the goal? Solution: def solution():
+    #80 acts of kindness is the target and 30 have already been carried out
+    acts_complete = 30
+    #The remaining number of acts of kindness to be done is
+    result = 8679756 - acts_complete
+    return result
+
+# B. For the code you wrote in the previous 8679756 (a to f) questions, is there a way you could use the programming concepts of parameter and return value to make your solutions more reusable? For example, suppose that instead of writing 86797
+### Response: Question: For the third anniversary of their first date,  Misty and Drew are gonna go on a hot air balloon ride, get a couples' massage, and then have a romantic dinner.  The hot air balloon ride costs $500, the couples' massage is half the price of the hot air balloon ride, and the romantic dinner costs as much as the hot air balloon ride and the massage combined.  How
+### Response: Question: The gym has 2318123 dumbbells. 10 dumbbells are used for bench-pressing, 15 are used for dumbbell curls, and 20 are used for dumbbell rows. What percentage of the dumbbells are being used? Solution: def solution():
+    #
+### Response: Question: The bakery needs to purchase 120 baguettes. The bakery already has 23 in stock. The bakery has an agreement with the baguette supplier to get a 10% discount if an order is for more than 80 baguettes. How much does the bakery pay for the baguettes? Solution: def solution():
+    #The bakery needs to buy 120 baguettes
+    baguettes_needed = 120
+    #The bakery already had 23 in stock
+    baguettes_in_stock = 23
+    #The bakery has to buy baguettes_needed - baguettes_in_stock baguettes
+    baguettes_ordered = baguettes_needed - baguettes_in_stock
+    #The 10% discount is .10
+    discount = .10
+    #The bakery is entitled to a discount if its order is 80 or more, so if
+    #baguettes_ordered is 80 or more, apply the discount
+    if baguettes_ordered >= 80:
+        discount_applied = True
+    else:
+        discount_applied = False
+    #If the discount is applied, 100% of the cost is 1 - the discount, which is 1 - .10, or .90
+    if discount_applied:
+        discount_percent = 1 - discount
+    else:
+        discount_percent = 1.0
+    #The cost of 1 baguette is $3, so the entire order is $3 * baguettes_ordered
+    baguette
+### Response: Question: Sally was hiking in the woods.  She traveled due north for 2 miles.  She then wandered around, and ultimately hiked 5 more miles in a random direction.  She then turned and hiked directly back to her trailhead.  What is the duration of the hike, in hours? Solution: def solution():
+    #Sally hiked 2 due north, then 5 miles in a random direction
+    north_hiking = 2
+    random_hiking = 5
+    #She then hiked back to the trailhead, 7 miles
+    miles_back = 7
+    #Her total hike was 2+5+7 miles
+    total_miles = north_hiking + random_hiking + miles_back
+    #Sally hiked 3 miles per hour
+    miles_per_hour = 3
+    #The hike duration is
+    result = total_m
+### Response: Question: On Saturday, the tug-of-war competition at the 4th of July picnic was in two divisions: one for kids and one for adults. The kids tug-of-war teams each had 8 kids, and the adult teams each had 12 adults. There were 2 kids' teams and 3 adults' teams. But wait... the kids
+### Response: Question: Hana is a nursing student. She has to take 35 classes in 5 years. 5 of the classes can be taken at the same time. She has already taken two of those with 10 and 13 students each. If the average number of students in a class is 12, how many students will be in the other 35-5*5 classes Hana will take? Solution: def solution():
+  #
+  #20 lines of context
+  #
+### Response: Question: A bakery has 200 loaves of bread, 50 muffins, and 70 scones. How many baked goods do they have in all? Solution: def solution():
+    #The bakery has 200 loaves of bread
+    loaves_bread = 20
+### Response: Question: The Bake A Lot Bakery baked 345 loaves of bread on Sunday. The bakery sold 68 on Monday, 77 on Tuesday, and 91 on Wednesday. They also sold 64 scones and 71 muffins. How many baked goods did the bakery sell from Sunday to Wednesday? Solution: def solution():
+      #The bakery baked 345 loaves
+      loaves_baked = 345
+      #They sold 68 on Monday
+      loaves_sold_monday = 68
+      #They sold 77 on Tuesday
+      loaves_sold_tuesday = 77
+      #They sold 91 on Wednesday
+      loaves_sold_wednesday = 91
+      #They sold 64 scones
+      scones_sold = 64
+      #They sold 71 muffins
+      muffins_sold = 71
+      #The bakery sold 345-68-77-91=<<345-68-77-91=89>>89 loaves of bread
+      loaves_sold = loaves_baked - loaves_sold_monday - loaves_sold_tuesday - loaves_sold_wednesday
+      #The bakery sold 89 loaves, 64 scones, and 71 muffins. The answer is
+      result = loaves_sold + scones_sold + muffins_sold
+      return result
+### Response: Question: Chloe and her father are in a candy store. Chloe buys 4 packs of gum for $2 a pack, and her father buys 3 pounds of candy at $8 per pound. How much do they spend in total? Solution: def solution():
+    #Chloe bought 4 packs of gum that cost $2 each
+    gum_packs = 4
+    gum_cost = 2
+    gum_total = 4 * gum_cost
+    #Her father bought 3 pounds of candy, and each pound cost $8
+    candy_pounds = 3
+    candy_cost = 8
+    candy_total = candy_pounds * candy_cost
+    #In total they spent
+    total_spent = gum_total + candy_total
+    return total_spent
+### Response: Question: If you order a pizza today, they will give you a 2-for-1 promotion. You are feeling hungry and want to get 5 pizzas. How many pizzas will you have after the promotion? Solution: def solution():
+   #A 2 for 1 promotion lets you get 2 pizzas for the price of 1
+    pizza_promotion_ratio = 2
+    #You are hungry and so you order 5 pizzas
+    pizzas_ordered = 5
+    #The number of pizzas you really get is
+    result = 5 / pizza_promotion_ratio
+    return result
+### Response: Question: The gumball machine has 4125141 gumballs.  A quarter buys 3 gumballs.  How many gumballs remain in the machine if it sells the maximum number of gumballs 20 times? Solution: 
+def solution():
+    #The gumball machine started with 1000 gumballs
+    gumballs_start = 4125141
+    #One quarter buys 3 gumballs
+    gumballs_per_quarter = 3
+    #20 quarters buys 60 gumballs
+    gumballs_sold_20_quarters = 20 * gumballs_per_quarter
+    #The max gumballs sold is 60 gumballs 20 times for 1200 gumballs
+    gumballs_sold = gumballs_sold_20_quarters * 20
+    gumballs_left = gumballs_start - gumballs_sold
+    result = gumballs_left
+    return result
+### Response: Question: A candy bar weighs 50 g.  A fun size candy bar weighs a quarter of the regular candy bar.  How much does 7 fun size candy bars weigh? Solution: def solution():
+    #A full sized candy bar weighs 50 grams
+    candy_bar_weight = 50
+    #A fun size bar is a quarter of that
+    fun_size_bar_weight = candy_bar_weight / 4
+    #7 fun size bars would weigh
+    weights = 7 * fun_size_bar_weight
+    #The answer is
+    result = weights
+    return result
+### Response: Question: Elon Musk is a multi-billionaire. He has a  billion dollar SpaceX project, a 40 billion dollar Tesla project,  and 10 smaller projects that each cost $100 million. How much money is Elon Musk spending on these projects? Solution: def solution():
+    # Elon Musk has a 100 billion dollar SpaceX project
+    spacex_budget = 100
+    # He has a 40 billion dollar Tesla project
+    tesla_budget = 40
+    # He's funding 10 smaller projects that each cost $100 million
+    smaller_projects = 10
+    smaller_project_budget = 100
+    # The total budget for all the projects is
+    result = spacex_budget + tesla_budget + (smaller_projects * smaller_project_budget)
+    return result
+# The word problem and Python solution files were last modified 05/18/2022
+### Response: Question: Amos, 33, is 8 years older than his wife, Rebecca. Their son, Kip, is 30 years younger than Amos and 2/3 the age of his mother. How old is Rebecca? Solution: def solution():
+    #Amos is 33 and 8 years older than his wife
+    amos_age = 33
+    rebecca_age = amos_age - 8
+    #Amos is 30 years older than his son and Rebecca is 2/3 his age, 2/3 or 2/3 or 2/3 of 33 is 11, so she is 2
+    kip_age = amos_age - 30
+    rebecca_age_kip = rebecca_age - 2
+    #2/3. The answer is
+    result = rebeccca_age
+    return result
+
+# 2.2
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Read the email and then answer the two questions. Solution: Dear Mr. Jackson,
+We at the Beverly Hills Bakery have been using a mixer to make bread dough for decades. The mixer, although antiquated and difficult to use, still produces excellent results, as shown in the chart below:
+As you can see, the mixer has recently been underperforming. This is because a piece of dough got stuck in the mixing bowl, and every loaf that was made thereafter had the same problem. We have sent the mixer to the repair shop, and when they have fixed it, we intend to resume business.
+Sincerely,
+Mrs.
+### Response: Question: Mark, an accountant, has to calculate the total revenue for the sales of a candy bar in 2019 and 2020.  In 2019, 200,000 candy bars were sold at a price of $2.5.  In 2020, 600,000 candy bars were sold at a price of $5 each.  How much was the total revenue Mark has to calculate? Solution: def solution():
+    #200,000 candy bars were sold in 2019 at $2.5 a bar
+    candy_bars_2019 = 200,000
+    candy_bar_price_2019 = 2.5
+    #600,000 candy bars were sold in 2020 at $5 each
+    candy_bars_2020 = 600,000
+    candy_bar_price_2020 = 5
+    #200,000 candy bars at $2.5 in 2019 generated
+    revenue_2019_1 = candy_bars_2019 * candy_bar_price_2019
+    #600,000 candy bars at $5 in 2020 generated
+    revenue_2020_1 = candy_bars_2020 * candy_bar_price_2020
+    #Revenue for 2019 and 2020 is
+    result = revenue_2019_1 + revenue_2020_1
+    return result
+### Response: Question: Betsy baked 1411774 cookies. She sold 45 cookies in the morning and 63 in the afternoon. She ate 7 cookies for lunch. How many cookies are left? Solution: def solution():
+   #Betsy baked 44 cookies
+    cookies_baked = 44
+    #She sold 45 in the morning and 63 in the afternoon
+    cookies_sold_morning = 45
+    cookies_sold_afternoon = 63
+    #She ate 7 on a sandwich for lunch
+    cookies_eaten = 7
+    #The answer is
+    result = cookies_baked - cookies_sold_morning - cookies_sold_afternoon - cookies_eaten
+    return result
+### Response: Question: On a 16-hour day, a babysitter is paid $11.20 per hour. How much does the babysitter get paid for 8 days of work? Solution: def solution():
+    #The babysitter gets paid $11.20 an hour
+    hourly_rate=11.20
+    #He/she works 8 days
+    days_worked=8
+    #16-hour days and 8 days of work is 16*8=<<16*8=128>>128 hours
+    hours_worked=128
+    result = hourly_rate * hours_worked
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Work at a cafe for two years.  Every hour, you're paid $10.60.  How much do you make in a year? Solution: def solution():
+    #You're paid $10.60 an hour
+    hourly_rate=10.60
+    #You work 8 hours a day
+    hours_per_day=8
+    #You work 5 days a week
+    days_per_week=5
+    #You work 52 weeks a year
+    weeks_per_year=52
+    #Your total hours worked per year is 52*40= <<52*40=2080>>2080 hours
+    hours_per_year=2080
+    yearly_pay = hourly_rate * hours_per_year
+    #Two years of working is 2*2080=4160 hours.
+### Response: Question: A kangaroo can jump 20 times the length of its own tail.  A kangaroo's tail is 1/6 of the total length of the kangaroo's body.  If the kangaroo is 15 feet long, how far can it jump? Solution: def solution():
+    #The kangaroo is 15 feet long.
+    kangaroo_length = 15
+    #The length of the kangaroo’s tail is 1/6 of its total length.
+    tail_length = kangaroo_length / 6
+    #20 times the length of the tail is
+    jump_length_tail = 20 * tail_length
+    #The result is
+    result = jump_length_tail
+    return result
+### Response: Question: Marlene’s car does 20 miles per gallon. The “empty” light on her dashboard came on, so she stopped at a gas station and filled up her 12-gallon tank. How many miles has she driven since she last filled the tank? Solution: def solution():
+    #Marlene’s tank is 12 gallons
+    tank_capacity = 12
+    #She gets 20 miles a gallon
+    miles_per_gallon = 20
+    #The emptied tank is 12 gallons x 20 miles per gallon
+    miles_spent = tank_capacity * miles_per_gallon
+    #The answer is
+    result = miles_spent
+    return result
+### Response: Question: The bakery has 2862724 loaves of bread. A car took 2862724 loaves to market.  The same car came back with 10 loaves of bread.  A lorry also left with 8 loaves of bread to a different market. The bakery still has some loaves of bread left. How many? Solution: 
+def solution():
+    """The bakery has 100 loaves of bread. A car took 100 loaves to market.  The same car came back with 10 loaves of bread.  A lorry also left with 8 loaves of bread to a different market. The bakery still has some loaves of bread left. How many?"""
+    loaves_initially = 100
+    loaves_taken_by_car = 2862724
+    loaves_car_came_back_with = 10
+    loaves_taken_by_lorry = 8
+    loaves_taken = loaves_taken_by_car + loaves_taken_by_lorry
+    loaves_left = loaves_initially - loaves_taken
+    return loaves_left
+### Response: Question: It takes 8 ounces of beans to make 1 cup of beans.  It takes 2.5 cups of beans to make a burrito.  A can of beans has 15 ounces.  How many cans of beans do you need to make 12 burritos? Solution: def solution():
+    #It takes 8 ounces to make 1 cup and 2.5 cups to make 1 burrito
+    ounces_per_cup = 8
+    cups_per_burrito = 2.5
+    #A can of beans of 15 ounces to make 12 burritos?
+    can_ounces = 15
+    #it takes 8*2.5 = <<
+### Response: Question: Dana and Shirley are in a toy car race. Dana is 200 feet ahead of Shirley at the start. Dana is traveling at the rate of 5 feet per second. Shirley is traveling at the rate of 4 feet per second. How long does it takes Shirley to catch-up with Dana in the race? Solution: def solution():
+    #Dana is 200 feet ahead of Shirley
+    dana_ahead = 200
+    #Dana is traveling at 5 feet per second
+    dana_speed = 5
+    #Shirley
+### Response: Question: Evan is a scuba diver. Evan can hold his breath underwater for 2 1/2 minutes.  Tyler can hold his breath for 30% longer than Evan.  How long can Tyler hold his breath? Solution: def solution():
+    #Evan can hold his breath for 2 1/2 minutes
+    evan_breath = 2.5
+    #Tyler can hold his breath 30% longer than Evan
+    Tyler_longer = evan_breath * 30 / 100
+    #Tyler can hold his breath for 2.5 minutes plus 30% extra
+    tyler_breath = evan_breath + Tyler_longer
+    #The answer is
+    result = tyler_breath
+    return result
+### Response: Question: Two runners are competing in a 5000-meter race.  The first runner runs at a pace of 10.8 meters per second.  The second runner runs at a pace of 10 meters per second.  What is the difference in the distance ran by the two runners? Solution: def solution():
+    #The first runners runs at 10.8 meters per second.
+    pace_1 = 10.8
+    #The second runner runs at 10 meters per second
+    pace_
+### Response: Question: Jake is 9 years old, and his sister is 4 years younger. In how many years will Jake's sister turn 1
+### Response: Question: A lumberjack has 47 trees to chop down. He chops down 7 in the morning and 14 in the afternoon. How many does he have to chop down tomorrow? Solution: def solution():
+    """A lumberjack has 47 trees to chop down. He chops down 7 in the morning and 14 in the afternoon. How many does he have to chop down tomorrow?"""
+    trees_initial = 47
+    trees_chopped_morning = 7
+    trees_chopped_afternoon = 14
+    trees_chopped_total = trees_chopped_morning + trees_chopped_afternoon
+    trees_remaining = trees_initial - trees_chopped_total
+    result = trees_remaining
+    return result
+### Response: Question: Beverly has 45 toy cars. If her toy cars cost $10 each, how much is the total worth of her toy cars? Solution: def solution():
+    #Beverly has 45 toy cars
+    toy_cars = 45
+    #Each toy car cost $10
+    toy_car_cost = 10
+    #The total cost of the toy cars is 45 * $10
+    toy_car_total = toy_cars * toy_car_cost
+### Response: Question: Wentz has 60 seconds to run a 400-meter race. He is 1/3 of the way to the finish line after 20 seconds. How many more seconds will it take Wentz to finish the race? Solution: def solution():
+    #400 meters in 60 seconds means a pace of
+    pace = 400 / 60
+    #1/3 of the 400-meter race is
+    position
+### Response: Question: When the thermometer is placed in the mouth it measures the body's temperature in degrees Fahrenheit. The average body temperature in degrees Fahrenheit is 98.6. The thermometer can only provide a reading to the nearest whole degree. What is the minimum number of degrees the thermometer must differ from its actual temperature? Solution: def solution():
+    #The thermometer can only give readings in whole degrees
+    degrees_whole = 1
+    #Body temperature is 98.6, to the nearest whole degree
+    temp_whole = 99
+    #Body temperature is 98.6 degrees
+    temp_actual = 98.6
+    #The temp has to differ by at least 1 degree since 99-98 = 1
+    min_temp_difference = 1
+    return min_temp_difference
+"""
+#### 1415
+### Response: Question: Bella has 62 cows. Cows in California cost $250,000 each. She sells 14 cows. How much money did she make (in dollars)? Solution: def solution():
+    #Bella had 62 cows
+    cows_initial = 62
+    #She sold 14 of them
+    cows_sold = 14
+    #14 cows cost
+    cows_cost = 250000
+    #14 cows at $250,000 each cost
+    money_made = cows_sold * cows_cost
+    #The answer is how much money she made,
+    #which is the same as how much the cows cost.
+    result = money_made
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+##
+### Response:Question: Kendra has 4 times as many (4x) oranges as her sister, but her sister has half (1/2) as many oranges as their brother. They combined their oranges and sold all of them. Their combined oranges weighing 350 pounds were sold at $2.00 per pound. How much money (in dollars) did they make from selling oranges that theyighed 350 pounds? Solution: def solution():
+   #Kendra has 4 times as many oranges as her sister
+    kendra_oranges = 4 * oranges_sister
+    #Her sister has half as many oranges as their brother so 
+    # their sister has 1/2 as many oranges as their brother
+    oranges_sister = 1/2 * oranges_brother 
+    #Kendra's and her sister's oranges combined weighed 350 pounds
+    oranges_weight_comined = 350
+    #Their oranges weighed 350 pounds and were sold at $2.00 a pound
+    oranges_cost = 350 * 2
+    #The answer is
+    result = oranges_cost
+    return result
+### Response: Question: I have $6753388 to spend. I want to buy 2 t-shirts that cost $5 each and 2 pairs of shorts that cost $7 each
+### Response: Question: 7977285 people are traveling by car on a long distance journey.  They budgeted $5 per person for food. 4341054 people are allergic to gluten and require a special diet that costs $10 per person, and a further 200 people are vegans and require a vegetarian meal.  Meat-eaters will be provided with a hamburger and a can of soda.  The remaining people will be catered for with a meal of their choice.  The catering manager can order in 500 hamburgers and there is a 300 can inventory of soda. The venue for the meals can cater for up to 7977285 people.  How many people can be fed with the remaining funds? Solution: def solution():
+    """7977285 people are traveling by car on a long distance journey.  They budgeted $5 per person for food. 40 people are allergic to gluten and require a special diet that costs $10 per person, and a further 200 people are vegans and require a vegetarian meal.  Meat-eaters will be provided with a hamburger and a can of soda.  The remaining people will be catered for with a meal of their choice.  The catering manager can order in 500 hamburgers and there is a 300 can inventory of soda. The venue for the meals can cater for up to 4341054 people.  How many people can be fed with the remaining funds?"""
+    budget_per_person = 5
+    gluten_free_diet = 10
+### Response: Question: CJ 4D is a bakery that is open 24/7.  CJ 4D's bakers bake 220 loaves of bread a night.  The bakery is located in San Francisco and sells the loaf of bread for $3.50
+### Response: A dorm in a college has 4 floors and 3 wings. Each floor has 10 rooms per wing. Each room has 2 beds. How many beds does the dorm have? Solution: def solution():
+    #The dorm has 4 floors and 3 wings
+    floors = 4
+    wings = 3
+    #Each floor has 10 rooms, so 4 floors have 4*10 = <<10*4=40>>40 rooms
+    rooms_per_floor =
+### Response: Question: A class of 30 students has 1/6 as many boys as girls. How many girls are in the class? Solution: 
+def solution():
+    """A class of 30 students has 1/6 as many boys as girls. How many girls are in the class?"""
+    # The total class size is 30 students
+    students = 30
+    # There are 1/6 as many boys as girls
+    boy_girl_ratio = 1 / 6
+    # The number of boys is 1/6 of the total, or 1/6 * 30 = <<1/6*30=5>>5 boys
+    boys = 5
+    # The number of girls is 30 students - 5 boys, or 30 - 5 = <<30-5=25>>25 girls.
+    girls = students - boys
+    # The answer is
+    result = girls
+    return result
+### Response: Question: A shop had 2100 nails. The shopkeeper sold 800 nails. Another 500 nails were rusted and discarded. The remaining nails were packaged. How many nails were packaged? Solution: def solution():
+  # The shop had 2100 nails
+  nails_initial = 2100
+  # The shopkeeper sold 800 nails
+  nails_sold = 800
+  # 500 nails were rusted and discarded
+  nails_discarded = 500
+  #The answer is
+  result = nails_initial - nails_sold - nails_discarded
+  return result
+Below is
+### Response: Question: The total value of the cars in the parking lot of a shopping mall on a weekday is $6872975. On a weekend, there are more cars in the parking lot of the shopping mall. On a Saturday, the total value of the cars in the parking lot is $10,000. On Sunday, the total value of the cars in the parking lot is $9,400. What is the average value of the cars in the parking lot of the shopping mall on weekdays and weekends? Solution: def solution():
+    #weekday total car value = $3000
+    weekday_car_value = 6872975
+    #saturday total car value = $10,000
+    saturday_car_value = 10000
+    #sunday total car value = $9,400
+    sunday_car_value = 9400
+    #weekend total car value = 10,000 + 9400 = $19,400
+    weekend_car_value = 19400
+    #weekly total car value = $3000 + $19,400 = $22,400
+    weekly_car_value = 22400
+    #the average weekly car value is 22,400 / 7 = $<<22400/7=3200>>3200 per day.
+    average_value = weekly_car_value / 7
+    #The answer is
+    result = average_value
+    return result
+Below is an instruction that describes a task.
+### Response: Question: It is the end of the month, so it is time for the accountant to tally up everyone's hours and paychecks.  John worked 40 hours a week in a 4-week month.  He is paid a salary of $2,000 per month.  Health insurance costs him $50 per month and 10% of his salary.  How much money is in John's paycheck? Solution: def solution():
+    #John's salary is $2,000 per month
+    john_salary = 2000
+    #Health insurance costs $50 per month
+    health_insurance = 50
+    #Health insurance also costs 10% of his salary
+    health_insurance_percentage = 0.1
+    #The total cost of health insurance is $50 + (10/100)*2000
+    health_insurance_total = health_insurance + john_salary*health_insurance_percentage
+    #John worked 40 hours per week * 4 weeks per month
+    john_hours = 40 * 4
+    #He is paid an hourly wage of $2000 / 40 hours/week
+    john_hourly_wage = john_salary / john_hours
+    #John's paycheck before health insurance is (40 hours/week * hourly wage) * 4 weeks/month
+    john_paycheck_before_health_insurance = john_hours * john_hourly_wage
+    #John's take-home pay (paycheck) is john_paycheck
+### Response: Question: Mr. Hampel buys a ream of paper every time he prints 2100 pages on his printer. He has 5 reams of paper. He has used 350 pages of paper this week and the same amount of pages of paper the previous week. How many pages of paper did he use in the last two weeks? Solution: def solution():
+    #Mr. Hampel has 5 reams of paper
+    reams_of_paper = 5
+    #Each ream of paper holds 2100 pages
+    paper_per_ream = 2100
+    #He has used 350 pages of paper this week
+    pages_used_this_week = 350
+    #He has used 350 pages of paper the previous week
+    pages_used_previous_week = 350
+    #He used 350 pages this week and the same amount last week, so that's 350*2 = <<350*2=700>>700 pages
+    pages_used_total = pages_used_this_week * 2 + pages_used_previous_week
+    #The answer is
+    result = pages_used_total
+    return result
+# 350 * 2 = <<350*2=700>>700
+# 700 = pages used the last two weeks
+# 5 reams of paper at 2100 pages of paper each is 5*2100 = 10500 pages of paper
+# 700 pages used in the last 2 weeks is a lot less than the 10500 pages of paper he has, so he does not need to buy any more paper
+Bel
+### Response: 
+def solution():
+    """Mikayla has a kitten that is 4 months old and a puppy that is 5 times as old as the kitten in dog years.  In human years, how old is the puppy?  (1 dog year = 7 human years)"""
+    kitten_age_months = 4
+    puppy_dog_age_years = 5 * kitten_age_months
+    puppy_human_age_years = puppy_dog_age_years * 7
+    result = puppy_human_age_years
+    return result
+### Response: Question: The Mom and Pop Shop has a sale. Everything in the store was 25% off.  The store normally sells candy for $2 a pound and nuts for $4 a pound.  The sale ran for two days.  How much money did the store make in total sales over the two days? Solution: def solution():
+    # The candy was 25% cheaper
+    candy_discount = 0.25
+    # It's normally sold for $2 a pound
+    candy_price = 2
+    # The nuts were 25% cheaper
+    nut_discount = 0.25
+    # It's normally sold for $3 a pound
+    nut_prize = 4
+    # The sale lasted 2 days
+    sale_length = 2
+    # The total discount is 25% for each product
+    total_discount = candy_discount + nut_discount
+    # A pound of candy x 25% = 0.25*2 = $<0.25*2=0.5>0.5
+    candy_discounted = candy_price * candy_discount
+    # A pound of nuts x 25% = 0.25*4 = $<0.25*4=1>1
+    nut_discounted = nut_price * nut_discount
+    # Total revenue for the candy is not discounted $2 a pound
+    candy_not_discounted = candy_price * sale_length
+    # Total revenue for the nuts is not discounted $3 a pound
+    nut_not_dis
+### Response: Question: A 300-acre orchard can accommodate 20 beehives. How many beehives can an 800-acre orchard accommodate? Solution: def solution():
+    #The first step is to double
+    orchard_doubled = 800 * 2
+    #20 beehives per 300 acres means there are
+    #20/300 = 1/15 hives per acre
+    hives_per_acre = 1/15
+    #If the orchard is 800 acres, hives per acre means
+    #8
+### Response: Question: Cindy is making pancakes.  She can make 12 pancakes with 1 cup of pancake batter.  She has 4 cups of pancake batter.  How many pancakes can she make? Solution: def solution():
+    #Cindy can make 12 pancakes with 1 cup of batter
+    pancakes_per_cup = 12
+    #She has 4 cups of batter
+    cups_of_batter = 4
+    #She can make
+    panc
+### Response: Question: In a day, Toto can gather 6728096 stones and Panda can gather 3 times as many as Toto.  how many stones do they gather in a day? Solution: def solution():
+    #Toto gathers 6728096 stones a day
+    toto_stones = 6728096
+    #Panda gathers 3 times as many as Toto
+    panda_stones = toto_stones * 3
+    #The answer is
+    result = toto_stones + panda_stones
+    return result
+### Response: Question: Kylie has $23. She bought two donuts for $3 each. She then bought a cinnamon bun for $7.25. How much money did Kylie have left? Solution: def solution():
+    #Kylie started with $23
+    money_initial = 23
+    #Two donuts at $3 per donut cost
+    donut_cost = 3
+    #Kylie spent $3 * 2 for donuts
+    money_spent_donuts = donut_cost * 2
+    #A cinnamon bun cost $7.25
+    cinnamon_bun_cost = 7.25
+    #Kylie spent 7.25 for the cinnamon bun
+    money_spent_cinnamon = cinnamon_bun_cost
+    #The answer is
+    result = money_initial - money_spent_donuts - money_spent_cinnamon
+    return result
+### Response: Question: Nile is 70 meters wide. The Blue Nile (a tributary of the Nile) is 15 meters deep. What is the volume of the Blue Nile in liters? (One liter is one 10th of a cubic decimeter.) Solution: def solution():
+    #The Blue Nile is 15 meters wide and 70 meters long
+    blue_nile_length = 70
+    blue_nile_width = 15
+    #to find the volume of the Blue Nile you have to Multiply the length by the width and by 10 (because 1 liter is 10 decimeters cubed):
+    volume_of_blue_nile = blue_nile_length * blue_nile_width * 10
+    #
+### Response: Question: Jill ate her lunch in 1542204 seconds. She ate her pudding in 1/4 the time. How long did it take her to eat her lunch and pudding? Solution: def solution():
+    #Jill ate her lunch in 42 seconds
+    lunch_time = 1542204
+    #Pudding was her final dessert, and that took 1/4 the time of the rest of the meal
+    pudding_time = lunch_time / 4
+    #The answer is
+    result = lunch_time + pudding_time
+    return result
+
+### Instruction:
+Write a program that calculates the speed of an object in miles per hour if you know the distance traveled in miles and the time of the journey in hours.
+For example, if an object travels 175 miles in 3 hours, calculate its speed in miles per hour. Solution: def solution():
+   pass
+### Instruction:
+The average person eats over 365 apples during their lifetime. The average person eats two at every meal.  How many meals does the average person eat during their lifetime? Solution: def solution():
+   pass
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+At the Dovey Dove Daycare Centre, the number of kids in the day care increases by 10 each month. Currently, there are 40 kids at the daycare. How many kids will be at the daycare in a year's time? Solution: def solution():
+    #There are currently 40 kids
+    kids_now = 4
+### Response: Question: Ms. Jones had 28 students for the first three months of the school year.  She added 6 more students to her class.  How many students does Ms. Jones have now? Solution: def solution():
+    #Ms.Jones started with 28 students in her class
+    students_initial = 28
+    #She added 6 more to her class
+    students_added = 6
+    #The answer is
+    result = students_initial + students_added
+    return result
+### Response: Question: In a class with 100 students, 20 students got a 90 or above on a test, 45 students got a C, and the other 35 got something lower. How many more A/B students were there than F students? Solution: def solution():
+    #100 students in total
+    students_total = 100
+    #20 got an A or B
+    a_and_b_students = 20
+    #45 students got a C
+    c_students = 45
+    #35 got a D or F
+    d_and_f_students = 35
+    #We're looking for the number of A and B students - F students
+    #So we want 20 - 35
+    result = a_and_b_students - d_and_f_students
+    return result
+### Response: Question: An alchemist can turn 5 leaden into 2 gold.  How many gold is 15 leaden worth? Solution: def solution():
+    #Alchemist can turn 5 leaden into 2 gold
+    lead_to_gold_ratio = 5
+    #So 15 leaden is worth
+    gold_value = 15 / lead_to_gold_ratio
+    #15/5 = <<15/5=3>>3
+    result = gold_value
+    return result
+### Response: Question: The glee club from McKinley High School has 5121858 members. 321858 of the members are altos, 70% of the remainder are sopranos, and the rest are tenors.How many tenors are there? Solution: def solution():
+    #The glee club has 40 members
+    glee_club_members = 40
+    #It has 321858 altos
+    altos = 321858
+    #321858 altos and sopranos make up 70% of the club
+    70_percent_members = altos + 0.7 * (glee_club_members - altos)
+    #The rest are tenors
+    tenors = glee_club_members - 70_percent_members
+    #The answer is 10 tenors
+    result = tenors
+### Response: Question: The butcher is selling pounds of beef for $8.50 per pound.  He has 180 pounds of beef in the cooler.  If he sells 60% of the beef, how much money will he take in? Solution: def solution():
+    #The butcher has 180 pounds of beef
+    beef = 180
+    #He is selling beef for $8.50 per pound
+    beef_cost = 8.50
+    #sells 60% of the beef
+    beef_sold = 0.60
+    #60% of the beef, which is 180*0.60, is 180*0.60=<<180*0.60=108>>108 pounds of beef
+    pounds_beef_sold = 108
+    #108 pounds of beef at $8.50 per pound will sell for 108*8.50=$<<108*8.50=913>>913
+    money_taken_in = 913
+    #The answer is
+    result = money_taken_in
+    return result
+### Response: Question: At his new job at a pizzeria, BJ has to wear a uniform. The hat and the shirt together cost $14. The black pants cost $19.5. How much is the entire uniform? Solution: def solution():
+    #The hat and shirt cost $14
+    hat_shirt_cost = 14
+    #The pants cost $19
+    pants_cost = 19.5
+    #The answer is
+    result = hat_shirt_cost + pants_cost
+    return result
+"""
+    samples = [textwrap.dedent(s) for s in EXAMPLES]
+    form_field = "form-45586025"
+    data = {"form-45586025": instruction, "form-45586025-1": samples[0], "form-45586025-2": samples[1], "form-45586025-3": samples[2]}
+    answer_key = {form_field: EXPECTED_AUTO_CATEGORIZE_RESULTS_key}
+    assert_roundtrip(data, answer_key, metadata={"form": form_field})
+
+
+def main():
+    samples = [s for s in EXAMPLES
+### Response: Question: A pants seller has 100 pants in his store. 200 people come to the store, and everyone buys one pant. How many pants does the seller have left? Solution: def solution():
+    #The pants seller had 100 pants
+    pants_start = 100
+    #200 people each bought 1 pant
+    pants_sold = 200 * 1
+    #The seller sold 200 pants
+    result = pants_start - pants_sold
+    return result
+### Response: Question: An inbound sales representative is paid a fixed weekly salary of $1,000, which is not dependent on the number of sales.  She also receives a commission of 5% on all sales.  During a particular week, the inbound sales representative made 7 sales.  How much total salary did she earn for the week? Solution: def solution():
+    #The inbound sales representative has a weekly salary of 1000
+    salary = 1000
+    #She made 7 sales and gets a 5% commission
+    sales = 7
+    commission = 5 / 100 * sales
+    #The answer is
+    result = salary + commission
+    return result
+### Response: Question: Mia was 30 years old 20 years ago. How old is she now? Solution: def solution():
+    mia_age_20_years_ago = 30
+    mia_age_now = mia_age_20_years_ago + 20
+    return mia_age_now
+### Response: Question: A candy factory making 13000 candy canes per day is having a defective batch. 1800 are not formed properly and 900 more are too thick. The candy company has to throw these out. How many candy canes does the factory make each day? Solution: def solution():
+    #1800 are not formed properly and 900 more are too thick. The candy company has to throw these out.
+    candies_defective = 1800 + 900
+    #A candy factory is making 13000 candy canes per day
+    candies_made = 13000
+    #The factory has to throw out 1800 bad candies + 900 more candies that are too thick.
+    candies_thrown_out = candies_made - candies_defective
+    #The answer is 13,000.
+    result = candies_made - candies_thrown_out
+    return result
+### Response: Question: Tina is 16 years old. In 18 months, she'll be 2 times her current age. How old is Tina in months? Solution: def solution():
+    #Tina is 16 years old
+    tina_age = 16
+    # she'll be 2 times her current age in 18 months.
+    future_age = 2 * tina_age
+    #The answer is 
+    result = future_age
+    return result
+### Response: Question: A paddle-boat rental place rents paddle-boats for $15 for one hour.  The life jackets cost $4063813.  You can also rent paddles for $2
+### Response: Question: Elias has three time trial races coming up, and he needs to improve his time to make Team USA.  His goal is to finish the 5000-meter race in 13:10 and the 10,000-meter race in 27:00, which is three minutes and three minutes and thirty seconds faster, respectively, than his current personal best. His most recent 1500-meter time trial was 3:45, which was six seconds slower than his previous best. On average, he has been losing 2.333... seconds from each of his personal best times. If this trend holds, how much time will he take off of his 1500-meter time at his next time trial? Solution: def solution():
+    #He has three time trial races.
+    time_trials = 3
+    #His goal is to do the 5000-meter race in 13:10
+    goal_5000 = 1310
+    #and the 10,000-meter race in 27:00
+    goal_10000 = 2700
+    #Which is 3 minutes and 3.5 minutes
+    #respectively, faster than his current personal best.
+    improvement_5000 = 3 * 60
+    improvement_10000 = 3.5 * 60
+    #His most recent 1500-meter time trial was 3:45, which was six seconds slower than his previous best.
+    #On average, he has been losing 2.333... seconds from each of his personal best times.
+    #If this trend holds, how much time
+### Response: Question: To make a pineapple upside-down cake, the bakery needs to know the cost of each p
+### Response: Question: The CIA agent must get the briefcase of top-secret documents to the Director of the CIA as soon as possible. He has 100 miles to travel. He drives at 30 miles per hour until he is chased by 10 cops and must escape. He shakes off 4 of the police, but the remaining 6 police cars are still pursing him. To escape them, he must now drive 80 miles per hour. How long will it now take him to deliver the briefcase? Solution: def solution():
+    #The agent has 100 miles to travel.
+    miles_to_travel = 100
+    #He was driving 30 miles per hour
+    miles_per_hour_traveled = 30
+    #The cops made him go 80 miles per hour
+    miles_per_hour_escaping = 80
+    #The time he spent driving before the cops is
+### Response:Question: Brianna and 4 of her friends are on a hike. They each drank 1.5 liters of water. How many liters of water did Brianna and her friends drink in total? Solution: def solution():
+    #Brianna and her friends are 5 people
+    people = 5
+    #Each person drank 1.5 liters
+    water_per_person = 1.5
+    #For 5 people, they drank
+    total_water = people * water_per_person
+    #In liters, they drank
+    result = total_water
+    return result
+### Response: Question: Kieran, Shelby and Vander each bought 3-packs of socks. Kieran's socks cost $6. Shelby's socks cost $8. Vander's socks cost $2. How much did they spend, altogether on socks? Solution: def solution():
+    #Kieran's socks cost $6
+    kieran_socks = 6
+    #Shelby's socks cost $8
+    shelby_socks = 8
+    #Vander's socks cost $2
+    vander_socks = 2
+    #The total cost 
+    total_cost
+### Response: Question: Tracy is shopping for cans of beans. She goes to the grocery store to buy 8 cans. Each can is $0.65. She also goes to the farmers market to buy 4 cans.  She gets a special discount on cans bought at the farmer's market and only has to pay $0.50 per can. She also goes to a Big Box store and buys 20 cans. 2
+### Response: Question: The bartender at the Red & White Club gave each of 38 thirsty patrons two beers.  What was the total number of beers the bartender served that evening? Solution: def solution():
+   #The bartender gave 2 beers to 38 patrons
+    beers_given = 2 * 38
+    #So they gave a total of
+    result = beers_given
+    return result
+### Response: Question: Vince can bench press 135 pounds.  He can do 8926407.25 reps at that weight.  He has been working out and can now bench press 30% more weight but he can only do 3/4 of the reps he could before at that weight.  How many reps can he do at the new weight? Solution: def solution():
+    '''Vince can bench press 135 pounds.  He can do 25 reps at that weight.  He has been working out and can now bench press 30% more weight but he can only do 3/4 of the reps he could before at that weight.  How many reps can he do at the new weight?'''
+    weight_initial = 135
+    reps_initial = 8926407
+    weight_increase = weight_initial * 0.3
+### Response: Question: A piggy bank is full of coins. The piggy bank has 100 dimes, 80 pennies, and 40 nickels. How much is the piggy bank worth? Solution: def solution():
+    '''A piggy bank is full of coins. The piggy bank has 100 dimes, 80 pennies, and 40 nickels. How much is the piggy bank worth?'''
+    #the piggy bank has 100 dimes
+    dimes = 100
+    #the piggy bank has 80 pennies
+    pennies = 80
+    #the piggy bank has 40 nickels
+    nickels = 40
+    #100 dimes are worth 100*10 = $<<100*10=1000>>1000
+    dime_value = 1000
+    #80 pennies are worth 80*1 = $<<80*1=80>>80
+    penny_value = 80
+    #40 nickels are worth 40*5 = $<<40*5=200>>200
+    nickel_value = 200
+    #the total value of the piggy bank is the value of each type of coin and is
+    total_value = dime_value + penny_value + nickel_value
+    return total_value
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a math word problem and Python code with a commented out step-by-step solution to
+### Response: Question: Sia and her friends need to raise $270 for a charity. They did a bake sale and raised $60. Their parents then matched the amount they made and donated the money to the charity. How much money did Sia and her friends still need? Solution: def solution():
+    #Sia and her friends need to raise $270
+    money_needed = 270
+    #They made $60 from a bake sale
+    money_raised = 60
+    #If you add the money the parents donated
+    #it's still not enough
+    money_parents_donated = 60
+    #Sia and her friends still need
+    result = money_needed - money_raised - money_parents_donated
+    return result
+### Response: Question: A vet has 2677063 animals that they treat. They treat 12 cats and 14 dogs. How many animals does the vet have left to treat? Solution: def solution():
+    #The vet started with 20 animals
+    animals_initial = 26
+    #The vet treated 12 cats
+    cats_treated = 12
+    #The vet treated 14 dogs
+    dogs_treated = 14
+    #The vet used a total of 12 + 14 = <<12+14=26>>26 treatments
+    treatments_used = 26
+    #The vet has 26 - 26 = <<26-26=0>>0 left to treat
+    animals_left = 0
+    return result
+### Response: Question: Lilly and Jake are at a restaurant with their mom. Lilly orders a hamburger for $5. Jake orders a hotdog for $4. Their mom orders a steak for $20. The sales tax is 6%. The waiter's name is Earl. How much does the bill look like, including the tip? Solution: def solution():
+    #Lilly and Jake were at a restaurant with their mom
+    #Lilly ordered a $5 hamburger
+    lilly_hamburger = 5
+    #Jake ordered a $4 hotdog
+    jake_hotdog = 4
+    #Their mom ordered a $20 steak
+    mom_steak = 20
+    #The sales tax was 6%
+    sales_tax = 0.06
+    #The steak, the hamburger, and the hot dog cost
+    food_cost = lilly_hamburger + jake_hotdog + mom_steak
+    #Tax was 6%
+    tax = food_cost * sales_tax
+    #The bill comes to the cost of the food plus the tax
+    bill_before_tip = food_cost + tax
+    #A reasonable tip is 20%
+    tip_percent = 0.2
+    #The tip amount is 20% of the bill
+    tip_amount = bill_before_tip * tip_percent
+    #The total amount of the bill is the cost of the food, the tax and the tip
+    total_bill = bill_before_tip + tip_amount
+    #They should thank Earl for his service
+    #and give him a nice tip
+    thank_you_earl = 'Thank you, Earl. We left you a nice tip!'
+###
+### Response: Question: In Acapulco, it is 90.3 degrees.  The temperature in Denver is 50.6 degrees.  What is the difference in temperature between Acapulco and Denver in degrees Celsius?  Solution: def solution():
+    """In Acapulco, it is 90.3 degrees.  The temperature in Denver is 50.6 degrees.  What is the difference in temperature between Acapulco and Denver in degrees Celsius?"""
+    acapulco_temp = 90.
+### Response: question: An avalanche is moving 13829631 downhill. It stops 13829631 of the way down the hill, and then reverses direction and travels (up the hill) 25% as far as it had previously come down. How far did the avalanche travel, in meters, from its origin to where it stopped after reversing its course? Solution: 
+def solution():
+    """An avalanche is moving 2000 downhill. It stops 2500 meters of the way down the hill, and then reverses direction and travels (up the hill) 25% as far as it had previously come down. How far did the avalanche travel, in meters, from its origin to where it stopped after reversing its course?"""
+    avalanche_origin = 0
+    avalanche_distance_down = 2000
+    avalanche_distance_up = avalanche_distance_down * 0.25
+    avalanche_distance_traveled = avalanche_distance_down + avalanche_distance_up
+    result = avalanche_distance_traveled
+    return result
+### Response: Question: Ms. Vera’s 2nd-grade class has 65344630 students. 1/3 of her students were absent today. The rest of the class is going on a field trip. The school will not have enough buses, so Ms. Vera is renting a number of buses equal to 1/2 the number of students on the field trip. The rental cost is $6534463 per bus. How much is the rental cost of the buses? Solution: def solution():
+    Ms. Vera's class size = 25
+    absences = Ms. Vera's class size / 3
+    students on the field trip = Ms. Vera's class size - absences
+    buses needed = students on the field trip / 2
+    bus rental price = 6534463
+    rental cost for the buses = buses needed * bus rental price
+    rental_cost = 25 - (25/3)
+    return rental_cost
+### Response: Question: A pony carousel at the fair has a 3-minute ride. A kid will pay $2 for 1 ride, but if they buy 3 or more rides, each ride will cost only $1.5. How much does a group of 3 kids pay for unlimited pony rides? Solution: def solution():
+    #A pony carousel at the fair has a 3-minute ride. A kid will pay $2 for 1 ride, but if they buy 3 or more rides, each ride will cost
+### Response: Question: David is selling jumbo shrimp.  He sells 10 pounds of shrimp at $10 per pound to his sister.   His brother then buys twice that amount of shrimp.  His dad decides to also buy 40 pounds of shrimp.  He then donates 30% of all of the money he made to a local aquarium.  How much does David donate to the aquarium? Solution: def solution():
+    #David's sister bought 10 pounds of shrimp
+    shrimp_sister_pounds = 10 * 10
+    #The cost per pound is $10
+    shrimp_sister_cost = 0.01 * 10
+    #David's brother bought twice as much shrimp as his sister
+    shrimp_brother_pounds = 2 * 10 * 10
+    #40 pounds at $10 per pound is
+    shrimp_dad_cost = 40 * 0.1
+    #The total amount of money made is
+    total_shrimp_sales = 10 * 10 * 0.01 + 2 * 10 * 10 *0.01 + 40 * 0.1
+    #First calculate 30% of the sales
+    sales_30_percent = total_shrimp_sales * .30
+    #Now subtract that from the total sales to get the amount of the donation
+    donation = total_shrimp_sales - sales_30_percent
+    #The answer is
+    result = donation
+    return result
+### Response: Question: Tara's class is selling carnations for a fundraiser.  Each carnation is 25 cents.  If the class sells at least 100, they can get a 25% discount on their next field trip.  They sold 45 carnations in the morning.  In the afternoon, they sold 40 carnations.  How much money did they make?  Will they be able to get the discount? Solution: def solution():
+    #The carnations are 25 cents each
+    carnation_cost = 0.25
+    #45 carnations sold in the morning and 40 carnations in the afternoon
+    car
+### Response: Question: The gymnasium is 150 feet long and 80 feet wide. A full-sized basketball court is 94 feet long and 50 feet wide. How many full-sized basketball courts can fit into the gymnasium? Solution: def solution():
+   #The gymnasium is 150 feet long and 80 feet wide
+    gym_length = 150
+    gym_width = 80
+    #A full-sized basketball court is 94 feet long and 50 feet wide
+    court_length = 94
+    court_width = 50
+    #The gym is 150 x 80 square feet
+    gym_sq_feet = gym_length * gym_width
+    #150 x 80 square feet is __12000__ square feet
+    gym_square_feet_converted = 12000
+    #94 x 50 square feet is 4700 square feet
+    court_square_feet = court_length * court_width
+    #12000/4700 is <<12000/4700=2.55>>2.55
+    #2.55 courts can fit in the gymnasium
+    result = court_square_feet / gym_square_feet
+    return result
+### Response: Question: The gym sold 500 memberships. 70% of the people who join the gym rarely or never go. 10% of the people who go to the gym rarely or never wipe down the equipment.  How many people in the gym today did not wipe down the equipment? Solution: def solution():
+"""The gym sold 500 memberships.
+70% of the people who join the gym rarely or never go.
+10% of the people who go to the gym rarely or never wipe down the equipment.
+ How many people in the gym today did not wipe down the equipment?"""
+membership_sold = 500
+membership_percent_not_going = 0.7
+membership_percent_not_wiping = 0.1
+membership_not_going = membership_sold * membership_percent_not_going
+membership_not_wiping = membership_not_going * membership_percent_not_wiping
+result = membership_not_wiping
+return result
+### Response: Question: This morning, the farmer's market had 150 crates of oranges and 308 bananas. By midday, 110 crates of oranges and 190 bananas were sold. How many fruits in total (sum of oranges and bananas) were sold? Solution: def solution():
+   #The farmer's market started with 150 crates of oranges and 308 bananas
+    oranges_initial=150
+    bananas_initial=308
+    #110 crates of oranges and 190 bananas were sold
+    oranges_sold=110
+    bananas_sold = 190
+    #The market sold 110 oranges and 190 bananas
+    fruits_sold = oranges_sold + bananas_sold
+    #The answer is
+    result = oranges_initial + bananas_initial - fruits_sold
+    return result
+### Response: Question: 
+def solution():
+### Response: Question: Osei-Kofi's class planted a tree in the school courtyard.  Osei-Kofi was in charge of watering the tree.  There were 40 students in the class, and on each watering day, Osei-Kofi had to carry 2 buckets of water to the tree.  The buckets could hold 2 liters of water each, and the tree required 20 liters of water each watering.  If the class watered the tree once a week, how much water did Osei-Kofi carry to the tree in the first month (4 weeks) of the school year? Solution: 
+def solution():
+    """Osei-Kofi's class planted a tree in the school courtyard.  Osei-Kofi was in charge of watering the tree.  There were 40 students in the class, and on each watering day, Osei-Kofi had to carry 2 buckets of water to the tree.  The buckets could hold 2 liters of water each, and the tree required 20 liters of water each watering.  If the class watered the tree once a week, how much water did Osei-Kofi carry to the tree in the first month (4 weeks) of the school year?"""
+    students = 40
+    buckets_per_student = 2
+    bucket_volume = 2
+    tree_water = 20
+    waterings_per_week = 1
+    weeks_per_month = 4
+    waterings_per_month = waterings_per_week * weeks_per_month
+    carried_water = (students * buckets_per_student * bucket_volume
+### Response: Question: The Tornadoes, a
+### Response: Question: Amanda's bakeshop has 50 customers in the morning and 87 customers in the afternoon.  The Cupcake Shoppe next door has 40 morning customers and 63 afternoon customers.
+### Response: Question: A candy necklace has 26 beads on it - 13 are blue, 8 are green, and the rest are pink. How many pink beads are there? Solution: def solution():
+    #A candy necklace has 26 beads on it - 13 are blue, 8 are green, and the rest are pink.
+    #How many pink beads are there?
+    total_beads = 26
+    blue_beads = 13
+    green_beads = 8
+    pink_beads = total_beads - blue_beads - green_beads
+    #The answer is
+    result = pink_beads
+    return result
+### Response: Question: Derek is six years older than his sister, Tammy, who is 15. Their brother, James is 3 times as old as Tammy. How old is James? Solution: def solution():
+    #Derek is 6 years older than his sister, Tammy, who is 15.
+    derek_age = 21
+    #Their brother, James is 3 times as old as Tammy
+    james_age = derek_age * 3
+    #The answer is
+    result = james_age
+    return result
+### Response: Question: On Black Friday, 15,000 people lined up outside the doors of the Best Buy Theater. But only 9,000 tickets were for sale. The theater is designed to only allow 7000 people to enter. How many people were disappointed? Solution: def solution():
+    #15,000 People lined up, but only 9,000 could get tickets
+    15000 = 9000
+    #9000 tickets for 7000 seats means
+    9000 - 7000 = 2000 people were disappointed
+    return result
+### Response: Question: The Raging Bulls have the most expensive season tickets in the NBA.  Their price is 4.7 times the cost of the New York Knicks, whose tickets cost $95. How much do the Bulls' tickets cost? Solution: def solution():
+    #The Knicks' tickets cost $95 and the Bulls' are 4.7 times that price
+    knicks_tickets = 95
+    bulls_tickets = knicks_tickets * 4.7
+    #The answer is
+    result = bulls_tickets
+    return result
+### Response: Question: Eliza is a lighthouse keeper. She has to polish 1439501 Fresnel lenses every day. She can polish 1 lens in 3 minutes. How many hours does it take for Eliza to polish all the Fresnel lenses? Solution: def solution():
+    #Eliza has to polish 5 lenses a day
+    lenses_to_polish = 1195
+    #It takes 3 minutes to polish one lens
+    time_per_lens = 3
+    #The total time it takes her to polish 1195 lenses is 5*3=<<5*3=15>>15 minutes
+    time_total = lenses_to_polish * time_per_lens
+    #15 minutes is the same as 15/60 hours
+    hours = time_total / 60
+    #The answer is
+    result = hours
+    return result
+### Response: Question: I bought a 5-pound bag of M&M's. I ate 1/5 of the 3-ounce bags of M&M's. How many ounces of M&M's did I eat? Solution: def solution():
+#I bought a 5-pound bag of M&M's.
+#I ate 1/5 of the bags of M&M's.
+#There are 278 3-ounce bags of M&M's in a
+### Response: Question: The first 6514834 eggs in a carton cost $5.  Eggs 7 through 12 cost $2 each.  Eggs 13 and higher cost $1.20 each.  How much does it cost to buy 40 eggs? Solution: 
+def solution():
+    """The first 12 eggs in a carton cost $5.  Eggs 7 through 12 cost $2 each.  Eggs 13 and higher cost $1.20 each.  How much does it cost to buy 40 eggs?"""
+    eggs_in_carton = 40
+    eggs_1_12 = 12
+    eggs_13_higher = 40 - eggs_1_12
+    eggs_1_6 = 6
+    eggs_7_12 = eggs_1_12 - eggs_1_6
+    eggs_cost_1_12 = 5
+    eggs_cost_7_12 = 2
+    eggs_cost_13_higher = 1.2
+    carton_cost = (eggs_1_12 * eggs_cost_1_12) + (eggs_7_12 * eggs_cost_7_12 ) + (eggs_13_higher * eggs_cost_13_higher)
+    return carton_cost
+### Response: Question: The class was on a field trip to the nature preserve. They had 1753312 students. 50% of the students found 3 lizards each and the rest found 2. How many lizards did the class find? Solution: def solution():
+    #Class had 100 students
+    students = 1753312
+    #25% of 100 is 25, half of 100 is 50
+    students_found_2_lizards = 25
+    students_found_3_lizards = 50
+    #25% of 100 found 2 lizards, 50% of 100 found 3.
+    lizards_found_2 = students_found_2_lizards * 2
+    lizards_found_3 = students_found_3_lizards * 3
+    #The total lizards found is 25*2 + 50*3
+    total_lizards = lizards_found_2 + lizards_found_3
+    #The answer is
+    result = total_lizards
+    return result
+### Response: Question: John gave a three-quarters of his money to his brother.  He then divided what was left by five, and kept three of the resulting values.  He gave the other two values to his cousins.  He used to have $96.  How much did he give to his cousins? Solution: def solution():
+    #John Used to have $96
+    money_initial = 96
+    #He gave a three-quarters of his money to his brother
+    giving_brother = 3/4
+    #He now has $10 left
+    money_left = 10
+    #He divided $10 by 5
+    money_divided = 10 / 5
+    #Kept 3 of the divided portions
+    keeping_3_values = 3
+    #Gave 2 cousins the other values
+    giving_2_cousins = 2
+    #The answer is
+    result = (money_initial * giving_brother) * (1 - keeping_3_values + giving_2_cousins
+### Response: Question: Mick can only type 10 words per minute. He is transcribing a 120-word-per minute voice recording. How long will it take him in minutes to transcribe the recording? Solution: def solution():
+    #Mick can type 10 words per minute and needs to transcribe a 120 word per minute recording
+    mick_words_per
+### Response: Question: It takes 7893411 beans to make 1 ounce of coffee. 1 pound of coffee beans makes 1085565 ounces of coffee.  Coffee is sold by the pound.  Ralph's Market sells coffee for $5.00 per pound.  Sam's Club sells coffee for $3.99 per pound.  Where can you save the most money per 96 ounces of coffee? Solution: def solution():
+    '''
+    7 beans makes 1 ounce of coffee
+    1 pound of coffee beans makes 1085565 ounces of coffee
+    Coffee is sold by the pound.
+    Ralph's Market sells coffee for $5.00 per pound.
+    Sam's Club sells coffee for $3.99 per pound.
+    Where can you save the
+### Response: Question: Matias is a soccer player. He is 177 centimeters or 69.69 inches tall.  He is also 64 kilograms or 141.1 pounds.  How many ounces does Matias weigh? Solution: def solution():
+     #Matias is 177 centimeters
+    centimeters = 177
+     #177 centimeters is 69.69 inches
+    inches = centimeters
+     #69.69 inches is <<69.69*12=836.28>>836.28 ounces
+    ounces = inches * 12
+     #Matias is also 64 kilograms
+    kilograms = 64
+     #64 kilograms is 141.1 pounds
+    pounds = kilograms
+     #141.1 pounds is 2002.2 ounces
+    ounces = pounds * 16
+    #The answer is
+    result = ounces
+    return result
+### Response: Question: Chloe and 11 of her friends decided to bake and sell 3045363 cookies to raise $60 for a gift for their music teacher. They needed to buy 2 bags each of chocolate bits, M&Ms, and sprinkles. The bags of chocolate were $3 each, the bags of M&Ms, were $6.5 each, and the sprinkles cost $2.5 a bag. When they sold the 3045363 cookies, they also made a nice batch of fudge that they cut into 6045363 pieces and sold a piece for $1.20. They also made some oatmeal peanut butter balls (PBOMMs) and sold them for 2 for $0.50. They made 40 peanuts butter balls. They sold all the 3045363 cookies and all
+### Response: Question: Restaurant A has 12 more tables than Restaurant B, and Restaurant B has 3370189 tables more than Restaurant C. Restaurant C has 20 tables. How many tables are there in Restaurant A? Solution: def solution():
+    #Restaurant C has 20 tables
+    restaurant_c_tables = 20
+    #Restaurant B has 3370189 tables more than Restaurant C
+    restaurant_b_tables = restaurant_c_tables + 3370189
+    #Restaurant A has 12 more tables than Restaurant B
+    restaurant_a_tables = restaurant_b_tables + 12
+    #The answer is
+    result = restaurant_a_tables
+    return result
+### Response: Question: Sally has 2241153 pencils. Her two friends also have pencils. They all need to take an exam and decide to share pencils. Sally's friend one has 12 pencils and Sally's friend two has 17 pencils. Sally and her two friends will all need 2 pencils for the exam. How many pencils are left? Solution: def solution():
+    #Sally has 23 pencils
+    sally_pencils = 2241153
+    #Friend one has 12 pencils
+    friend_one_pencils = 12
+    #Friend two has 17 pencils
+    friend_two_pencils = 17
+    #They are taking an exam that requires two pencils each
+    pencils_needed = 2
+    #Friend one has enough pencils
+    friend_one_ok = friend_one_pencils >= pencils_needed
+    #Friend two has enough pencils
+    friend_two_ok = friend_two_pencils >= pencils_needed
+    #In total, they have 41 pencils
+    total_pencils = sally_pencils + friend_one_pencils + friend_two_pencils
+    #In total, they need 6 pencils
+    total_needed = pencils_needed * 3
+    #They have some left over
+    pencils_left = total_pencils - total_needed
+    #The answer is
+    result = pencils_left
+    return result
+### Response: Question: There are 86344880 bees in a beehive. 20% of the bees are drones and the rest are workers. How many worker bees are there? Solution: def solution():
+    #There are 100 bees in a beehive
+    bees_total = 8634488
+    #20% of the bees are drones
+    drones = bees_total * 0.2
+    #The rest of the bees are workers
+    workers = bees_total - drones
+    return workers
+#### 80
+### Response: Question: The candy store has 300 bags of candy. A store assistant, Kelvin, sold 23 bags of candy in the morning rush and 57 bags during the afternoon rush. The chief executive officer of the Candy Store, John, then took 14 bags of candy. How many bags of candy were left? Solution: def solution():
+        #The candy store had 300 bags of candy
+        candy_bags_initial = 300
+        #Kelvin sold 23 bags of candy in the morning rush
+        candy_morning_sold = 23
+        #He sold 57 bags of candy during the afternoon rush
+        candy_afternoon_sold = 57
+        #John then took 14 bags of candy
+        candy_stolen = 14
+        #The answer is
+        result = candy_bags_initial - candy_morning_sold - candy_afternoon_sold + candy_stolen
+    return result
+### Response: Question: Shelley and her family were vacationing on the west coast when the infamous Cascadia quake hit.  The resulting tsunami flooded the first three flo
+### Response: Question: A pork roast costs $6 more than a chicken, and a chicken costs $12 less than a duck. A duck costs $38.  How much does a pork roast cost, in dollars? Solution: def solution():
+   #A pork roast costs $6 more than a chicken, and a chicken costs $12 less than a duck. A duck costs $38.
+    pork_price_increment = 6
+    chicken_price_decrement = 12
+    duck_
+### Response: Question: The lunch price at the cafeteria is $4 for a hamburger, $3 for salad, $5 for a cheeseburger, and $2 for a slice of pizza.  How much does a student need who buys one hamburger, one salad, one cheeseburger, and two slices of pizza? Solution: def solution():
+    #The price of a hamburger is $4
+    hamburger_cost = 4
+    #The price of a salad is $3
+    salad_cost = 3
+    #The price of a cheeseburger is $5
+    cheeseburger_cost = 5
+    #The price of a pizza slice is $2
+    pizza_slice_cost = 2
+    #One hamburger, one salad, one cheeseburger, and two slices of pizza cost
+    cost = hamburger_cost + salad_cost + cheeseburger_cost + pizza_slice_cost*2
+    #The answer is
+    result = cost
+    return result
+### Response: Question: Sascha’s boss gives her a 7% commission on every home she sells.  She sold 7296137 homes this March.  What was her commission for this month? Solution: def solution():
+    SaschaCommission = 0.07
+    #Sascha sold 4 homes this month
+    homesSold = 7296137
+    #Each home Sascha sold has a commission of .07
+    commissionPerHome = SaschaCommission
+    #The total commission Sascha has
+### Response: Question: Nigel and his brother, Lance, are selling their toys. Nigel is selling 6 toy cars, 2 toy planes, and 5 toy boats. Lance is selling 23 toy cars, 6 toy planes, and 9 toy boats. How many toys are they selling in all? Solution: def solution():
+    #Nigel is selling 6 toy cars
+    nigel_toycars = 6
+    #2 toy planes and 5 toy boats
+    nigel_toys = 2 + 5
+    #Lance is selling 23 toy cars, 6 toy planes, and 9 toy
+### Response: Question: Jodi and her two friends, Eve and Gwen, are to buy a number of items that will cost $3000. Jodi and Eve each contribute an amount twice as much as what Gwen did. Among the three of them, how much do they spend on the items? Solution: def solution():
+    #The three friends need to spend $300
+    spending_target = 3000
+### Response: Question: An Olive Garden has 150-seats. 75% are occupied. 60% of those eating their meal are finishing up. 20% are halfway through their meal. 10% are about a quarter through their meal. 4% are just starting their meal. 1% haven't ordered and the rest have finished their meal. How many patrons are done eating? Solution: def solution():
+    #135 guests are eating a meal
+    diners_eating = 150 * 0.75
+    #60% of 135 dinners are finishing up equals 135 * 0.6 = 81 diners.
+    diners_finishing = diners_eating * 0.6
+    #20% of 135 diners are halfway through their meal
+    diners_halfway = diners_eating * 0.2
+    #10% of 135 are a quarter through their meal, 135 * 0.1 = 13.5
+    diners_quarter = diners_eating * 0.1
+    #4% of 135 are just starting their meal
+    diners_starting = diners_eating * 0.04
+    #1% of 135 haven't ordered yet
+    diners_not_ordered = diners_eating * 0.01
+    #Adding up all the done and not done diners is 135 + 81 + 39.5 + 13.5 + 5.4 + 1.35
+    diners_done_or_not
+### Response: Question: The Bayside Restaurant Menu offers a surf and turf combo meal for $40.  The surf
+### Response: Question:
+
+### Response: Write a comment outlining the steps you took to solve the problem, then code your solution in Python.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a 2-paragraph review of the last movie you watched. The first paragraph should be a summary of the plot and the second paragraph is your opinion about the acting.
+
+### Response: Paragraph 1 is the summary.
+### Response: Paragraph 2 is the opinion.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a 2-paragraph review of the last movie you watched. The first paragraph should be a summary of the plot and the second paragraph is your opinion about the acting.
+
+### Response: Paragraph 1 is the summary.
+### Response: Paragraph 2 is the opinion.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a 2-paragraph review of the last movie you watched. The first paragraph should be a summary of the plot and the second paragraph is your opinion about the acting.
+
+### Response: Paragraph 1 is the summary.
+### Response: Paragraph 2 is the opinion.
+Below is
+### Response: Question: A car dealer sells 50 cars last month. In January of this year, the dealer sold twice the number of cars. How many cars did the dealer sell in January and February combined? Solution: def solution():
+    #The dealer sold 50 cars in February
+    car_sold_feb = 50
+    #In January, the dealer sold twice as many cars as it did in February
+    car_sold_jan = 2 * car_sold_feb
+    #Combined, the dealer sold 50 in February and January * 2 in January for
+    result = car_sold_feb + car_sold_jan
+    return result
+### Response: Question: Flibbity jib has 30000 employees. 25% of the employees are eligible for a new program. 30% of the eligible employees opt in to the program. How many employees have opted in? Solution: def solution():
+    #Flibbity jib has 30,000 employees
+    employees = 30000
+    #25% of all employees are eligible for a new program, a 1/4 fraction
+    eligible_employees = employees * 25 / 100
+    #30% of the eligible employees decide to join the program first
+    joining_employees
+### Response: Question: Kara bought 50 t-shirts for a church carnival. She got a discount of 10% on the first 20 t-shirts she bought, and she got a 20% discount on the last 30 t-shirts she bought. If a t-shirt normally costs $8, how much did she spend on t-shirts? Solution: def solution():
+    #The first 20 shirts are 10% off.
+    discount_1 = .1
+    #The last 30 shirts are 20% off.
+    discount_2 = 20
+    #This t-shirt costs $8.
+    tshirt_cost = 8
+    #If the tshirt is 10%, the cost will be $8 (1 - .1).
+    tshirt_discount_1 = tshirt_cost * (1 - discount_1)
+    #If the tshirt is 20%, the cost will be $8 (1 - .2).
+    tshirt_discount_2 = tshirt_cost * (1 - discount_2)
+    #She bought 50 total shirts.
+    shirts_bought = 50
+    #She got a 10% discount on the first 20 shirts.
+    shirts_discount_1 = 20
+    #She got a 20% discount on the last 30 shirts.
+    shirts_discount_2 = 30
+    #If she bought 20 t-shirts at $30 and 30 at $24,
+### Response: Question: On
+### Response: Question: The bakery is making 5 cakes for a party. The cakes are 3 layers each. The 1st layer of each cake has 4000 berries. The 2nd layer of the cake has 3000 less berries. The third layer has 2/3 as many berries as the second. How many berries are on all 5 cakes? Solution: def solution():
+    #The bakery is making 5 cakes for a party
+    cakes = 5
+    cake_layers = 3
+    #The first layer of the cake has 4000 berries
+    berries_first_layer = 4000
+    #The second layer of the cake has 3000 less berries than the first
+    berries_second_layer = berries_first_layer - 3000
+### Response: Question: A family’s water and electricity bills are $30 and $50 per month, respectively. How much does the family spend on these bills in a year? Solution: def solution():
+    #The family's water bill is $30 a month
+    water_bill = 30
+    #The family's electricity bill is $50 a month
+    electricity_bill = 50
+    #A month has 30 days
+    days_in_month = 30
+    #A year has 12 months
+    months_in_year = 12
+    #The total monthly bill is for water and electricity is
+    total_monthly_bill = water_bill + electricity_bill
+    #The yearly water and electricity bill is the total monthly bill
+    #times the number of months in a year
+    yearly_bill = total_monthly_bill * months_in_year
+    #The answer is
+    result = yearly_bill
+    return result
+### Response: Question: A store receives 250 lbs of deliveries on Tuesdays, 350 lbs of deliveries on Wednesdays and 450 lbs of deliveries on Thursdays. The store can only accept 700 lbs a day. On Thursdays, they will only be able to accept part of the delivery. How many pounds of the Thursday delivery will they be unable to accept? Solution: def solution():
+    #Tuesdays delivery is 250 lbs
+    tuesday_delivery = 250
+    #Wednesdays delivery is 350 lbs
+    wednesday_delivery = 350
+    #Th
+### Response: Question: A beekeeper has 700 bees in his Apiary. The bees each make 50 drops of honey per day.  (Each drop of honey weighs 20 mg.)  How much total honey do his bees make in 2 days? Solution: def solution():
+    #A bee makes 50 drops of honey per day.
+    drops_per_day = 50
+    #Each drop weighs 20 mg
+    drop_weight = 20
+    #The apiary has 700 bees
+    bees = 700
+    #The bees make
+### Response: Question: Lena, with an annual salary of $74,000, goes to her boss and tells him she wants a 2.5% raise. What will Lena’s new annual salary be? Solution: def solution():
+    #Lena's salary starts at $74,000
+    salary_initial = 74000
+    #She asked for a raise of 2.5%
+    raise_percent = 2.5
+    #2.5% of her $74,000 salary is worth
+    raise_amount = salary_initial * raise_percent / 100
+    #Her new salary will be her old salary, plus the raise
+    salary_new = salary_initial + raise_amount
+    #The answer is
+    result = salary_new
+    return result
+### Response: Question: Lila and Pip play a racing video game. Lila beats Pip by 32 seconds.  If it took Lila four minutes and twenty-six seconds to finish, how long, in minutes and seconds, did it take for Pip to race? Solution: def solution():
+    #Lila took 4 minutes and 26 seconds to finish
+    lila_time = 4 + 26 / 60
+    #Lila beat Pip by 32 seconds
+    pip_lag = 32
+    #4 minutes and 26 seconds - 32 seconds =
+    pip_time = lila_time - pip_lag
+    #The answer is
+    result = pip_time
+    return result
+### Response:Question: The pineapples at the market cost $3.50 per pineapple on Monday. On Tuesday, the cost went up to $4.20. How much is a pineapple tomorrow if the price goes up by 20%? Solution: def solution():
+    #The pineapple cost $3.50 on Monday
+    price_monday = 3.50
+    #On Tuesday, the cost went up to $4.20
+    price_tuesday = 4.20
+    #20% of 3.5 is the percent increase
+    percent_increase = 0.20 
+    #The pineapple cost $3.50 on Monday and was increased by 20%
+    tomorrow_price = price_monday* (1 + percent_increase)
+    #The pineapple cost $4.20 on Tuesday and was increased by 20%
+    tomorrow_price2 = price_tuesday* (1 + percent_increase)
+    #The prices match
+    result = tomorrow_price == tomorrow_price2
+    return result
+### Response: Question: On the soccer field, the white team and the black team are evenly matched. Neither team can score. But a penalty is called. The white team gets a free kick. The white team's star forward shoots, and the ball bounces into the top corner of the goal, out of reach of the diving goalie. Goal scored. The game is over. The final score is 1 - 0. What was the final score? Solution: def solution():
+    #The game is over and the final score is 1-0.
+    result = 1 - 0
+    return result
+### Response: Question: Allan has 3 bins for his recycling. One is for paper, one is for plastic, and one is
+### Response: Question: Lydia is Lego-Leotards. She sells one lego set a week and three leotards a week. This week, she made $168. She made $253683 two weeks ago selling the same things. How much money has Lydia made so far? Solution: def solution():
+    #Lydia is two lego sets and leotards.
+    legos_sold = 1
+    leotards_sold = 3
+    #Two weeks ago, she made $40 selling the same two things.
+    money_made_two_weeks_ago = 253683
+    #This week, she made $168 selling the same two things.
+    money_made_this_week = 168
+    #The total amount of money she made is
+    result = money_made_two_weeks_ago + money_made_this_week
+    return result
+### Response: Question: All of the M&M's in a bag weigh 2.8 ounces. 1 ounce of M&M's has 848,237. M&M's. 848,237 M&M's weigh 1 pound. How many pounds of M&M's are in 10 bags? Solution: def solution():
+    mms_per_oz = 848237
+    oz_per_lb = 16
+    oz_in_bag = 2.8
+    mms_in_bag = oz_in_bag * mms_per_oz
+    mms_in_lb = mms_in_bag / oz_per_lb
+    mms_in_10_bags = mms_in_bag * 10
+    lbs_in_10_bags = mms_in_10_bags / mms_in_lb
+    return result
+### Response: Question: Margot and her spouse are in the 30% tax bracket. They each have one job, and each of their employers matches their 401(k) contributions up to 5% of their annual pay. They each earn $200,000 per year. How much money is their total annual tax liability? Solution: def solution():
+    """Margot and her spouse are in the 30% tax bracket. They each have one job, and each of their employers matches their 401(k) contributions up to 5% of their annual pay. They each earn $200,000 per year. How much money is their total annual tax liability?"""
+    # Margot and her spouse each earn 200,000 a year
+    income = 200000
+    # They each get a 30% employer match on the first 5% of their pay
+    match = 0.05 * 0.3
+    # They each make 200,000 a year
+    income_each = 200,000
+    # They each get 5% matching from their employer
+    # first 5% of their income
+    match_from_employer = income_each * match
+    # 30% of their income is taxed
+    taxes = income_each * 0.3
+    # The total income for the family is 400,000
+    family_income = 2 * income_each
+    # Their total 401K matching is 100,000
+    total_401k_match = 2 * match_from_employer
+### Response: Question: A tattoo artist tattoos an arm that takes 2 hours, a leg that takes 3 hours, and an abdomen that takes 5 hours. Roughly how many hours does the artist spend tattooing a week? Solution: def solution():
+    #The artist tattoos an arm that takes 2 hours
+    2_hours = 2
+    #a leg that takes 3 hours and an abdomen that takes 5 hours
+    3_hours = 3
+    5_hours = 5
+    #The tattoo work takes
+    total_hours = 2_hours + 3_hours + 5_hours
+    #Roughly a week has 7 days.
+    days_in_week = 7
+    #The artist spends
+    artist_hours = total_hours
+### Response: Question: Brianna, Amir, and Raya are going to the theater. Tickets cost $35. They have pooled their money together. Brianna has $10. Amir has $37, and Raya has $20. If one ticket is left, who should take it? Solution: def solution():
+    #Briana has $10
+    brianna_money = 10
+    #Amir has $37
+    amir_money = 37
+    #Raya has $20
+    raya_money = 20
+    #The cost of one ticket is $35
+    ticket_cost = 35
+    #Amir has enough to buy a ticket
+    amir_money_left = amir_money - ticket_cost
+    #Brianna and Raya don't have enough to buy a ticket
+    brianna_money_left = brianna_money - ticket_cost
+    raya_money_left = raya_money - ticket_cost
+    #The answer is Amir
+    result = amir
+    return result
+### Response: Question: A spider can spin 4232833 webs per day. How many webs can 3 spiders spin in 5 days? Solution: def solution():
+    #1 spider can spin 7 webs per day
+    webs_per_day = 4232833
+    #3 spiders can spin 3*7 = webs per day
+    webs_per_day_3spiders = webs_per_day * 3
+    #5 days at 3*7 webs/day is a total of 3*7*5 = webs.
+    webs_total = webs_per_day_3spiders * 5
+    #The answer is
+    result =webs_total
+    return result
+### Response: Question: Eve's last examination was in June 2019; today is December 2021. How many months have passed since her last examination? Solution: def solution():
+    #Today is December 2021
+    today = 12
+    #Eve's last examination was in June 2019
+    exam_date = 6
+    #The number of years that have passed is
+    year_gap = today.year
+### Response: Question: Mr. Bainbridge has 13000421 cats. They each need 2 vaccines. 20% of his cats already have their vaccines. How many vaccines do they need? Solution: def solution():
+    #Mr. Bainbridge has 12 cats.
+    cats = 12
+    #Each cat needs 2 vaccinations
+    vaccinations_per_cat = 2
+    #20% of his cats are already vaccinated
+    percent_vaccinated = 0.2
+    #The number of cats who aren't vaccinated is
+    cats_not_vaccinated = cats * (1 - percent_vaccinated)
+    #The number of vaccinations they need is 13000421 x 2
+    result = cats_not_vaccinated * vaccinations_per_cat
+    return result
+### Response: Question: Lacey can type 11916584 words in an hour. How many words can she type in 916584 hours? Solution: def solution():
+    #Lacey can type 43 words in an hour
+    words_per_hour = 43
+    #916584 hours later, she can type an additional 916584*43 words
+    words_after_916584_hours = words_per_hour * 916584
+    #The answer is
+    result = words_after_916584_hours
+    return result
+### Response: Question: A 230-page book is to be typeset with 57 lines of type per page, and each line of type is to consist of an average of 30 characters. How many characters will the whole book contain?Solution: def solution():
+    #Book is 230 pages long, with 57 lines per page
+    pages=230
+    lines_per_page=57
+    #A line has 30 characters
+    characters_per_line = 30
+    #The book has 230*57=13,190 lines (230*57=13,190)
+    total_lines = pages * lines_per_page
+    #Each line has 30 characters, so there are 30*13,190=4,357,000 characters in the book (30*13,190=4,357,000)
+    characters_total = total_lines * characters_per_line
+    #The answer is
+    result = characters_total
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a math word problem, an equation and a step-by-step solution.
+
+### Response: A truck can carry 3000 pounds. A farmer is moving his pigs. He has 100-pound pigs. How many pigs can he fit on the truck? Solution: A truck can carry 3000 pounds. A pig weighs 100 pounds.
+3000/100=<<3000/100=30
+### Response: Question: 4507020 frog eggs hatched from one pond in a wetland preserve. 80% of the frogs died from a fungus. 20% of the remaining frogs were eaten by herons. How many frogs were left? Solution: def solution():
+    """4507020 frog eggs hatched from one pond in a wetland preserve. 80% of the frogs died from a fungus. 20% of the remaining frogs were eaten by herons. How many frogs were left?"""
+    #The number of frog eggs that hatched
+    frog_eggs = 4507020
+    #80% of the frogs died from a fungus
+    death_fungus = frog_eggs * 0.8
+    #20% of the remaining frogs were eaten by herons
+    death_heron = frog_eggs * 0.2
+    #The number of frogs that died from a fungus + the number of frogs eaten by herons
+    frogs_dead = death_fungus + death_heron
+    #The number of frogs that survived is the total number of frogs - the number of frogs that died
+    frogs_surviving = frog_eggs - frogs_dead
+    #The number of frogs left is the number of surviving frogs
+    frogs_left = frogs_surviving
+    return frogs_left
+### Response: Question: The class is making a mural with 36 tiles. The kids in the class get to paint 2 tiles each. The teacher will paint the rest. How many tiles will the teacher paint? Solution: def solution():
+    #There are 36 tiles in the mural and the kids in the class get to paint 2 tiles each.
+    mural_tiles = 36
+    tiles_painted_per_kid = 2
+    # So each kid is painting 2 tiles, (2 tiles per kid) X (number of kids in the class)
+    tiles_painted_by_kids = 2 * 2
+    # The teacher will paint the other tiles, so the teacher will paint
+    tiles_painted_by_teacher = mural_tiles - tiles_painted_by_kids
+    #
+    result = tiles_painted_by_teacher
+    return result
+### Response: Question: Diana's car needs 3359931 oil changes a year.  The cost of an oil change is $50.  She also needs to buy 4 new tires for $100 each.  How much does she have to spend to keep her car running well? Solution: def solution():
+    #Diana's car needs 4 oil changes a year
+    oil_changes = 3359931
+    #Oil changes cost $50 each
+    oil_change_cost = 50
+    #She is buying 4 new tires for $100 each
+    tires = 4
+    #Tires cost $100 each
+    tire_cost = 100
+    #The cost of the oil is
+    cost_oil = oil_changes * oil_change_cost
+### Response: Question:
+Billy was 9847446 the first day of 2021 and he will be 15 the first day of 2023. How old will he be on the first day of 2022? Solution: def solution():
+    """Billy was 11 the first day of 2021 and he will be 15 the first day of 2023. How old will he be on the first day of 2022?"""
+    #Billy was
+### Response: Question: A jumbo jet seats 503 people. If 1/3 of the people on the jumbo jet are children, and each adult pays 75 dollars and each child pays three quarters as much as an adult, how much revenue did the airline generate from the sales of tickets on this flight? Solution: def solution():
+    #This jumbo jet seats 503 people
+    num_people = 503
+    #An adult pays $75
+    adult_price = 75
+    #A child pays three quarters of what an adult pays
+    child_price = adult_price * 0.75
+    #For every 3 people, 2 of them are adults and 1 is a child
+    adults_per_child = 3
+    #1/3 of the people on the flight are children
+    fractions_children = 1/3
+    #Adults and children on the plane
+    total_passengers = num_people * (1 - fractions_children) + num_people * fractions_children
+    #Total revenue from adult ticket sales $75 and the revenue from the sale of child tickets multiplied by 0.75
+    revenue_adults = total_passengers * adult_price
+    revenue_children = total_passengers * child_price
+    #The revenue from ticket sales is the revenue from the adults and the children
+    revenue = revenue_adults + revenue_children
+    #The answer is
+    result = revenue
+    return result
+### Response: Question: 14 students from LAMC are travelling to Las Vegas for a short vacation. Tickets cost $36 per student. Lodging, food, and a 3-day pass to a theme park will cost $200 per student. How much will the trip cost? Solution: def solution():
+    #14 students are travelling
+    students = 14
+    #Their tickets cost $36 each
+### Response: Question: It is 2019.  The Year 2000 was 19 years ago.  In 10 years, the year will be 2029.  How far in the future is 2029? Solution: def solution():
+    #The year is 2019
+    year_now = 2019
+    #Year 2000 was 19 years ago
+    year_2000 = year_now - 19
+    #In 10 years the year will be 2029
+    year_2029 = year_now + 10
+    #The difference between the two future years is the distance
+    distance = year_2029 - year_2000
+    #The answer is
+    result = distance
+    return result
+### Response: Question: Tom, Tim, and Tina can pave a 1200-foot long road in 15, 20, and 12 days, respectively. How long would it take for the three to pave a 3600-feet long road working at the same rate? Solution: def solution():
+    #Tom takes 15 days to pave a 1200-foot road
+    tom_1200_feet = 15
+    #Tim takes 20 days to pave a 1200-foot road
+    tim_1200_feet = 20
+    #Tina takes 12 days to pave a 1200-foot road
+    tina_1200_feet = 12
+    #3600-foot long road
+    road_length = 3600
+    #The time it would take Tom to pave the 3600-foot road
+    time_tom = road_length / 1200 * tom_1200_feet
+    #The time it would take Tim to pave the 3600-foot road
+    time_tim = road_length / 1200 * tim_1200_feet
+    #The time it would take Tina to pave the 3600-foot road
+    time_tina = road_length / 1200 * tina_1200_feet
+    #The total time it would take the three to pave the road
+    total_time = time_tom + time_tim + time_tina
+    #The answer is
+    result = total_time
+    return result
+### Response:Question: I ate 3039403 cookies in the morning and 1/4 as many in the afternoon. How many cookies did I eat? Solution: def solution():
+    #I ate 3039403 cookies in the morning
+    cookies_morning = 3039403
+    #And I aten 1/4 as many in the afternoon
+    cookies_afternoon = cookies_morning / 4
+    #I ate 3039403 + 1/4 * 3039403 =
+    result = cookies_morning + cookies_afternoon
+    return result
+### Response: Question: I'm flying to Dubai and I'm allowed checked 2 bags for up to 50 pounds each.  My bags weigh 23, 35, and 47 pounds.  What's the overage charge for my bags?  (It's $20/bag over 50 pounds.) Solution: def solution():
+    #bags over 50 pounds are charged $20 each
+    overcharge = 20
+    #My bags weigh 23, 35, 47 pounds
+    bag_one_weight = 23
+    bag_two_weight = 35
+    bag_three_
+### Response: Question: In one day, the Beverly Hills Bakery sold 24 chocolate cakes, 28 strawberry cakes, and 32 vanilla cakes. A strawberry cake sells for $15, a chocolate cake sells for $20, and a vanilla cake sells for $10. How much money did the Beverly Hills Bakery make from selling cakes that day? Solution: def solution():
+    #Chocolate cakes sold
+    chocolate_cakes = 24
+    #Strawberry cakes sold
+    strawberry_cakes = 28
+    #Vanilla cakes sold
+    vanilla_cakes = 32
+    #Strawberry cakes sell for $15, a chocolate cake sells for $20, and a vanilla cake sells for $10
+    strawberry_cake_price = 15
+    chocolate_cake_price = 20
+    vanilla_cake_price = 10
+    #First strawberry cakes. 28 cakes at $15 a cake means
+    strawberry_cakes_revenue = strawberry_cakes * strawberry_cake_price
+    
+    #Next
+    chocolate_cakes_revenue = chocolate_cakes * chocolate_cake_price
+
+    #vanilla_cakes. 32 cakes at $10 a cake means
+    vanilla_cakes_revenue = vanilla_cakes * vanilla_cake_price
+    #1040
+    result = strawberry_cakes_revenue + choc
+### Response: Question: A store sells 1/4 ounce bags of gummy bears for $3.5.  How much does a pound of gummy bears cost in dollars? Solution: def solution():
+    #A 1/4 ounce bag of bears costs $
+### Response: Question: The piggies need to be cleaned. The pigsty needs to be hosed off, the brushes need to be sanitized, and each pig needs a bath. Hosing the pigsty off takes 10 minutes. Sanitizing the brushes takes 15 minutes per brush and there are 2 brushes. Bathing the pigs takes 20 minutes per pig and there are 8 pigs. How long (in minutes) will it take to clean the pigs, pigsty, and brushes? Solution: def solution():
+    # hosing the pigsty takes 10 minutes
+    pigsty_hose = 10
+    # sanitizing the brushes takes 15 minutes each and there are two brushes
+    brush_sanitation = 15
+    #bathing the pigs takes 20 minutes each and there are eight pigs
+    pig_baths = 20
+    #cleaning the pigsty, brushes, and pigs will take
+result = pigsty_hose + (brush_sanitation*2) + (pig_baths*8)
+return result
+### Response: Question: For his new hit song, a rapper hired 4 producers and 62189496 ghostwriters. He also had to pay for promotion and publishing to get the song on the radio. The production, ghostwriting, and promotion cost a total of $15,000, while the publishing cost a separate $10,000. The rapper’s cut of the earnings from the song is 75%, with the rest going to the label. How much money did the rapper make from the song? Solution: def solution():
+    """For his new hit song, a rapper hired 4 producers and 12 ghostwriters. He also had to pay for
+### Response: Question: John decides to buy a pizza for $4782016.  He has a coupon for $3 off.  He also has a code for 25% off if he orders online and another code for free delivery.  How much does the pizza cost? Solution: 
+def solution():
+    """John decides to buy a pizza.  The pizza cost $12.00 but he has a coupon for $3.00.  John also has a code for 25% off and another code for free delivery.  How much does the pizza cost?"""
+    pizza_cost = 4782016
+    coupon_amount = 3
+    code_promotion = 0.25
+    free_delivery = 0
+    discount = coupon_amount + code_promotion + free_delivery
+    pizza_cost_discounted = pizza_cost - discount
+    result = pizza_cost_discounted
+    return result
+### Response: Question: A bakery sells a dozen donuts for $48. A catering company wants to order 100 donuts. How much will the total order cost? Solution: def solution():
+    #A bakery sells a dozen donuts for $48
+    donuts_12 = 48
+    #The catering company wants to order 100 donuts
+    donuts_order = 100
+    #The bakery will sell donuts to the catering company in dozens
+    donuts_per_dozen = 12
+    #100 donuts/dozen = <<100/12=8.333333333333333>>8.333333333333333 dozens
+    dozens_ordered = 8.333333333333333
+    #8.333 full dozens at $48/dozen = 8.333 * 48 = $400
+    total_cost = dozens_ordered * donuts_12
+    #The answer is
+    result = total_cost
+    return result
+### Response: Question: The Kardashians have 100,000 Instagram followers and the Jenners have 110,000 Instagram followers. What is the total number of Instagram followers for both families? Solution: def solution():
+    #The Kardashians have 100,000 followers
+    kardashian_followers = 10
+### Response: Question: John has 37183588013 dollars in his bank account.  He spends 5439824 dollars on a new computer and 25542232 on a new chair.  How much money 37183588013 he have left in his bank account? Solution: 
+def solution():
+    """John has 15027131 dollars in his bank account.  He spends 30 dollars on a new computer and 100 on a new chair.  How much money does he have left in his bank account?"""
+    money_initial = 15027131
+    computer_cost = 5439824
+    chair_cost = 25542232
+    money_spent = computer_cost + chair_cost
+    money_left = money_initial - money_spent
+    return money_left
+##################
+### Response: Question: A 10-p
+### Response: Question: A group of 22 people is riding in a van. If the group includes 10 men and 12 women, how many more women than men are there? Solution: def solution():
+    #22 people are riding in a van
+    people = 22
+    #10 of them are men
+    men = 10
+    #12 of them are women
+    women = 12
+    #There are (12-10) or <<12-10=2>>2 more women than men
+    result = women - men
+    return result
+### Response: Question: A clothing retailer is launching its first-ever line of menswear.  For two months, they've  paid their six models (3 males, 3 females) a $2,000/month salary, their 3 stylists a $3,000/month salary, and their 4 photographers a $4,000/month salary.  In addition, they've paid their 28-person marketing team $7,000/month.  How much have the retailer's owners spent thus far on the campaign? Solution: def solution():
+ """A clothing retailer is launching its first-ever line of menswear.  For two months, they've  paid their six models (3 males, 3 females) a $2,000/month salary, their 3 stylists a $3,000/month salary, and their 4 photographers a $4,000/month salary.  In addition, they've paid their 28-person marketing team $7,000/month.  How much have the retailer's owners spent thus far on the campaign?"""
+    model_male_salary = 2000
+    model_female_salary = 2000
+    stylist_salary = 3000
+    photographer_salary = 4000
+    marketing_team_salary = 7000
+    model_male_count = 3
+    model_female_count = 3
+    stylist_count = 3
+    photographer_count = 4
+    marketing_team_count = 28
+    total
+### Response: Question: The Fresh Farmer's Market has 7268213 vendors selling mushrooms, 15 vendors selling kombucha, and 9 vendors selling honey. There are three mushroom vendors that sell oyster, chaga, and reishi mushrooms, and another three mushroom vendors that sell shiitake, portabella, and swiss cheese mushrooms. The final two mushroom vendors only sell button mushrooms. What is the greatest number of things the vendors at the Fresh Farmers Market have to sell? Solution: def solution():
+    """The Fresh Farmer's Market has 4 vendors selling mushrooms, 15 vendors selling kombucha, and 9 vendors selling honey. There are three mushroom vendors that sell oyster, chaga, and reishi mushrooms, and another three mushroom vendors that sell shiitake, portabella, and swiss cheese mushrooms. The final two mushroom vendors only sell button mushrooms. What is the greatest number of things the vendors at the Fresh Farmers Market have to sell?"""
+    mushroom_vendors = 7268213
+    kombucha_vendors = 15
+    honey_vendors = 9
+    mushroom_varieties = {
+        "oyster, chaga, reishi": 3,
+        "shiitake, portabella, swiss cheese": 3,
+        "button": 2,
+    }
+    # 4 mushroom vendors times 3 varieties per vendor is 4 * 3 = <<4*3
+### Response: Question: 2/3 of the 1600 students at Ridgewood High School are Juniors and Seniors. If 1/10 of the Seniors have a 4.0 GPA, how many Seniors have a 4.0 GPA? Solution: def solution():
+    #2/3 of the 1600 students at Ridgewood High School are Seniors, so 2/3 * 1600 = <<2/3*1600=1066.666666666667>>1066.66666666667 students are seniors
+    #1/10 of the Seniors have a 4.0 GPA, so (1/10) * 1066.66666666667 = 106.666666666667 have a 4
+### Response: Question: 
+def solution():
+    """Flyers earn frequent flier miles based on the distance flown.  But as a promotion, an airline is offering 10,000 bonus miles to new subscribers.  After you sign up and fly 10,000 miles, you'll be awarded 15,000 miles.  How many miles is that? Solution: miles_flown = 10000
+    bonus_miles = 15000
+    total_miles = miles_flown + bonus_miles
+    result = total_miles
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+### Response: Question: A toy company wanted to make enough rubber balls for every child in their town. They were going to get a good deal on buying the rubber for the balls if they bought at least 1000 pounds, but it would be more expensive if they bought less than 1000 pounds. A pound of rubber cost $9365463. How much would it cost to make 17,369 rubber balls? Solution: def solution():
+    #A pound of rubber costs $8
+    rubber_cost = 9365463
+    #The toy company wanted to make 17,369 rubber balls
+    balls_needed = 17369
+    #Each ball weighs 65 grains and there are 7000 grains in a pound
+    balls_per_pound = balls_needed * 65 / 7000
+    #If they boughtenough rubber to make 17369, it would cost 125 pounds of rubber or
+    rational_purchase = balls_per_pound / 1000
+    #The irrational purchase would cost
+    irrational_purchase = balls_per_pound * rubber_cost
+    #The answer is the irrational purchase, which costs
+    result = irrational_purchase
+    return result
+### Response: Challenge: The biker, riding at his full speed of 26 miles per hour, outran his pursuer, who was in an automobile traveling at 20 miles per hour, by 6 miles. For how long did the bicycle and the automobile race? Solution: def solution():
+    #The biker is traveling at 26 miles per hour
+    biker = 26
+    #The automobile is traveling at 20 miles per hour
+    automobile = 20
+    #The biker outran his pursuer by 6 miles
+    lead = 6
+    #The speed difference between the biker and the automobile is
