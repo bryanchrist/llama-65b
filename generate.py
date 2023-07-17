@@ -86,7 +86,7 @@ sys.stdin = sys.__stdin__
 model = PeftModel.from_pretrained(model, adapter_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-for i in range(0,1000):
+for i in range(0,5000):
     # prompt = "Write a math word problem and Python code to solve the word problem."
     # formatted_prompt = (f"Below is an instruction that describes a task. "
     #         f"Write a response that appropriately completes the request.\n\n"
@@ -144,7 +144,7 @@ for i in range(0,1000):
     # with open(output_file, "a") as f:  # Open the file in append mode ("a")
     #     f.write(generated_text + "\n")  # Append the generated text to the file
         
-    prompt = "Write a math word problem and Python code with a commented out step-by-step solution to solve the word problem."
+    prompt = "Write one math word problem and Python code with a commented out step-by-step solution to solve the word problem."
     formatted_prompt = (f"Below is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response: Question: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?"
@@ -158,8 +158,18 @@ for i in range(0,1000):
             f"\nBelow is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response: Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?"
-            f" Solution: def solution():\n   #Olivia started with $23\n    money_initial = 23\n    #She bought 5 bagels\n    bagels = 5\n    #Each bagel cost $3\n    bagel_cost = 3\n    #5 bagels at $3 a bagel cost\n    money_spent = bagels * bagel cost\n"
+            f" Solution: def solution():\n    #Olivia started with $23\n    money_initial = 23\n    #She bought 5 bagels\n    bagels = 5\n    #Each bagel cost $3\n    bagel_cost = 3\n    #5 bagels at $3 a bagel cost\n    money_spent = bagels * bagel cost\n"
             f"    #The answer is\n    result = money_initial - money_spent\n    return result"
+            f"\nBelow is an instruction that describes a task. "
+            f"Write a response that appropriately completes the request.\n\n"
+            f"### Instruction:\n{prompt}\n\n### Response: Question: Michael had 58 golf balls. On Tuesday, he lost 23 golf balls. On Wednesday, he lost 2 more. How many golf balls did he have at the end of Wednesday? Solution: def solution()\n"
+            f"    #Michael started with 58 golf balls\n    golf_balls_initial = 58\n    #He lost 23 on Tuesday\n    golf_balls_lost_tuesday = 23\n    #He lost two more on Wednesday\n    golf_balls_lost_wednesday = 2\n    #The answer is\n    "
+            f"result = golf_balls_initial - golf_balls_lost_tuesday - golf_balls_lost_wednesday\n    return result"
+            f"\nBelow is an instruction that describes a task. "
+            f"Write a response that appropriately completes the request.\n\n"
+            f"### Instruction:\n{prompt}\n\n### Response: Question: There were nine computers in the server room. Five more computers were installed each day, from Monday to Thursday. How many computers are now in the server room? Solution: def solution():\n"
+            f"    #There were initially 9 computers\n    computers_initial = 9\n    #They installed 5 more each day\n    computers_per_day = 5\n    #There are 4 days between Monday and Thursday\n    num_days = 4\n    #There were\n    "
+            f"computers_added = computers_per_day * num_days\n    #computers added. The answer is\n    result = computers_initial + computers_added\n    return result"
             f"\nBelow is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
             f"### Instruction:\n{prompt}\n\n### Response:")
@@ -183,7 +193,7 @@ for i in range(0,1000):
     
     print(newly_generated_text)
     
-    output_file = "questions.txt"  # Specify the path and filename for the output file
+    output_file = "questions_5shot.txt"  # Specify the path and filename for the output file
     with open(output_file, "a") as f:  # Open the file in append mode ("a")
         f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
 
