@@ -143,7 +143,29 @@ for i in range(0,5000):
     # output_file = "output.txt"  # Specify the path and filename for the output file
     # with open(output_file, "a") as f:  # Open the file in append mode ("a")
     #     f.write(generated_text + "\n")  # Append the generated text to the file
-        
+    
+    # prompt = (f"Question: An acre of land can be bought for $600 in one year. In two years, the same acre of land will cost 3/5 times as much as it does now. How much money do you expect to pay for the acre of land in two years? Solution: def solution():\n     #An acre of land can be bought for $600 in one year."
+    #         f"\n    cost_now = 600\n    #The cost in 2 years will be 3/5 times the current cost.\n    cost_in_2_years = cost_now * 3 / 5\n    #The answer is\n    result = cost_in_2_years\n    return result")    
+    
+    # formatted_prompt = (f"Below is an instruction that describes a task. "
+    #         f"Write a response that appropriately completes the request.\n\n"
+    #         f"### Instruction:\nWrite a math word problem and solution similar to this problem: {prompt}\n\n### Response:)
+    # inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
+    # attention_mask = torch.ones_like(inputs)
+    # inputs = inputs.to('cuda')
+    # output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True, top_p = .5)
+    # generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    
+    # # Split the generated text by the prompt to extract the newly generated part
+    # generated_text_parts = generated_text.split(prompt)
+    # newly_generated_text = generated_text_parts[-1].strip()
+    
+    # print(newly_generated_text)
+    
+    # output_file = "questions_similar_prompt.txt"  # Specify the path and filename for the output file
+    # with open(output_file, "a") as f:  # Open the file in append mode ("a")
+    #     f.write(newly_generated_text + "\n")  # Append the newly generated text to the file
+    
     prompt = "Write one math word problem and Python code with a commented out step-by-step solution to solve the word problem."
     formatted_prompt = (f"Below is an instruction that describes a task. "
             f"Write a response that appropriately completes the request.\n\n"
