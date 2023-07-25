@@ -198,7 +198,7 @@ for i in range(0,5000):
     inputs = tokenizer.encode(formatted_prompt, return_tensors="pt")
     attention_mask = torch.ones_like(inputs)
     inputs = inputs.to('cuda')
-    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 400, do_sample = True, top_p = .5)
+    output = model.generate(inputs=inputs, attention_mask=attention_mask, max_new_tokens = 800, do_sample = True, top_p = .5)
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     
     # Split the generated text by the prompt to extract the newly generated part
