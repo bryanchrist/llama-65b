@@ -61,4 +61,31 @@ train_test_valid_dataset = DatasetDict({
     'test': test_valid['test'],
     'valid': test_valid['train']})
 
-train_test_valid_dataset['train'][1]
+#Test dataset splitting worked
+print(train_test_valid_dataset['train'][1])
+
+#Set up tokenizer
+tokenizer = AutoTokenizer.from_pretrained("huggyllama/llama-7b")
+
+#Preprocess and collate data
+def preprocess_function(examples):
+    return tokenizer(examples["text"], truncation=True)
+
+tokenized_train_test_valid_dataset = train_test_valid_dataset.map(preprocess_function, batched=True)
+
+from transformers import DataCollatorWithPadding
+data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+
+#Prepare evaluation function
+import evaluate
+accuracy = evaluate.load("accuracy")
+
+import numpy as np
+def compute_metrics(eval_pred):
+    predictions, labels = eval_pred
+    predictions = np.argmax(predictions, axis=1)
+    return accuracy.compute(predictions=predictions, references=labels)
+
+#Training
+id2label = {0: "NOT SOLVABLE", 1: "SOLVABLE"}
+label2id = {"NOT SOLVABLE": 0, "SOLVABLE": 1}
