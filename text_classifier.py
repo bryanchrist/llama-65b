@@ -46,22 +46,36 @@ load_dotenv()
 
 token= os.getenv('huggingface_token')
 
-from huggingface_hub import login
-login(token = token)
+#UNCOMMENT THIS OUT EVENTUALLY
+# from huggingface_hub import login
+# login(token = token)
 
-dataset = load_dataset('csv', data_files = "app/feedback.csv")
+from datasets import load_dataset, DatasetDict
 
-# 80% train, 20% test + validation
-train_testvalid = dataset.train_test_split(test=0.2)
-# Split the 10% test + valid in half test, half valid
-test_valid = train_test_dataset['test'].train_test_split(test=0.5)
-# gather everyone if you want to have a single DatasetDict
+# Load the dataset
+dataset = load_dataset('csv', data_files="app/feedback.csv")
+
+# Get the total number of examples in the dataset
+total_examples = len(dataset['train'])
+
+# Calculate the sizes of the training, test, and validation sets
+train_size = int(0.8 * total_examples)
+test_size = int(0.1 * total_examples)
+valid_size = total_examples - train_size - test_size
+
+# Manually split the dataset into training, test, and validation sets
+train_dataset = dataset['train'].shuffle(seed=42).select(range(train_size))
+test_dataset = dataset['train'].shuffle(seed=42).select(range(train_size, train_size + test_size))
+valid_dataset = dataset['train'].shuffle(seed=42).select(range(train_size + test_size, total_examples))
+
+# Create a DatasetDict to hold the splits
 train_test_valid_dataset = DatasetDict({
-    'train': train_testvalid['train'],
-    'test': test_valid['test'],
-    'valid': test_valid['train']})
+    'train': train_dataset,
+    'test': test_dataset,
+    'valid': valid_dataset
+})
 
-#Test dataset splitting worked
+# Test dataset splitting worked
 print(train_test_valid_dataset['train'][1])
 
 #Set up tokenizer
