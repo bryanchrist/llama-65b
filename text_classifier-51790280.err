@@ -1,0 +1,19 @@
+
+NoSpaceLeftError: No space left on devices.
+
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-7opr45cx/transformers_26e7cb2377124b0b8b0f936032196289
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-7opr45cx/peft_ec951a0b595a4aa897b2706f2feab6ed
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-7opr45cx/accelerate_93389158b0c443499dccd7b01aa33925
+ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device: '/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers'
+
+
+NoSpaceLeftError: No space left on devices.
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/guanaco/llama-65b/text_classifier.py", line 18, in <module>
+    import transformers
+ModuleNotFoundError: No module named 'transformers'

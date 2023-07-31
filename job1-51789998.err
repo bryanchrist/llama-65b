@@ -1,0 +1,22 @@
+
+NoSpaceLeftError: No space left on devices.
+
+  Running command git clone --quiet https://github.com/huggingface/transformers.git /tmp/pip-install-0_0jqbly/transformers_dfcdf7e08bd447ffaf9c835a8d48873e
+  Running command git clone --quiet https://github.com/huggingface/peft.git /tmp/pip-install-0_0jqbly/peft_1ca0ec27fc6f4059ba21c02ecc44d5ea
+  Running command git clone --quiet https://github.com/huggingface/accelerate.git /tmp/pip-install-0_0jqbly/accelerate_1d1c3073c524465aa06dfb0ca37b8092
+  ERROR: Failed to restore /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/bin/transformers-cli
+  ERROR: Failed to restore /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers-4.31.0.dist-info/
+  ERROR: Failed to restore /sfs/qumulo/qhome/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers/
+ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device: '/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/transformers'
+
+
+NoSpaceLeftError: No space left on devices.
+
+/home/brc4cb/.conda/envs/falcon_40B/lib/python3.9/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so'), PosixPath('/home/brc4cb/.conda/envs/falcon_40B/lib/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+Traceback (most recent call last):
+  File "/gpfs/gpfs0/project/SDS/research/christ_research/guanaco/llama-65b/text_classifier.py", line 18, in <module>
+    import transformers
+ModuleNotFoundError: No module named 'transformers'

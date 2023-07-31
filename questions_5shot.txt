@@ -10468,3 +10468,879 @@ Write one math word problem and Python code with a commented out step-by-step so
 ###
 ### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery
 ### Response: Question: 100 people are in a theater.
+### Response: Question: A chocolate cake costs $10.  A vanilla cake costs $8.  A bakery sold 4 chocolate cakes and 5 vanilla cakes.  How much money did the bakery make? Solution: def solution():
+    #A chocolate cake costs $10
+    chocolate_cake_cost = 10
+    #A vanilla cake costs $8
+    vanilla_cake_cost = 8
+    #The bakery sold 4 chocolate cakes
+    chocolate_cakes_sold = 4
+    #The bakery sold 5 vanilla cakes
+    vanilla_cakes_sold = 5
+    #The chocolate cakes sold for 4 * 10
+    chocolate_cakes_revenue = chocolate_cakes_sold * chocolate_cake_cost
+    #The vanilla cakes sold for
+### Response: Question: 10% of the
+### Response: Question: A 2-pound box of chocolates costs $10.  A 5-pound box of chocolates costs $20.  How much
+### Response: Question: There were 10134412 students in the class. 20% of the students were in the basketball team. 1/3 of the basketball team were also in the volleyball team. How many students were in the volleyball team? Solution: def solution():
+    #There were 100 students in the class
+    students_initial = 10134412
+    #20% of the students were in the basketball team
+    basketball_team_size = students_initial * 0.2
+    #1/3 of the basketball team were also in the volleyball team
+    volleyball_team_size = basketball_team_size * 0.3333333333333333
+    #The answer is
+    result = volleyball_team_size
+    return result
+### Response: Question: The bakery is selling 2-for-1 muffins. 20 people have each bought 10 muffins. How many muffins have been sold? Solution: def solution():
+    #20 people have each bought 10 muffins
+    muffins_bought = 20 * 10
+    #2-for-1 muffins. The answer is
+    result = muffins_bought / 2
+    return result
+Below is an instruction that describes a task. Write a response that appropri
+### Response: Question: The school is selling candy bars for a fundraiser.  They are selling 100 bags of candy bars.  Each bag of candy bars has 24 candy bars.  The school will make $2.00 for each candy bar they sell.  How much money will the school make from the fundraiser? Solution: def solution():
+    #The school is selling 100 bags
+### Response: Question: A bakery sells 200 loaves of bread on Monday, 300 loaves of bread on Tuesday, and 150 loaves of bread on Wednesday. How many loaves of bread did the bakery sell in total? Solution: def solution():
+    #The bakery sold 200 loaves on Monday
+    loaves_monday = 200
+    #The bakery sold 300 loaves on Tuesday
+    loaves_tuesday = 300
+    #The bakery sold 150 loaves on Wednesday
+    loaves_wednesday = 150
+    #The bakery sold
+    loaves_total = loaves_monday + loaves_tuesday + loaves_wednesday
+    #loaves in total. The answer is
+    result = loaves_total
+### Response: Question: A theater has 300 seats. It was 75% full. How many seats were empty? Solution: def solution():
+    #The theater has 300 seats
+    seats_total = 300
+    #It was 75% full
+    seats_filled = seats_total * 0.75
+    #The number of empty seats is
+    result
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: A 10-story building has 120 apartments. There are 6 apartments on each floor. How many floors are there in the building? Solution: def solution():
+    #There are 20 stories
+    stories = 20
+    #There are 6 apartments on each floor
+    apartments_per_floor = 6
+### Response: Question: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234234
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=39
+    #The grocery store returned 6 loaves
+    loaves_returned =
+### Response: Question: A candy store
+### Response: Question: A caterer is baking for a wedding. 100 guests want the chocolate cake, and 120 guests want the vanilla cake. 20 guests want both cakes. How many cakes does the caterer need to bake? Solution: def solution():
+    #100 guests want the chocolate cake
+    chocolate_cake_guests = 100
+    #120 guests want the vanilla cake
+    vanilla_cake_guests = 120
+    #20 guests want both cakes
+    both_cake_guests = 20
+    #The caterer needs to bake
+    chocolate_cakes = chocolate_cake_guests / 50
+    #50 guests per cake
+    vanilla_cakes = vanilla_cake_guests / 50
+    #50 guests per cake
+    both_cakes = both_cake_guests / 50
+    #50 guests per cake
+    cakes_needed = ch
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 125000 people were at the Super Bowl. 60% of them were men. 40% of the men were fathers. How many fathers were at the Super Bowl? Solution: def solution():
+    #125000 people were
+
+### Response: Question: 3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 10000 people were at the soccer game. 10000 were from Brazil, 5000 were from Argentina, and the rest were from Chile. How many people at the game were from Chile? Solution: def solution():
+    #25000 people were at the soccer game
+    people_total =
+### Response: Question: A café sells 10 cups of coffee in the morning and 15 cups of coffee in the afternoon. How many cups of coffee does the café sell in a day? Solution: def solution():
+    #The café sells 10 cups of coffee in the morning
+    coffee_morning = 10
+    #and 15 cups of coffee in the afternoon
+    coffee_afternoon = 15
+    #The answer is
+    result = coffee_morning + coffee_afternoon
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction
+### Response: Question: A 20-pack of C batteries costs $20.00.  D batteries cost $3.00 each.  How much money would you save by buying 20 C batteries instead of 20 D batteries? Solution: def solution():
+    #C batteries cost $20.00 for a 20-pack
+    c_battery_cost = 20.00
+    #D batteries cost $3.
+### Response: Question: 250 people are on a cruise. 1/4 of the people are children. How many adults are on the cruise? Solution: def solution():
+    #There are 250 people on the cruise
+    people_total = 250
+    #1/4 of the people are children
+    children = people_total / 4
+    #The answer is
+    result = people_total - children
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-by-step solution to solve
+### Response: Question: In a soccer game, a team had 22 shots on the goal. 11 of the shots were on target. 4 of the shots on target were saved by the goalkeeper. How many shots on target did the team miss? Solution: def solution():
+    #The team had 22 shots on the goal
+    shots
+### Response: Question: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The bakery has 200 loaves of bread. They sold 50 loaves in the morning and 30 in the afternoon. How many loaves of bread are left? Solution: def solution():
+    #The bakery has 200 loaves of bread
+    loaves_initial = 200
+    #They sold 50 loaves in the morning
+### Response: Question: The pizza parlor was selling 100 slices of pizza a day. 50 people a day are
+### Response: Question: The bakery sells 12 scones on Monday, 15 scones on Tuesday, 10 scones on Wednesday, and 18 scones on Thursday. How many scones does the bakery sell in the first four days of the week? Solution: def solution():
+    #The bakery sells 12 scones on Monday
+    scones_monday = 12
+    #The bakery sells 15 scones on Tuesday
+    scones_tuesday = 15
+    #The bakery sells 10 scones on Wednesday
+    scones_wednesday = 10
+    #The bakery sells 18 scones on Thursday
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The first 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The candy store had 150 lollipops. 12 lollipops were sold in the morning and 24 lollipops were sold in the afternoon. How many lollipops were left? Solution: def solution():
+    #The candy store had 150 lollipops
+    lollipops_initial = 150
+    #12 lollipops were sold in the morning
+    lollipops_
+### Response: Question: A car is being driven from Los Angeles to New York. The car is driven 200 miles on the first day, 300 miles on the second day, and
+### Response: Question: The number of people in the cafeteria is 100. 20% of them are students, and the rest are teachers. How many students are there? Solution: def solution():
+### Response: Question: A café has 1
+### Response: Question: A bakery has 1000 buns. 200 buns are sold in the morning. 300 buns are sold in the afternoon. 500
+### Response: Question: A theater has 250 seats. 40% of the seats were sold for the first showing, and 60% of the seats were sold for the second showing. How many seats were sold for the first showing? Solution: def solution():
+### Response: Question:
+### Response: Question: 1000 people were in a theater. 1/4 of them left before the end of the play. 2/3 of the
+### Response: Question: The pizzeria sells 12 slices of pizza per pie. 3 pies were sold on Monday, 2 pies were sold on Tuesday, and 5 pies were sold on Wednesday. How many slices of pizza were sold? Solution: def solution():
+    #The pizzeria sells 12 slices of pizza per pie
+    slices_per_pie = 12
+    #3 pies were sold on Monday
+    pies_sold_monday = 3
+    #2 pies were sold on Tuesday
+    pies_sold_tuesday = 2
+    #5 pies were sold on Wednesday
+    pies_sold_wednesday = 5
+    #The answer is
+    result = slices_per_pie * pies_sold_monday + slices_per_pie * pies_sold_tuesday + slices_per_pie
+### Response: Question: The 100-meter race at the Olympics was run in 10 seconds. The 200-meter race was run in 20 seconds. The 400-meter race was run in 40 seconds. How much longer did it take to run the 400-meter race than the 100-meter race? Solution: def solution():
+    #The 100-meter race was 10 seconds
+    time_100_meters = 10
+    #The 200-meter race was 20 seconds
+    time_200_meters = 20
+    #The 400-meter race was 40 seconds
+    time_400_meters = 40
+    #The 400-meter race was 40 - 20 = 20 seconds longer than the 200-meter race
+    time_difference_400_200 = 40 - 20
+    #The 200-meter race was 20 - 10 = 10 seconds longer than the 100-meter race
+    time_difference_200_100 = 20 - 10
+    #The 400-meter race was 20 + 10 = 30 seconds longer than the 100-meter race
+    time_difference_400_100 = time_difference_400_200 + time_difference_2
+
+### Response: Question: The 10th graders in the cafeteria were 100. 20 of them were from the 11th grade. The rest were from the 12th grade. How many 12th graders were in the cafeteria? Solution: def solution():
+    #The 10th graders in the cafeteria were 100
+    students_10th_grade = 100
+    #20 of them were from the 11th grade
+    students_11th_grade = 20
+    #The rest were from the 12th grade
+    students_12th_grade = students_10th_grade - students_11th_grade
+    #The answer is
+    result = students_12th_grade
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step
+### Response: Question: 15% of the 120000 people in the city of Gomorrah have a bachelor's degree. 20% of the people with a bachelor's degree also have a master's degree. How many people in the city of Gomorrah have a bachelor's degree and a master's degree? Solution: def solution():
+    #The city of Gomorrah has 120000 people
+    gomorrah_population = 120000
+    #15% of the people have a bachelor's degree
+    bachelors_percent = 0.15
+    #15% of 120000 is
+    bachelors = gomorrah_population * bachelors_percent
+    #20% of the people with a bachelor's degree have a master'
+### Response: Question: The bakery has 100 loaves of bread. 20 loaves of bread are sold in the morning and 30 loaves of bread are sold in the afternoon. How many loaves of bread are left? Solution: def solution():
+    #The bakery started with 100 loaves
+    loaves_initial = 100
+    #20 loaves were sold in the morning
+    loaves_sold_morning = 20
+### Response: Question: The cashier at the bakery is supposed to count the money in the register at the end of every day.  She is supposed to have $100 in the register.  She counted $20 in 10s, $30 in 20s, and $50 in 50s.  How much money is missing? Solution: def solution():
+    #The cashier is supposed to have $100 in the register
+    money_initial = 100
+    #She counted $20 in 10s
+    twenties = 20
+    #She counted $30 in 20s
+    thirties = 30
+    #She counted $50 in 50s
+    fifties = 50
+    #The total is
+    total_counted = twenties + thirties + fifties
+    #The answer is
+    result = money_initial - total_counted
+    return result
+Below is an instruction that describes a task. Write a response that appropri
+### Response: Question: A bakery sells muffins for $2.50 and scones for $3.00.  On Monday, they sold 10 muffins and 5 scones.  On Tuesday, they sold
+### Response: Question: The candy store has 250 lollipops. They sold 100 lollipops in the morning and 60 in the afternoon. How many lollipops did they have left? Solution: def solution():
+    #The candy store started with 250 lollipops
+    lollipops_baked = 250
+    #They sold 100 in the morning and 6
+### Response: Question: The cost of a cement block is $1.50. The cost of a pail of sand is $2.50. How much will it cost to buy 100 cement blocks and 50 pails of sand? Solution: def solution():
+    #The cost of a cement block is $1.50
+    cement_block_cost = 1.50
+    #The cost of a pail of sand is $2.50
+    sand_pail_cost = 2.50
+    #The cost of 100 cement blocks is
+    cement_block_cost_100 = cement_block_cost * 100
+    #The cost of 50 pails of sand is
+    sand_pail_cost_50 = sand_pail_cost * 50
+    #The total cost is
+    result = cement_block_cost_100 + sand_pail_cost_50
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 12000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: On Tuesday, the bakery made 200 lo
+### Response: Question: 15% of the 100000000000000000000000000000000000000000000000000000000000
+### Response: Question: 360 / 2 = ? Solution: def solution():
+    #360 / 2 = 180
+    result = 180
+    return result
+### Response: Question: The 12325315 has 12325315 students. 100 students are in the 6th grade, 120 are in the 7th grade, and 150 are in the 8th grade. How many students are in the 9th grade? Solution: def solution():
+    #There are 200 students
+    students_total = 200
+    #100 students are in the 6th grade
+    students_6th_grade = 100
+    #120 students are in the 7th grade
+    students_7th
+### Response: Question: 10000 people live in a city. 5000 people more live in the suburbs. How many people are there in total? Solution: def solution():
+    #10000 people live in the city
+    city_population = 10000
+    #50
+### Response: Question: A toy car factory can produce 20000 toy cars a month. 10000 toy cars are red, and 6000 toy cars are blue. The rest of the toy cars are green. How many green toy cars are there? Solution: def solution():
+    #The factory can produce 20000 toy cars a month
+    toy_cars_total = 20000
+    #10000 toy cars are red
+    toy_cars_red = 10000
+    #6000 toy cars are blue
+### Response: Question: A 2-pound bag of M&Ms sells for $5.  A 3-pound bag of M&Ms sells for $7.  How much more do you have to pay per pound if you buy the 3-pound bag? Solution: def solution():
+    #A 2-pound bag of M&Ms sells for $5
+    mms_2_pound_bag = 5
+    #A 3-pound bag of M&Ms sells for $7
+    mms_3_pound_bag = 7
+    #You have to pay $7 - $5 = $<<7-5=2>>2 more for the 3-pound bag
+    mms_3_pound_bag_extra = 2
+    #The difference in cost per pound is $2 / 1 pound = $<<2/1=2>>2 per pound
+    mms_3_pound_bag_per_pound = 2
+    #The answer is
+    result = mms_3_pound_bag_per_
+### Response: Question: The number of unicorns in the world is 100. 20% of them are in the USA. 1/3 of the unicorns in the USA are in California. How many unicorns are in California? Solution: def solution():
+    #The number of unicorns in the world is 100
+    unicorns_total = 100
+    #20% of them are in the USA
+    unicorns_usa = unicorns_total *
+### Response: Question: The bakery has 200 loaves of bread. They sell 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returns 6 unsold loaves. How many loaves of bread does the bakery have left? Solution: def solution():
+    #The bakery has 200 loaves of bread
+    loaves_initial = 200
+    #They sell 93 loaves in the morning and 39 loaves
+### Response: Question: The 2021 World Series was a best-of-seven series.  The Atlanta Braves defeated the Houston Astros in 6 games.  The Braves' first baseman, Freddie Freeman, had 3 home runs and 12 runs batted in.  The Astros' third baseman, Alex Bregman, had 2 home runs and 10 runs batted in.  How many runs batted in did the two players have in total? Solution: def solution():
+    #The Braves' Freeman had 3 home runs and 12 runs batted in
+    freeman_home_runs = 3
+    freeman_runs_batted_in = 12
+    #The Astros' Bregman had 2 home runs and 10 runs batted in
+    bregman_home_runs = 2
+    bregman_runs_batted_in = 10
+    #The total runs batted in was
+    result = freeman_runs_batted_in + bregman_runs_batted_in
+    return result
+Below is an instruction that describes a task. Write a response that appropriately comple
+### Response: Question: A theater has 200 seats. 40 of them are aisle seats. 10 of the aisle seats are for wheelchairs. How many seats are not aisle seats? Solution: def solution():
+    #The theater has 200 seats
+    seats_total = 200
+    #40 of them are aisle seats
+    seats_aisle = 40
+    #10 of the aisle seats are for wheelchairs
+    seats_wheelchair = 10
+    #The number of aisle seats not for wheelchairs is
+    seats_aisle_not_wheelchair = seats_aisle - seats_wheelchair
+    #The number of seats that are not aisle seats is
+    seats_not_aisle = seats_total - seats_aisle_not_wheelchair
+    #The answer is
+    result = seats_not_aisle
+    return result
+Below is an instruction that describes a task. Write a response that appropriately comple
+### Response: Question: The bakery is selling baguettes for $3 and croissants for $2. If the bakery sells 10 baguettes and 15 croissants, how much money does it make? Solution: def solution():
+    #The bakery is selling baguettes for $3 and croissants for $2
+    baguette_cost = 3
+    croissant_cost = 2
+    #It sells
+### Response: Question: A pizza parlor sold 100 slices of pizza on Monday. On Tuesday, they sold 150 slices of pizza. On Wednesday, they sold 200 slices of pizza. How many slices of pizza did the pizza parlor sell from Monday to Wednesday? Solution: def solution():
+    #On Monday, they sold 100 slices of pizza
+    monday_slices = 100
+    #On Tuesday, they sold 150 slices of pizza
+    tuesday_slices = 150
+    #On Wednesday, they sold 200 slices of pizza
+    wednesday_slices = 200
+    #The answer is
+    result = monday_slices + tuesday_slices + wednesday_slices
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The pantry had 20 cans of beans. 5 cans of beans were used to make a chili. 2 cans of beans were used to make a burrito. How many cans of beans are left in the pantry? Solution: def solution
+### Response: Question: There were 12500145 people in the park. 2000 more people came to the park. 1/4 of the people in the park left. How many people are in the park now? Solution: def solution():
+    #There were 12500145 people in the park
+    people_initial = 12500145
+    #2000 more people came to the park
+    people_added = 2000
+    #1/4 of the people in the park left
+    people_lost = people_initial / 4
+    #The answer is
+    result = people_initial + people_added - people_lost
+    return result
+### Response: Question: 10,000 people live in the city of Middletown. 2000 more people are expected to move in over the next 5 years. How many people will live
+### Response: Question: A candy store sells 200 candies a day. It sells 300 candies a day on the weekend. How many candies does the candy store sell in a week? Solution: def solution():
+    #The candy store sells 200 candies a day
+    candies_per_day = 200
+    #On the weekend, it sells 300 candies a day
+    candies_weekend = 300
+    #There are 7 days in a week
+    num_days = 7
+    #The candy store sells
+    candies_per_week = candies_per_day * num_days + candies_weekend
+    #candies a week. The answer is
+    result = candies_per_week
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+### Response: Question: A gym is 2000 square feet. 20% of the gym is for cardio, 30% is for weight training, and the rest is for other activities. How much square footage is for other activities? Solution: def solution():
+    #The gym is 2000 square feet
+    gym_size = 2000
+    #20% of the gym is for cardio
+    cardio_percent = 0.2
+    #30% of the gym is for weight training
+    weight_training_percent = 0.3
+    #The rest of the gym is for other activities
+    other_activities_percent = 1 - cardio_percent - weight_training_percent
+    #20% of the gym is 2000 * 0.2 = <<2000*0.2=400>>400 square feet
+    cardio_size = gym_size * cardio_percent
+    #30% of the gym is 2000 * 0.3 = <<2000*0.3=600>>600 square feet
+    weight_training_size = gym_size * weight_training_percent
+    #The rest of the gym is 2000 - 400 - 600 = <<2000-400-600=1000>>1000 square feet
+    other_activ
+### Response: Question: The total cost of a new bicycle is $200.  The store is offering a 10% discount.  Sales tax is 5%.  What is the final cost of the bicycle? Solution: def solution():
+    #The total cost of the bicycle is $200
+    bicycle_cost = 200
+    #The store is offering a 10% discount
+    discount_percent = 0.1
+    #The discount is
+    discount_amount = bicycle_cost * discount_percent
+    #The bicycle cost $200 - $200 * 0.1 = $180 after the discount.
+    bicycle_cost_after_discount = bicycle_cost - discount_amount
+    #Sales tax is 5%.
+    sales_tax_percent = 0.05
+    #The sales tax is
+### Response: Question: The 200-year-old grandfather is 5 times as old as his 40-year-old son. How old will the son be in 10 years? Solution
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: A bakery sells 1000 loaves of bread in a day. They make 300 loaves in the morning and 500 in the afternoon. How many loaves of bread are left? Solution: def solution():
+    #The bakery sells 1000 loaves
+    loaves_sold = 1000
+    #They make 300 in the morning
+    loaves_made_morning =
+### Response: Question: 3228752 cats had 123
+### Response: Question: A toy car factory can make 120 toy cars per day. The factory was only able to make 80 toy cars for two days because of a problem with the mold. The mold was fixed on the third day and the factory was able to make the full 120 toy cars. How many toy cars did the factory make in total? Solution: def solution():
+    #The factory can make 120 toy cars per day
+    toy_cars_per_day = 120
+    #The factory was only able to make 80 toy cars for two days
+    toy_cars_made_first_two_days = 80 * 2
+    #The factory made 120 toy cars on the third day
+    toy_cars_made_third_day = 120
+    #The answer is
+    result = toy_cars_made_first_two_days + toy_cars_made_third_day
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-by-step solution to solve
+### Response: Question: 10000 people live in a small town. 2000 more people will move to the town in the next 2 years. How many people will live in
+### Response: Question: 1/3 of
+### Response: Question: 25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 12800000 people were at the Women's March in Washington, DC. 20% of the people there were from Maryland. 30% of the people from Maryland were from Montgomery County. How many people from Montgomery County were at the Women's
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many lo
+### Response: Question: 10000 people were at the concert. 25% of the audience were men. How many women were at the concert? Solution: def solution():
+    #There were 10000 people at the concert
+    people_at_concert =
+### Response: Question: A 200-meter race is 1/10 the length of a 2000-meter race. How long is a 2000-meter race in meters? Solution: def solution():
+    #A 200-meter race is 1/10 the length of a 2000-meter race
+### Response: Question: The bakery sold 2,360 loaves of bread in a week. They sold 420 loaves on Monday, 480 loaves on Tuesday, 476 loaves on Wednesday
+### Response: Question: A bakery has 100 loaves of bread. They sold 37 loaves in the morning and 24 in the afternoon. How many loaves of bread are left? Solution: def solution():
+    #The bakery started with 100 loaves
+    loaves_initial = 100
+    #They sold 37 in the morning and 24 in the afternoon
+    loaves_sold_morning = 37
+    loaves_sold_afternoon = 24
+    #The answer is
+    result = loaves_initial - loaves_sold_morning - loaves_sold_afternoon
+    return result
+### Response: Question: The total number of students in the 6th, 7th, and 8th grades is 100. The 6th grade has 20 more students than the 8th grade. The 7th grade has 10 fewer students than the 8th
+### Response: Question: A bakery sells 20 loaves of bread in the morning and 30 loaves of bread in the afternoon. How many loaves of bread does the bakery sell during a day? Solution: def solution():
+    #The bakery sells 20 loaves in the morning
+    loaves_morning = 20
+    #The bakery sells 30 loaves in the afternoon
+    loaves_afternoon = 30
+    #The bakery sells 20 + 30 = <<20+30=50>>50 loaves a day
+    result
+### Response: Question: The price of a shirt is $10. The price of a pair of pants is $20. The price of a belt is $10. The price of a pair of socks is $5.  If you buy a shirt and a pair of pants, you get a 20% discount on the shirt
+
+### Response: Question: 200 people were at the mall. 20% of them were children. 1/4 of the adults were male. How many males were at the mall? Solution: def solution():
+    #There were 100 people at the mall
+    people_at_mall = 200
+    #20% of them were children
+    children = people_at_mall * 0.2
+    #Adults were the rest
+    adults = people_at_mall - children
+    #1/4 of the adults were male
+    males = adults *
+### Response: Question: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The Cunard Line's three largest ships were the Mauritania, the Lusitania, and the Titanic. The Titanic was 46,000 tons. The Lusitania was 4000 tons lighter than the Titanic. The Mauritania was 20,000 tons heavier than the Titanic. How much did the three ships weigh? Solution: def solution():
+    #The Titanic weighed 46,000 tons
+    titanic_weight = 46000
+    #The Lusitania weighed 4000 tons less than the Titanic
+    lusitania_weight = titanic_weight - 4000
+    #The Mauritania weighed 20,000 tons more than the Titan
+### Response: Question: The pizzeria is selling 2-for-1 pizzas.  A pizza is normally $8.  How much does it cost to buy 1
+### Response: Question: In a soccer game, one team scored 4 goals in the first half. In the second half, they scored 2/3 as many goals as they did in the first half. How many goals did they score in the game? Solution: def solution():
+    #In the first half, the team scored 4 goals
+    goals_first_half = 4
+    #In the second half, they scored 2/3 as many goals as they did in the first half
+    goals_second_half = goals_first_half *
+
+### Response: Question: A toy store has 12 toy cars. The toy store sells 4 toy cars. The toy store buys 15 toy cars. How many toy cars are in the toy store? Solution: def solution():
+    #The toy store had 12 toy cars
+    toy_cars_initial = 12
+    #They sold 4 toy cars
+    toy_cars_sold = 4
+    #They
+### Response: Question: A farmer had 100 chickens. 20% of the chickens were black, and 1/3 of the black chickens were sold. How many black chickens did the farmer have left? Solution: def solution():
+    #The farmer had 100 chickens
+    chickens_initial = 100
+    #20% of the chickens were black
+    black_chickens = chickens_initial * 0.2
+    #1/3 of the black chickens were sold
+    black_chickens_sold = black_chickens * 0.3333333333333333
+    #The farmer has
+    black_chickens_left = black_chickens - black_chickens_sold
+    #black chickens left. The answer is
+    result = black_chickens_left
+    return result
+Below is an instruction that describes a task.
+### Response: Question: The number of people who have been infected with the Coronavirus is 500,000. The number of people who have died from the Coronavirus is 100,000. The number of people who have recovered from the Coronavirus is 400,000. What is the current number of people who are still infected with the Coronavirus? Solution: def solution():
+    #The number of people who have been infected with the Coronavirus is 500,000
+    infected_total = 500000
+    #The number of people who have died from the Coronavirus is 100,000
+    deaths = 100000
+    #The number of people who have recovered from the Coronavirus is 400,000
+    recoveries = 400000
+    #The current number of people who are still infected with the Coronavirus is
+    infected_current = infected_total - deaths - recoveries
+    #infected. The answer is
+    result = infected_current
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented
+### Response: Question: There are 200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: A pizza
+### Response: Question: A theater has 100 seats. 75% of the seats were occupied by adults and the rest were occupied by children. How many children were in the theater? Solution: def solution():
+    #The theater has 100 seats
+    seats_total = 100
+    #75% of the seats were occupied by adults
+    adult_percent = 0.75
+    #The number of seats occupied by adults is a percentage of the total
+    seats_occupied_by_adults = seats_total * adult_percent
+    #The rest of the seats were occupied by children
+    seats_occupied_by_children = seats_total - seats_occupied_by_adults
+    #The number of children in the theater is
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: In the 2018 Pyeongchang Winter Olympics, Norway had 10
+### Response: Question: The Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left? Solution: def solution():
+    #The bakers started with 200 loaves
+    loaves_baked = 200
+    #They sold 93 in the morning and 39 in the afternoon
+    loaves_sold_morning=93
+    loaves_sold_afternoon=3
+### Response: Question: A café sells 20 cups of coffee in the morning. In the afternoon, they sell 10 cups of coffee. How many cups of coffee are sold in total? Solution: def solution():
+    #The café sells 20 cups of coffee in the morning
+    coffee_morning = 20
+    #They sell 10 cups of coffee in the afternoon
+    coffee_afternoon = 10
+    #The answer is
+    result = coffee_morning + coffee_afternoon
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-
+### Response: Question: The soda machine at the mall can dispense 20 ounces of soda per can.  A 6-year-old boy and his 9-year-old sister buy one soda each.  The 6-year-old boy is 48 inches tall.  The 9-year-old girl is 52 inches tall.  How many ounces of soda did the 6-year-old boy and 9-year-old girl drink? Solution: def solution():
+    #The soda machine can dispense 20 ounces of soda per can
+    soda_can_ounces = 20
+    #The 6-year-old boy is 48 inches tall
+    boy_height = 48
+    #The 9-year-old girl is 52 inches tall
+    girl_height = 52
+    #The soda machine dispenses 20 ounces of soda per inch of height
+    soda_per_inch = soda_can_ounces / 20
+    #The 6-year-old boy drank
+    boy_soda = soda_per_inch * boy_height
+    #The 9-year-old girl drank
+    girl_soda = soda_per_inch * girl_height
+    #The total soda drank is
+    total_soda = boy_soda + girl_soda
+    #The answer is
+    result = total_soda
+    return result
+### Response: Question: A 10-year-old child is 4.5 times shorter than an adult. How tall is an adult if the child is 4 feet and 6 inches tall? Solution: def solution():
+    #The child is 4.5 times shorter than the adult
+    child_height = 4.5
+    #The child is 4 feet and 6 inches tall
+    child_height_in_inches = 4 * 12 + 6
+    #The adult is
+    adult_height = child_height_in_inches / child_height
+    #Adult height in inches. The answer is
+    result = adult_height
+    return result
+Below is an instruction that describes a task. Write a response that appropri
+### Response: Question: The bakery sells 100 loaves of bread on Monday. On Tuesday, they sell 50 loaves of bread. On Wednesday, they sell 75 loaves of bread. How many loaves of bread did the bakery sell in total? Solution: def
+### Response: Question: A chocolate cake has 120 calories.  A vanilla cake has 100 calories.  A red velvet cake has 150 calories.  How many calories are in 3 slices of chocolate cake, 2 slices of vanilla cake, and 1 slice of red velvet cake? Solution: def solution():
+    #A chocolate cake has 120 calories
+    chocolate_cake_calories = 120
+### Response: Question: 12000 people are at a music festival. 15% of the people are staff, and 20% of the staff are security. How many security guards are there? Solution: def solution():
+    #12000 people are at the festival
+    people_total = 12000
+    #15
+### Response: Question: 1200 students from 4 different schools are to be seated in an auditorium. 300 students are from School A, 200 students are from School B, 400 students are from School C, and the rest are from School D. How many students are from School D? Solution: def solution():
+    #1200 students from 4 different schools are to be seated in an auditorium
+    students_total = 1200
+    #300 students are from School A
+    students_a = 300
+    #200 students are from School B
+    students_b = 200
+    #400 students are from School C
+    students_c = 400
+    #The rest are from School D
+    students_d = students_total - students_a - students_b - students_c
+    #The answer is
+    result = students_d
+### Response: Question: The 24-hour fitness center has 1000 members. 200 of them are on a monthly plan that costs $19. 400 of them are on a 3-month plan that costs $49. 300 of them are on a 6-month plan that costs $99. 100 of them are on a 12-month plan that costs $149. How much money does the fitness center make a month? Solution: def solution():
+    #The fitness center has 1000 members
+    members = 1000
+    #200 of them are on a monthly plan that costs $19
+    monthly_plan_members = 200
+    monthly_plan_cost = 19
+    monthly_plan_revenue = monthly_plan_members * monthly_plan_cost
+    #400 of them are on a 3-month plan that costs $49
+    three_month_plan_members = 400
+    three_month_plan_cost = 49
+    three_month_plan_revenue = three_month_plan_members * three_month_plan_cost
+    #300 of them are on a 6-month plan that costs $99
+    six_month_plan_members = 300
+    six_month_plan_cost = 99
+    six_month_plan_revenue = six_month_plan_members * six_month_plan_cost
+    #100 of them are on a 12-month plan
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 3/4 of the 240 students in a school are in the after-school program. How many students are not in the after-school program? Solution: def solution():
+    #240 students are in the school
+    students_total = 240
+    #3/4 of the students are in the after-school program
+    students_in_program = students_total * 0.75
+### Response: Question: There were 21130924 bees in a hive. 20% of the bees left the hive. 1/3 of the remaining bees were drones. How many worker bees were left in the hive? Solution: def solution():
+    #There were 100 bees in the hive
+    bees_initial = 100
+    #20% of the bees left the hive
+    bees_left = bees_initial * 0.2
+    #The number of bees that left was 20
+    bees_left_num = 20
+    #100-20 = 80 bees
+    bees_remaining = 80
+    #1/3 of the bees are drones
+    drones = bees_remaining / 3
+    #80-27 = 53
+    worker_bees = bees_remaining - drones
+    #The answer is
+    result = worker_bees
+    return result
+### Response: Question: A pizza can be cut into 8 slices.  A 12-inch pizza costs $8.  How much does each slice cost? Solution: def solution():
+    #A pizza can be cut into 8 slices
+    slices_per_pizza = 8
+    #A 12-inch pizza costs $8
+    pizza_cost = 8
+    #The cost
+### Response: Question: The cost of a pizza is $10.  The pizzeria is running a 2 for 1 special.  How much does 3 pizzas cost? Solution: def solution():
+    #The cost of a pizza is $10
+    pizza_cost = 10
+    #The pizzeria is running a 2 for 1 special
+    pizza_special = 2
+    #The cost of 3 pizzas is 3 * $10 = $<<3*10=30>>30
+    pizza_cost_3 = 3 * pizza_cost
+    #With the 2 for 1 special, 3 pizzas cost 30 / 2 = $15
+    pizza_cost_3_special = pizza_cost_3 / pizza_special
+    #The answer is
+### Response: Question: A 20-ounce soda has 240 calories.  A
+### Response: Question: 100 students are in the cafeteria. 25 of them leave to go to class. 1/3 of the remaining students also leave. How many students are left in the cafeteria? Solution: def solution():
+    #There were 100 students to start
+    students_initial = 100
+    #25 left for class
+    students_left_for_class = 25
+    #1/3 of the remaining students also left
+    students_left_1_3 = students_
+### Response: Question: A toy car costs $20. A toy truck costs
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 320001300 people were in the theater. 1/4 of them were children. 2/3 of the adults were men. How many women were in the theater? Solution: def solution():
+    #320001300 people were in the theater
+    people_total = 320001300
+    #1/4 of them were children
+    children = people_total / 4
+    #2/3
+### Response: Question: A bakery made 120 cakes. They sold 30 cakes in the morning and 50 cakes in the afternoon. How many cakes are left? Solution: def solution():
+    #The bakery made 120 cakes
+    cakes_made = 120
+    #They sold 30 in the morning and 50 in the afternoon
+    cakes_sold_morning = 30
+    cakes_sold_afternoon = 50
+    #The answer is
+    result = cakes_made - cakes_sold_morning - cakes_sold_afternoon
+    return result
+Below is an instruction that describes
+### Response: Question: The bakery has 100 cakes. It sells 20 cakes in the morning and 30 cakes in the afternoon. How many cakes are left? Solution: def solution():
+    #The bakery started with 100 cakes
+    cakes_initial = 100
+    #It sold 20 cakes in the morning
+    cakes_sold_morning = 20
+    #It sold 30 cakes in the afternoon
+    cakes_sold_afternoon = 30
+    #The
+### Response: Question: The bakery has 200 loaves of bread. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves
+### Response: Question: 10,000 people were at the soccer game. 20,000 people were at the baseball game. 15,000 people were at the football game. 30,000 people were at the basketball game. 40,000 people were at the hockey game. 15,000 people were at the lacrosse game. 20,000 people were at the volleyball game. 25,000 people were at the rugby game. 10,000 people were at the ultimate frisbee game. 30,000 people were at the dodgeball game. 20,000 people were at the water polo game. 15,000 people were at the table tennis game. 10,000 people were at the gymnastics game. 20,000 people were at the equestrian game. 30,000 people were at the fencing game. 15,000 people were at the badminton game. 20,000 people were at the handball game. 25,000 people were at the squash game. 10,000 people were at the field hockey game. 30,000 people were at the kayaking game. 20,000 people were at the judo game. 15,000 people were at the synchronized swimming game. 10,000 people were at the archery game. 30,000 people were at the taekwondo game. 20,000 people were at the trampoline game. 15,000 people were at the pole vault game. 10,000 people were at the luge game. 30,000 people were at the bobsled game. 20,000 people were at the figure skating game. 15,000 people were at the skeleton game. 10,000 people were at the curling game. 30,000 people were at the biathlon game. 20,000 people were at the alpine skiing game. 15,000 people were at the freestyle skiing game. 10,000 people were at the snowboarding game. 30,000 people were at the speed skating game. 20,000 people were at the short track speed skating game. 15,000 people were at the cross-country skiing game. 10,000 people were at the ski jumping game. 30,000 people were at the Nordic combined game. 20,000 people were at the freestyle skiing game. 15,000 people were at the moguls game. 10,000 people were at the aerials game. 30,000 people were at the halfpipe game. 20,000 people were at the slopestyle game. 15,000 people were at the big air game. 10,000 people were at the curling game. 30,000 people were at the luge game. 20,000 people were at the bobsled game. 15,000 people were at the skeleton game. 10,000 people were
+### Response: Question: 250 students are running a 2000-meter race. The first 20% of the students will finish the race in 10 minutes. The next 30% of the students will finish the race in 12 minutes. The last 50% of the students will finish the race in 15 minutes. How long will it take, in minutes, for all the students to finish the race? Solution: def solution():
+    #250 students are running a 2000-meter race
+    students = 250
+    #The first 20% of the students will finish the race in 10 minutes
+    time_first_20 = 10
+    #The next 30% of the students will finish the race in 12 minutes
+    time_next_30 = 12
+    #The last 50% of the students will finish the race in 15
+### Response: Question: A theater has 300 seats. 150 of them are occupied by children. 1/3 of the adults are men. How many seats are occupied by men? Solution: def solution():
+    #There are 300 seats in the theater
+    seats_total = 300
+    #150 of them are occupied by children
+    children = 150
+### Response: Question: The pizza shop is making 102 slices of pizza. 23 slices are for the Taylors, 36 slices are for the Smiths, and the rest are for the Johnsons. How many slices are for the Johnsons? Solution: def solution():
+    #The pizza shop is making 102 slices of pizza
+    slices_total = 102
+    #23 slices are for the Taylors
+    slices_taylors = 23
+    #36 slices are for the Smiths
+    slices_smiths = 36
+    #The rest are for the Johnsons
+    slices_johnsons = slices_total - slices_taylors - slices_smiths
+    #The Johnsons have
+    result = slices_johnsons
+### Response: Question: A sack of flour weighs 50 pounds. 1 pound of flour is enough to make 10 cookies. 200 grams of butter are needed to make 10 cookies. 1 pound of butter is 454 grams. How many pounds of butter are needed to make 1000 cookies? Solution: def solution():
+    #10 cookies are made from 1 pound of flour
+    cookies_per_pound_flour = 10
+    #1 pound of butter is 454 grams
+    grams_per_pound_butter = 454
+    #200 grams of butter are needed to make 10 cookies
+    grams_per_cookies = 200
+    #1000 cookies need 1000/10 = <<1000/10=100>>100 pounds of flour
+    pounds_flour_needed = 100
+    #100 pounds of flour are 100*10 = <<100*10=1000>>1000 cookies
+    cookies_made = 1000
+    #1000 cookies need 200*1000 = <<200*1000=200000>>200000 grams of butter
+    grams_butter_needed = 200000
+    #200000 grams of butter are 200000/454 = 44.181818181818184 pounds of butter
+    pounds_butter_needed = 44.181818181818184
+    #The answer is
+    result = pounds_butter_needed
+    return result
+### Response: Question: A butcher shop has 300 sausages. The shop sells 120 sausages on Monday, 150 sausages on Tuesday, and 100 sausages on Wednesday. How many sausages are left in the butcher shop? Solution: def solution():
+    #The butcher shop has 300 sausages
+    saus
+### Response: Question: The cafeteria sells pizza for $2.50 a slice.  A whole pizza is 10 slices.  How much does 5 pizzas cost? Solution: def solution():
+    #A slice of pizza is $2.50
+    pizza_slice_cost = 2.50
+    #A pizza has 10 slices
+    pizza_slices = 10
+    #5 pizzas have 5 * 10 slices
+    pizzas_slices = 5 * pizza_slices
+    #5 pizzas cost 5 * 2.50
+    pizzas_cost = 5 * pizza_slice_cost
+    #The answer is
+### Response: Question: 200 people are on a train. 25 people get off at the first stop. 15 people get on at the second stop. 5 people
+### Response: Question: 300000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: There were 101331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133151331513315133
+### Response: Question: 12562227 and his sister are 2 years apart. 12562227 is 12 years old. Their brother is 5 years older than the sister. How old is their brother? Solution: def solution():
+    #12562227 and his sister are 2 years apart
+    age_difference = 2
+    #12562227 is 12 years old
+    age_12
+### Response: Question: There were 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 10% of the 1500 students in the 8th grade are on the football team. How many students are on the football team? Solution: def solution():
+    #There are 1500 students in the 8th grade
+    students_8th_grade = 1500
+    #10% of the 1500 students in the 8th grade are on the football team
+    football_team_students = students_8th_grade * 0.1
+    #The answer is
+    result = football_team_students
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-by-step solution
+### Response: Question: 15000 people attended a Taylor Swift concert. 10000 people attended a Drake concert. 12000 people attended a Maroon 5 concert. 8000 people attended a Kanye West concert. 7000 people attended a Childish Gambino concert. 12000 people attended a Cardi B concert. 10000 people attended a Lady Gaga concert. 15000 people attended a Ariana Grande concert. 13000 people attended a Kendrick Lamar concert. 12000 people attended a Eminem concert. 10000 people attended a Travis Scott concert. 10000 people attended a P!nk concert. 12000 people attended a Post Malone concert. 11000 people attended a Imagine Dragons concert. 10000 people attended a The Chainsmokers concert. 11000 people attended a Twenty One Pilots concert. 10000 people attended a Mumford & Sons concert. 11000 people attended a Fleetwood Mac concert. 10000 people attended a J. Cole concert. 11000 people attended a Zac Brown Band concert. 10000 people attended a Queen concert. 11000 people attended a Celine Dion concert. 10000 people attended a Metallica concert. 10000 people attended a Elton John concert. 10000 people attended a Florida Georgia Line concert. 10000 people attended a Guns N' Roses concert. 10000 people attended a Kenny Chesney concert. 10000 people attended a The Eagles concert. 10000 people attended a Luke Bryan concert. 10000 people attended a Nipsey Hussle concert. 10000 people attended a The Rolling Stones concert. 10000 people attended a Journey concert. 10000 people attended a Eric Church concert. 10000 people attended a Panic! At The Disco concert. 10000 people attended a Hootie & The Blowfish concert. 10000 people attended a New Kids On The Block concert. 10000 people attended a The Who concert.
+### Response: Question: 150 people were in the theater. 100 people left. 200 more people came in. How many people are in the theater now? Solution: def solution():
+    #
+### Response: Question: 20% of the 200 students at a school are in the orchestra. How many students are in the orchestra? Solution: def solution():
+### Response: Question: The 49ers have 12 more players than the Packers. The Packers have 56 players. How many players are there in total? Solution: def solution():
+    #The Packers have 56 players
+    packers_players = 56
+    #The 49ers have 12 more players than the Packers
+    niners_players = packers_players + 12
+    #The total number of players is
+    players_total = packers_players + niners_players
+    #The answer is
+    result = players_total
+    return result
+Below is an instruction that describes a task.
+### Response: Question: A 2-liter bottle of soda has 6910277 servings.  How many 1/3-cup servings are in 3/4 of a 2-liter bottle of soda? Solution: def solution():
+    #A 2-liter bottle of soda has 8 servings
+    servings_initial = 6910277
+    #3/4 of the bottle has 3/4 * 8 servings = <<3/4*8=6>>6 servings
+    servings_partial = 6
+    #1/3 of a serving is 1/3 * 8 ounces = <<1/3*8=2.6666666666666665>>2.6666666666666665 ounces
+    serving_1_3 = 2.6666666666666665
+    #3/4 of a 2-liter bottle of soda has 3/4 * 2 liters = <<3/4*2=1.5>>1.5 liters
+    soda_partial = 1.5
+    #1.5 liters is 1.5 * 32 ounces = <<1.5*32=48>>48 ounces
+    soda_partial_ounces = 48
+    #1.5 liters of soda has 48 ounces / 2.6666666666666665 ounces per serving = <<48/2.6666666666666665=18>>18 servings
+    servings_1_5_liter = 18
+    #3/4 of a 2-liter bottle of soda has 18 servings
+    result = servings_partial
+    return result
+### Response: Question: 20000 people were at the Eagles concert. 1/3 of the audience was under 18. 1/4 of the adults were over 40. How many people in the audience were over 40? Solution: def solution():
+    #20000 people were at the concert
+    people_at_concert = 20000
+    #1/3 of the audience was under 18
+    people_under_18
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response:
+### Response: Question: A 2-liter bottle of soda costs $2.00.  A 1.5-liter bottle of water costs $1.50.  How much more expensive is the soda per liter than the water? Solution: def solution():
+    #A 2-liter bottle of soda costs $2
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The bakery has 12 employees. 4 employees are in the front of the store, and 8 employees are in the back of the store. How many employees are in the bakery? Solution: def solution():
+    #The bakery has 12 employees
+    employees_total = 12
+    #4 employees are in the front of the store
+    employees_front = 4
+    #8 employees are in the back of the store
+    employees_back = 8
+    #The answer is
+    result = employees_front + employees_back
+    return result
+Below is
+### Response: Question: A 20-sided die is rolled 100 times.  It lands on 12 five times.  It lands on 13 seven times.  It lands on 19 four times.  How many times does it land on something other than 12, 13, or 19? Solution: def solution():
+    #A 20-sided die is rolled 100 times
+    rolls_total = 100
+    #It lands on 12 five times
+    rolls_12 = 5
+    #It lands on 13 seven times
+    rolls_13 = 7
+    #It lands on 19 four times
+    rolls_19 = 4
+    #The number of times it landed on 12, 13, or 19 is
+### Response: Question: 30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+### Response: Question: The pizzeria has 100 slices of pizza. The pizzeria sold 23 slices in the morning and 47 slices in the afternoon. How many slices of pizza did they have left? Solution: def solution():
+    #The pizzeria started with 100 slices
+    slices_initial = 100
+    #They sold 23 in the morning and 47 in the afternoon
+    slices_sold_morning = 23
+    slices_sold_af
+### Response: Question: A café sells 200 cups of coffee on Monday. They sell 250 cups of coffee on Tuesday. On Wednesday, they sell 200 cups of coffee. How many cups of coffee did they sell in total for the three days? Solution: def solution():
+    #They sold 200 cups of coffee on Monday
+    monday_coffee = 200
+    #They sold 250 cups of coffee on Tuesday
+    tuesday_coffee = 250
+    #They sold 200 cups of coffee on Wednesday
+    wednesday_coffee = 200
+    #The total is
+    result = monday_coffee + tuesday_coffee + wednesday_
+### Response: Question: A p
+### Response: Question: A pizzeria sells 100 pizzas per day. 30% of the pizzas are cheese pizzas. How many cheese pizzas does the pizzeria sell per day? Solution: def solution():
+    #A pizzeria sells 100 pizzas per day
+    pizzas_sold = 100
+    #30% of the pizzas are cheese pizzas
+    percentage_cheese = 0.
+### Response: Question: A 100-meter dash is run in 11 seconds.  A 200-meter dash is run in 22 seconds.  A 400-meter dash is run in 44 seconds.  An 800-meter dash is run in 105 seconds.  A 1600-meter dash is run in 210 seconds.  A 3200-meter dash is run in 420 seconds.  What is the average time, in
+### Response: Question: A farmer has 3000 acres of land. 1000 acres are for growing crops. 1500 acres are for raising animals. The rest of the land is for other purposes. How much land is used for other purposes? Solution: def solution():
+    #The farmer has 3000 acres of land
+    land_total = 3000
+    #1000 acres are for growing crops
+    land_crops = 1000
+    #1500 acres are for raising animals
+    land_animals = 1500
+    #The rest of the land is for other purposes.
+    land_other = land_total - land_crops - land_animals
+    #The answer is
+    result = land_other
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+### Response: Question: 24000000 people in a city were vaccinated against the coronavirus. 1/3 of the vaccinated people got infected with the virus. 1/5 of the infected people died. How many people died? Solution: def solution():
+    #24000000 people were vaccinated
+    vaccinated_people = 240000
+### Response: Question: Michael had 58 golf balls.  On Tuesday, he lost 23 golf balls.  On Wednesday, he lost 2 more.  How many golf balls did he have at the end of Wednesday? Solution: def solution()
+    #Michael started with 58 golf balls
+    golf_balls_initial = 58
+    #He lost 23 on Tuesday
+    golf_balls_lost_tuesday = 23
+    #He lost two more on Wednesday
+    golf_balls_lost_wednesday = 2
+    #The answer is
+    result = golf_balls_initial - golf_balls_lost_tuesday - golf
+### Response: Question: 1000000000000000000000000000000000000000000000000000000000000000000000
+###
+### Response: Question: The Beverly Hills School cafeteria sells 200 slices of pizza on Monday, 150 slices on Tuesday, and 180 slices on Wednesday. How many slices of pizza did they sell? Solution: def solution():
+    #On Monday they sold 200 slices
+    slices_monday = 200
+    #On Tuesday they sold 150 slices
+    slices_
+### Response: Question: There were nine computers in the server room. Five more computers were installed each day, from Monday to Thursday. How many computers are now in the server room? Solution: def solution():
+    #There were initially 9 computers
+    computers_initial = 9
+    #They installed 5 more each day
+    computers_per_day = 5
+    #There are 4 days between Monday and Thursday
+    num_days = 4
+    #There
+### Response: Question: 20% of the 10
+### Response: Question: 20% of the 120000 people in a city have the flu. How many people in the city do not have the flu? Solution: def solution():
+    #There are 120000 people in the city
+    people_total = 120000
+    #20% of the people have the flu
+    people_sick = people_total * 0.2
+    #The answer is
+    result = people_total - people_sick
+    return result
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write one math word problem and Python code with a commented out step-
